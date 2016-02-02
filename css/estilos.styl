@@ -1,0 +1,8988 @@
+@import "nib"
+@import 'nib/gradients'
+
+
+burdeo = #c41925
+//calipso = #5fa098
+calipso = #009999
+celestePet = #009BDB
+clarito = #ecedef
+colorao = #F4714A
+naranjito = #f8b302
+naranjo = #FF6B00
+naranjoPet = #F38A00
+oscuro = #434142
+cafoso = #211915
+rosadito = #fa524e
+naranjoCafoso = #A04B01
+naranjoClaro = #F39C02
+grisAzul = #A1A5AD
+azulAsiste = #0040a6
+rojoAsiste = #ff4c00
+otroGris = #5B5B5F
+//verdeAsiste = #038a7a
+verdeAsiste = #038a7a
+verdeClarito = #71b238
+azulCpo = #007cc3
+grisClaro1 = #999
+grisClaro2 = #727176
+hoverBlue = #036
+verdeOscuro = #008F2F
+verdeClaroPet = #99BE11
+
+*
+	box-sizing border-box
+
+
+@font-face {
+    font-family: 'seravekregular';
+    src: url('../font/seravek-webfont.eot');
+    src: url('../font/seravek-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/seravek-webfont.woff2') format('woff2'),
+         url('../font/seravek-webfont.woff') format('woff'),
+         url('../font/seravek-webfont.ttf') format('truetype'),
+         url('../font/seravek-webfont.svg#seravekregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'seravekbold';
+    src: url('../font/seravek-bold-webfont.eot');
+    src: url('../font/seravek-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/seravek-bold-webfont.woff2') format('woff2'),
+         url('../font/seravek-bold-webfont.woff') format('woff'),
+         url('../font/seravek-bold-webfont.ttf') format('truetype'),
+         url('../font/seravek-bold-webfont.svg#seravekbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'seraveklight';
+    src: url('../font/seravek-light-webfont.eot');
+    src: url('../font/seravek-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/seravek-light-webfont.woff2') format('woff2'),
+         url('../font/seravek-light-webfont.woff') format('woff'),
+         url('../font/seravek-light-webfont.ttf') format('truetype'),
+         url('../font/seravek-light-webfont.svg#seraveklight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'seravekmedium';
+    src: url('../font/seravek-medium-webfont.eot');
+    src: url('../font/seravek-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/seravek-medium-webfont.woff2') format('woff2'),
+         url('../font/seravek-medium-webfont.woff') format('woff'),
+         url('../font/seravek-medium-webfont.ttf') format('truetype'),
+         url('../font/seravek-medium-webfont.svg#seravekmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'icos';
+	src:url('../font/icos.eot?ldq7ra');
+	src:url('../font/icos.eot?#iefixldq7ra') format('embedded-opentype'),
+		url('../font/icos.woff?ldq7ra') format('woff'),
+		url('../font/icos.ttf?ldq7ra') format('truetype'),
+		url('../font/icos.svg?ldq7ra#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+fieldset
+	border none
+i
+	font-style normal !important
+input
+	background #fbfbfb
+	border 1px solid grisAzul
+	box-sizing border-box
+	font-family 'Open Sans', sans-serif
+	font-size 13px !important
+	height 22px
+	outline none
+	&:focus
+		background aliceblue
+/*label
+	font-weight 600*/
+select
+	border 1px solid grisAzul !important
+	font-size 13px
+	height 22px
+textarea
+	box-sizing border-box
+//#category-thumbnail
+//.category-thumbnail
+	// display none !important
+	// border-bottom none !important
+
+#htmlcontent_top
+	display none
+
+/*body
+html
+	height 100%*/
+
+body
+	color oscuro
+	font-family 'Open Sans', sans-serif
+	font-size 18px
+	margin 0 auto
+	//width 1150px
+	footer
+		color oscuro
+		font-size 14px
+		//height 200px
+		margin 0 auto
+		padding 70px 0 0 0
+		position relative
+		max-width 950px
+		.finFooter
+			//background #aeadb3
+			display inline-block
+			vertical-align top
+			width 35%
+			.row
+				margin 0 auto
+				padding 10px 0
+				width 100%
+				figure
+					margin 0
+					padding 0
+					width 200px
+					img
+						width 80%
+				figure
+				.boletin
+					display inline-block
+					vertical-align middle
+				.boletin
+					margin 10px 0
+					width 80%
+					.contBoletin
+						//background #DDDCE0
+						//border #aeadb3
+						margin 0 auto
+						//padding 10px 25px
+						//width 600px
+						h4
+							//font-family 'quicksandbold'
+							//font-weight 100
+							font-size 13px
+							font-weight 600
+							//letter-spacing -1px
+							margin 0
+							padding 0
+							text-align left
+							width 29%
+						h4
+						.block_content
+							display inline-block
+							vertical-align middle
+						.block_content
+							text-align right
+							width 100%
+							form
+								width 100%
+								input
+									box-sizing border-box
+									padding 5px
+									width 75%
+								input
+								button
+									display inline-block
+									vertical-align middle
+								button
+									background rojoAsiste
+									border none
+									//margin-top 5px
+									width 23%
+									span
+										color white
+										font-family 'seravekregular'
+										font-size 13px
+										letter-spacing 2px
+										line-height 17px
+										text-transform uppercase
+		.row
+			display inline-block
+			margin 0 auto 2em
+			//padding 0 12.5%
+			position relative
+			vertical-align top
+			width 64%
+			//form
+			//	display none
+			.blockcategories_footer
+				display none !important
+			.blockcategories_footer
+			.footer-block
+			.informacionFooter
+			.mediosPago
+				//border-right 1px solid #aeadb3
+				display inline-block
+				min-height 200px
+				margin-bottom 15px
+				padding 0 1%
+				//position absolute
+				vertical-align top
+				width 32%
+				a
+					color oscuro
+					text-decoration none
+				h4
+					//font-family 'quicksandbold'
+					font-size 13px
+					font-weight 600
+					display block
+					//letter-spacing -1px
+					margin 0 0 10px 0
+					text-transform uppercase
+				ul
+					display block !important
+					margin 0
+					padding 0
+					li
+						font-size 13px
+						list-style none
+						margin 0
+						padding 0
+						a
+							color oscuro
+							text-align left
+							text-decoration none
+						span
+							display none
+				.transbankImg
+					margin 0 auto
+					width 80%
+
+
+			.footerSocial
+				//float right
+				width 100%
+				.contFooterSocial
+					text-align right
+					h4
+						border-bottom 1px solid #aeadb3
+					img
+						margin-left -10px
+						width 60%
+					ul
+						display inline-block
+						margin 0
+						//height 30px
+						padding 0
+						vertical-align top
+						width 50%
+						li
+							display inline-block
+							line-height 70px
+							margin-right 5px
+							position relative
+							a
+								text-decoration none
+								span
+									font-size 0
+						.facebook
+							position relative
+							a
+								display block
+								height 30px
+								width 30px
+								&:after
+									color #aeadb3
+									content '\e76a'
+									font-family 'icos'
+									font-size 30px
+									left 5px
+									line-height 25px
+									position absolute
+									text-align center
+									top 0
+						.google-plus
+							position relative
+							a
+								display block
+								height 30px
+								width 30px
+								&:after
+									color #aeadb3
+									content '\e766'
+									font-family 'icos'
+									font-size 30px
+									left 5px
+									line-height 25px
+									position absolute
+									text-align center
+									top 0
+						.pinterest
+							position relative
+							a
+								display block
+								height 30px
+								width 30px
+								&:after
+									color #aeadb3
+									content '\e76c'
+									font-family 'icos'
+									font-size 30px
+									left 5px
+									line-height 25px
+									position absolute
+									text-align center
+									top 0
+						.rss
+							position relative
+							a
+								display block
+								height 30px
+								width 30px
+								&:after
+									color #aeadb3
+									content '\e771'
+									font-family 'icos'
+									font-size 30px
+									left 5px
+									line-height 25px
+									position absolute
+									text-align center
+									top 0
+						.twitter
+							position relative
+							a
+								display block
+								height 30px
+								width 30px
+								&:after
+									color #aeadb3
+									content '\e76e'
+									font-family 'icos'
+									font-size 30px
+									left 5px
+									line-height 25px
+									position absolute
+									text-align center
+									top 0
+					.tituloPagos
+						border-top 1px solid #aeadb3
+						margin 15px 0 0 0
+			.informacionFooter
+				img
+					margin-bottom 1em
+					width 60%
+				ul
+					margin 0
+					padding 0
+					li
+						color oscuro
+						list-style none
+						margin 0
+						padding 0
+						span
+							color oscuro
+							display inline-block
+							//font-family 'quicksandbold'
+							font-weight 600
+							letter-spacing -1px
+							a
+								color oscuro
+								//text-transform uppercase
+								&:hover
+									text-decoration underline
+				.icon-phone
+					display none
+	header
+		background white
+		//background #eaeaea
+		//border-bottom 4px solid #c41925
+		border-top 35px solid black
+		//height 70px
+		margin 0 auto
+		//overflow hidden
+		position fixed
+		top 0
+		transition .3s
+		width 100%
+		z-index 4
+		.header
+			//background white
+			//background #ecedef
+			//border-bottom 1px solid clarito
+			height 85px
+			margin 0 auto
+			position relative
+			.headerCOnt
+				//background url('../img/montanas.png') no-repeat bottom 
+				background-size 100%
+				height 85px
+				margin 0 auto
+				position relative
+				max-width 1050px
+				.buscador
+					//background white
+					box-sizing content-box
+					border 2px solid black
+					//border-radius 25px
+					//box-shadow 0 0 10px oscuro
+					//display none
+					//float right
+					//height 57px
+					//left 50%
+					margin-left -150px
+					//margin 0 10% 0 0
+					overflow hidden
+					//padding 20px
+					position absolute
+					top 28px
+					//right 65px
+					right 0
+					width 200px
+					z-index 2
+					.buscadorForm
+						background white
+						//border-radius 2px
+						height 30px
+						//left 30px
+						margin 0
+						position relative
+						//top 30px
+						//width 100%
+						form
+							//box-sizing border-box
+							height 30px
+							//position relative
+							//text-align center 
+							z-index -1
+							button
+								//background #ddd
+								//background-color white
+								background-color black
+								border none
+								//border-radius 50%
+								bottom 0
+								cursor pointer
+								height 30px
+								margin 0
+								padding 0
+								position absolute
+								right -2px
+								width 50px
+								//z-index -1
+								span
+									line-height 30px
+									&:before
+										//color #00c7d1
+										//color white
+										color #F4ADAD
+										content '\e67f'
+										font-family 'icos'
+										font-size 1em
+										line-height 30px
+							input[type=text]
+								background white
+								border none
+								//border-bottom 2px solid #ddd
+								//border-radius .5em
+								//font-size 15px
+								height 32px
+								//margin-top 35px
+								padding 0 0 0 8%
+								position absolute
+								//right 15px
+								top -1px
+								transition .3s
+								width 80%
+								//z-index -2
+								/*&:focus
+									width 200px*/
+							button
+							input
+								display inline-block
+								vertical-align top
+		.marca
+		//figure
+			//background white
+			//border-right 1px solid clarito
+			//float left
+			//height 85px
+			//margin 0 0 0 10%
+			left 0
+			margin 0
+			padding 0
+			position absolute
+			top -1px
+			width 160px
+			z-index 3
+			
+			a
+				//background blue
+				img
+				svg
+					display block
+					margin 0
+					width 100%
+
+		.telefono
+			background white
+			border 3px solid naranjito
+			border-radius 50%
+			height 30px
+			left 50%
+			margin-left 270px
+			position absolute
+			top 10px
+			width 30px
+			&:after
+				color naranjito
+				content	'\e63c'
+				font-family 'icos'
+				font-size 18px
+				display block
+				line-height 30px
+				text-align center
+				width 30px
+
+		.telefonoContenedor
+			background #fff
+			border 3px solid #f8b302
+			border-radius 5px
+			display none
+			left 50%
+			margin-left 220px
+			padding 10px
+			position absolute
+			text-align center
+			top 55px
+			width 110px
+			&:after
+				border-bottom 8px solid white
+				border-left 8px solid transparent
+				border-right 8px solid transparent
+				border-top 8px solid transparent
+				bottom 43px
+				content ''
+				position absolute
+				left 50%
+				margin-left -8px
+			&:before
+				border-bottom 10px solid naranjito
+				border-left 10px solid transparent
+				border-right 10px solid transparent
+				border-top 10px solid transparent
+				bottom 45px
+				content ''
+				position absolute
+				left 50%
+				margin-left -10px
+			&:hover
+				display block
+			span
+				color naranjito
+				font-size 14px
+	ul
+		.first-in-line
+			display inline-block
+			width 24%
+			.contenedorPopular
+				background none
+				font-size 18px
+				margin 7px auto
+				//overflow hidden
+				position relative
+				width 98%
+
+	.autenticacion
+		margin 0 auto
+		width 80%
+		h1
+			color oscuro
+			text-align center
+		.contenedorLogin
+			//border 1px solid clarito
+			margin 0 auto
+			text-align center
+			.accedeCuenta
+				//margin-left 8%
+				margin 0
+				padding 0
+				form
+					//width 70%
+					.form_content
+						.form-group
+							label
+								color oscuro
+								display block
+								font-family 'seravekregular'
+								font-size 13px
+								//font-weight 600
+								text-align left
+								text-transform uppercase
+							input
+								border 1px solid #8cecec
+								border-radius 0
+								//border none
+								//box-sizing border-box
+								display block
+								//outline none
+								padding 5px
+								width 100%
+								&:focus
+									background aliceblue
+						.lost_password
+							font-family 'seravekregular'
+							font-size 13px
+							margin 5px 0 0 0 !important
+							text-align right
+							text-transform uppercase
+							a
+								color oscuro
+								//font-weight 600
+								text-decoration none
+								&:hover
+									text-decoration underline
+						.submit
+							margin-top 22px !important
+							button
+								background white
+								border 1px solid #f4adad
+								border-radius 2px
+								color oscuro
+								width 100%
+								span
+									font-family 'seravekregular'
+									font-size 18px
+									font-weight 100
+									letter-spacing 2px
+									line-height 40px
+									text-transform uppercase
+							input
+								display block
+								width 100%
+							&:hover
+								background #f4adad
+								button
+									background #f4adad
+									span
+										color white
+			.accedeCuenta
+			.creaCuenta
+				//border-radius 4px
+				display inline-block
+				height 300px
+				//padding 1em
+				position relative
+				vertical-align top
+				width 48%
+				.formsAtenticacion
+					border none !important
+					padding 5% 15%
+					h1
+						border-bottom 1px solid clarito
+						display block
+						font-family 'seravekregular'
+						font-size 20px
+						font-weight initial
+						line-height 40px
+						margin 0 0 1em 0
+						text-transform uppercase
+					.form_content
+						p
+							color oscuro
+							margin 0
+			.creaCuenta
+				form
+					.form_content
+						//aca estaba el alerta
+						p
+							color oscuro
+							font-size 11px
+						.form-group
+							//border-bottom 1px solid naranjito
+							// border-top 1px solid naranjito
+							margin 15px 0 5px
+							label
+								color oscuro
+								display block
+								font-family 'seravekregular'
+								font-size 13px
+								//font-weight 600
+								text-align left
+								text-transform uppercase
+							input
+								//border-radius 5px
+								border 1px solid #8cecec
+								//border none
+								//box-sizing border-box
+								display block
+								//outline none
+								padding 5px
+								width 100%
+								//margin-top 22px
+								&:focus
+									background aliceblue
+						.submit
+							margin-top 35px
+							button
+								background black
+								border none
+								border-radius 2	px
+								color rojoAsiste
+								width 100%
+								span
+									color white
+									font-family 'seravekregular'
+									font-size 18px
+									font-weight 100
+									letter-spacing 2px
+									line-height 40px
+									text-transform uppercase
+							input
+								display block
+								width 100%
+							&:hover
+								button
+									background #8cecec
+									color white
+		.formularioCrea
+			border 1px solid clarito
+			border-radius 5px
+			margin 0 auto
+			width 80%
+			.creaCuenta
+				margin 0 auto
+				width 90%
+				h3
+					font-family 'seravekregular'
+					font-size 18px
+					letter-spacing 2px
+					text-align center
+					text-transform uppercase
+				.nombreApellido
+					//border-bottom 1px solid naranjito
+					// border-top 1px solid naranjito
+					margin-bottom 10px
+					.apellido
+					.nombre
+						display inline-block
+						vertical-align middle
+						width 49%
+						input
+							//border none
+							//box-sizing border-box
+							color #999
+							font-size 16px
+							//outline none
+							padding 5px
+							width 100%
+							&:focus
+								background aliceblue
+						label
+							color oscuro
+							display block
+							text-align left
+					.nombre
+						margin-right 1%
+				.correo
+				.password
+					//border-bottom 1px solid naranjito
+					// border-top 1px solid naranjito
+					margin 5px 0
+					input
+						//border none
+						//box-sizing border-box
+						color #999
+						//font-size 16px
+						//outline none
+						padding 5px
+						width 100%
+						&:focus
+							background aliceblue
+					label
+						display block
+						color oscuro
+						font-size 13px
+						text-align left
+						//width 28%
+					.condicionPass
+						color oscuro
+						display block
+						font-size 11px
+						font-style italic
+						text-align right
+				.checkbox
+					margin 0 auto
+					width 65%
+					label
+						font-size 13px
+						text-align left
+						width 69%
+					label
+					.checker
+						display inline-block
+						vertical-align top
+						span
+							input
+								height 15px
+								width 15px
+					.checker
+						text-align right
+				.checkboxArriba
+					margin-top 30px
+				.fechaNacimiento
+					h3
+						//font-family 'oswaldregular'
+						font-size 13px
+						margin 0
+						text-align left
+				.srSra
+					display none
+					text-align center
+					.tratoGenero
+						color oscuro
+						display block
+						font-weight 600
+						text-transform uppercase
+					.radioSeleccion
+						display inline-block
+						.top
+							.radio
+							.generoTexto
+								display inline-block
+								font-size 13px
+								vertical-align middle
+			.submit
+				margin 20px auto
+				text-align right
+				width 90%
+				button
+					background rojoAsiste
+					border none
+					border-radius 2px
+					width 30%
+					span
+						color white
+						
+						font-weight 100
+						line-height 30px
+				.requerido
+					color red
+					font-size 11px
+	.box
+		margin 0 auto
+		text-align center
+		//width 80%
+		.rodeaAddress
+			margin 0 auto
+			max-width 600px
+			form
+				//border 1px solid colorao
+				//border-radius 5px
+				font-size 16px
+				margin 0 auto
+				width 80%
+				.activaEmpresa
+					background #fbfbfb
+					border 1px solid grisAzul
+					box-sizing border-box
+					//height 22px
+					padding 5px 10px
+					text-align left
+					label
+					.checker
+						display inline-block
+						height 22px
+						vertical-align middle
+					label
+						font-size 13px
+						font-weight 600
+						margin 0 5px 0 0
+						text-align left
+						//width 100%
+					.checker
+						line-height 22px
+						margin 0
+					.esEmpresa
+						display none
+						margin 0
+						padding 5px 0
+						label
+							display block
+							font-size 13px
+							font-weight 600
+							text-align left
+						input
+							background white
+							font-size 14px
+							padding 5px
+							width 100%
+				.addressNombreApellido
+					//border-bottom 1px solid naranjito
+					//border-top 1px solid naranjito
+					margin 5px 0
+					.apellidoDireccion
+					.nombreDireccion
+						display inline-block
+						padding 5px 0
+						vertical-align middle
+						width 49.5%
+						label
+							display block
+							font-size 13px
+							font-weight 600
+							text-align left
+						input
+							//font-size 14px
+							padding 5px
+							width 100%
+				.esAliasDireccion
+				.esCelular
+				.esCiudad
+				.esCorreo
+				.esDireccion
+				.esDireccionDos
+				.esPais
+				.esPassword
+				.esPostcode
+				.esRegion
+				.esRutEmpresa
+				.esTelefono
+					margin 2px 0
+					padding 2px 0
+					label
+						display block
+						font-size 13px
+						font-weight 600
+						text-align left
+					input
+						padding 5px
+						width 100%
+				.esCelular
+				.esTelefono
+					display inline-block
+					vertical-align top
+					width 49.5%
+				.esPais
+					display inline-block
+					vertical-align top
+					width 49.5%
+					.selector
+						width 100% !important
+						span
+							display none
+						select
+							background #fbfbfb
+							border none
+							box-sizing border-box
+							font-size 13px
+							margin 0 auto
+							outline none
+							width 100%
+							&:focus
+								background aliceblue
+							option
+								font-size 13px
+				.esAliasDireccion
+					//float right
+					margin 5px 0
+					//overflow hidden
+					padding 5px 0
+					//width 48%
+				.esAliasDireccion
+				.infoAdicional
+					display inline-block
+					vertical-align top
+					width 49.5%
+				.esRegion
+					display inline-block
+					vertical-align top
+					width 49.5%
+					label
+						margin-bottom 1px
+					.selector
+						height 22px
+						width 100% !important
+						select
+							background #fbfbfb
+							border none
+							box-sizing border-box
+							margin 0 auto
+							outline none
+							width 100%
+							&:focus
+								background aliceblue
+						span
+							display none
+				.esRutEmpresa
+					display none
+					margin 0
+					.Rut
+						display block !important
+				.infoAdicional
+					//border-bottom 1px solid naranjito
+					//float left
+					margin 5px 0
+					padding 5px 0
+					//width 48%
+					label
+						display block
+						font-size 13px
+						font-weight 600
+						text-align left
+						width 100%
+					textarea
+						background #fbfbfb
+						border 1px solid grisAzul
+						box-sizing border-box
+						display block
+						height 34px
+						margin 0 auto
+						outline none
+						width 100%
+						&:focus
+							background aliceblue
+				.submit2
+					display block
+					margin-top 10px
+					text-align right
+					width 100%
+					button
+						border none
+						//border-radius 5px
+						padding 8px 15px
+						//transition .3s
+						&:hover
+							background #f4adad
+							span
+								color white
+						span
+							color oscuro
+							font-family 'seravekregular'
+							font-size 18px
+							letter-spacing 2px
+							text-transform uppercase
+
+		.correos
+		.required
+			//color red
+			font-size 13px
+	.contenedorCategoria
+		margin 0 auto
+		max-width 1050px
+		h1
+			text-align center
+		.content_sortPagiBar
+		.listaProducto
+		.product-listing
+			margin 0 0 0 auto
+			width 83%
+	.carruselInfografia
+		background-color #EBEFF2
+		position relative
+		.contCarrusel
+			//background-color #32A99A
+			//border-top 4px solid #C41925
+			//height 400px
+			margin 0 auto
+			position relative
+			width 100%
+			.contCarruselInt
+				/*background-image url('../img/fondoSlide.jpg')
+				background-position center
+				background-size cover*/
+				font-size 0
+				//height 400px
+				margin 0 auto
+				//overflow hidden
+				position relative
+				width 100%
+				.carrusel
+					//margin-right 1.5%
+					//background rebeccapurple
+					background-image url('../img/cuadritos.png') no-repeat right bottom 40%
+					display block
+					font-size 18px
+					height 400px
+					margin 0 auto
+					max-width 1050px
+					overflow hidden
+					position relative
+						
+					ul
+						margin 0
+						padding 0
+						.homeslider-container
+							position relative
+							/*&:after
+								background linear-gradient(to right , transparent 50%, #211915)
+								content ''
+								height 100%
+								position absolute
+								right 0
+								top 0
+								width 150px
+							&:before
+								background linear-gradient(to left , transparent 50%, #211915)
+								content ''
+								height 100%
+								left 0
+								position absolute
+								top 0
+								width 150px*/
+							a
+								.sliderimage
+									background-position center
+									background-repeat no-repeat
+									background-size 90%
+									height 400px
+									width 100%
+							.homeslider-description
+								//background rgba(0,0,0, .6)
+								left 0
+								height 400px
+								position absolute
+								top 0
+								width 40%
+								/*&:before
+									border-bottom 150px solid transparent
+									border-left 30px solid rgba(0,0,0, .6)
+									border-top 150px solid transparent
+									bottom 0
+									content ''
+									position absolute
+									left 100%*/
+								.intDescription
+									background rgba( naranjoPet, .8)
+									border-radius 0 0 10px 0
+									margin 110px auto 0
+									padding 20px 30px
+									position relative
+									width 100%
+									z-index 2
+									h2
+										//border-bottom 1px solid white
+										color white
+										font-size 1.2em
+										font-style uppercase
+										margin 0
+										text-align left
+										text-transform uppercase
+									p
+										color white
+										font-size .9em
+										margin 0
+										text-align left
+										.btn
+											background verdeOscuro
+											border 4px solid white
+											border-radius 50%
+											color white
+											display block
+											//float right
+											
+											height 73px
+											padding .8em
+											position absolute
+											right -25px
+											text-align center
+											text-decoration none
+											top -20px
+											transition .3s
+											width 73px
+											&:hover
+												background rojoAsiste
+									ul
+										margin 0
+										padding 0
+										li
+											color white
+											font-size 15px
+											list-style none
+											text-align right
+											
+				// .carrusel
+				// .comentariosHome
+				// 	display inline-block
+				// 	vertical-align top
+				.comentariosHome
+					background clarito
+					font-size 18px
+					height 300px
+					//overflow-y scroll
+					text-align center
+					width 25%
+					h4
+						color oscuro
+						font-family 'oswaldregular'
+						font-size 14px
+						font-weight 400
+						margin .3em
+						text-align left
+						text-transform uppercase
+					.contcomment
+						margin 0
+						padding 0
+						position relative
+						// li
+						// 	//border-bottom 1px solid oscuro
+						// 	border-top 1px solid #999
+						// 	list-style none
+						// 	margin 0
+						// 	overflow hidden
+						// 	padding .5em 0
+						// 	width 100%
+						// 	&:hover
+						// 		background oscuro
+						// 		.contComentariosHome
+						// 			a
+						// 			span
+						// 				color white
+						// 	figure
+						// 		margin 0 0 0 4px
+						// 		float left
+						// 		width 45px
+						// 		a
+						// 			img
+						// 				//border 4px solid naranjito
+						// 				//border-radius 50%
+						// 				width 100%
+						// 	figure
+						// 	.contComentariosHome
+						// 		display inline-block
+						// 		vertical-align top
+						// 	.contComentariosHome
+						// 		float left
+						// 		margin-left 18px
+						// 		max-width 55%
+						// 		a
+						// 			color oscuro
+						// 			margin 0
+						// 			text-decoration none
+						// 			p
+						// 				font-weight 700
+						// 				margin 0
+						// 				text-align left
+						// 		a
+						// 		span
+						// 			margin 0
+						// 			font-size 11px
+						// 		span
+						// 			p
+						// 				font-weight 100
+						// 				text-align left
+						ul
+							margin 0
+							padding 0
+							li
+								//border-bottom 1px solid oscuro
+								border-top 1px solid #999
+								list-style none
+								margin 0
+								overflow hidden
+								padding .5em 0
+								width 100%
+								&:hover
+									background oscuro
+									.contComentariosHome
+										a
+										span
+											color white
+								figure
+									margin 0 0 0 4px
+									float left
+									width 45px
+									a
+										img
+											border 2px solid #aeadb3
+											//border-radius 50%
+											width 100%
+								figure
+								.contComentariosHome
+									display inline-block
+									vertical-align top
+								.contComentariosHome
+									float left
+									margin-left 18px
+									max-width 65%
+									a
+										color oscuro
+										margin 0
+										text-decoration none
+										p
+											font-family 'oswaldregular'
+											font-size 13px
+											margin 0
+											text-align left
+											text-transform uppercase
+									a
+									span
+										margin 0
+									span
+										p
+											font-family 'oswaldlight'
+											font-size 13px
+											font-weight 100
+											margin 5px 0
+											text-align left
+
+		.infografia
+			min-height 350px
+			margin 0 auto
+			max-width 1050px
+			padding-top 45px
+			position relative
+			.cirGrilla
+				font-size 0
+				margin 0
+				text-align center
+				padding 0
+				.grilla
+					display inline-block
+					margin 0
+					padding 0
+					width 25%
+					&:nth-child(1)
+						.verMas
+							margin 0
+							.ciritem
+								background-color #00C6CF
+								.cirinfo
+									background-color #00C6CF
+					&:nth-child(2)
+						.verMas
+							margin 0 auto
+							.ciritem
+								background-color #94CF1A
+								.cirinfo
+									background-color #94CF1A
+					&:nth-child(3)
+						.verMas
+							margin 0 auto
+							.ciritem
+								background-color #FFCB00
+								.cirinfo
+									background-color #FFCB00
+					&:nth-child(4)
+						.verMas
+							margin 0 0 0 auto
+							.ciritem
+								background-color naranjoPet
+								.cirinfo
+									background-color naranjoPet
+					.verMas
+						display block
+						height 230px
+						//margin 5px
+						width 230px
+						.ciritem
+							border-radius 50%
+							//box-shadow inset 0 0 0 15px rgba(black, .2)
+							cursor default
+							height 100%
+							position relative
+							transition all 0.4s ease-in-out
+							width 100%
+							&:before
+								content ''
+								display table
+							&:hover
+								box-shadow inset 0 0 0 1px rgba(clarito, 1)
+								.cirinfo
+									opacity 1
+									transform scale(1)
+							.cirinfo
+								background-color rgba(black, .2)
+								backface-visibility hidden
+								border-radius 50%
+								box-shadow inset 0 0 0 15px rgba(black, .2)
+								height inherit
+								opacity 0
+								position absolute
+								transform scale(0)
+								transition all 0.3s ease-in-out
+								width inherit
+								h3
+									color #fff
+									display block
+									font-size 30px
+									letter-spacing 2px
+									margin 10px auto 0 auto
+									padding 0
+									text-align center
+									text-shadow 0 1px 2px rgba(0,0,0,0.3)
+								.txt
+									margin-top 20px
+									p
+										color #fff
+										cursor pointer
+										font-size 15px
+										//font-style italic
+										margin 0 30px
+										padding 0
+										text-align center
+									h2
+										//border-bottom 1px solid rgba(255,255,255,0.5)
+										color #fff
+										display block
+										font-size 18px
+										//letter-spacing 2px
+										margin 0px auto
+										padding 0
+										text-align center
+										text-shadow 0 1px 2px rgba(0,0,0,0.3)
+										text-transform capitalize
+										width 100%
+							& > h2
+								//border-bottom 1px solid rgba(255,255,255,0.5)
+								bottom 15%
+								color #fff
+								display block
+								font-size 18px
+								//letter-spacing 2px
+								margin 0px auto
+								padding 0
+								position absolute
+								text-align center
+								text-shadow 0 1px 2px rgba(0,0,0,0.3)
+								text-transform capitalize
+								width 100%
+							img
+								border-radius 50%
+								left 0
+								position absolute
+								width 100%
+	.direcciones
+		margin 0 auto
+		//width 80%
+		max-width 950px
+		h1
+			font-weight 600
+			text-align center
+		.recomendacion
+			background clarito
+			border 1px solid #999
+			border-radius 3px
+			box-sizing border-box
+			font-size 16px
+			font-weight 100
+			padding 18px 3%
+			width 100%
+		.addresses
+			.listaDireccion
+				.contenedorListaDireccion
+					ul
+						li
+							.botonDireccion
+								background calipso
+								display inline-block
+								font-size 0
+								margin 0
+								position relative
+								text-decoration none
+								transition .3s
+								width 50%
+								&:hover
+									background naranjito
+								span
+									color white
+									font-size 13px
+									line-height 30px
+									.remove
+										&:before
+											color white
+											content '\e6fd'
+											font-family 'icos'
+											font-size 13px
+											position absolute
+											right 5px
+											top 0
+									.update
+										&:before
+											color white
+											content '\e666'
+											font-family 'icos'
+											font-size 15px
+											left 5px
+											position absolute
+											top 0
+						.address_update
+							margin-top 18px
+			.p-indent
+				color naranjo
+				font-size 13px
+				margin 0
+				text-align center
+			.tituloDirecciones
+				font-weight 500
+				margin 0
+				text-align center
+				text-transform uppercase
+		.agregarNueva
+			background azulAsiste
+			border-radius 2px
+			line-height 30px
+			margin 30px auto
+			text-align center
+			width 300px
+			a
+				text-decoration none
+				span
+					color white
+					
+			&:hover
+				background grisAzul
+		.volver
+			margin 0
+			padding 0
+			text-align center
+			li
+				border-radius 5px
+				display inline-block
+				list-style none
+				text-align center
+				width 200px
+				a
+					display block
+					text-decoration none
+					span
+						color white
+				.volverCuenta
+				.volverHome
+					background oscuro
+					line-height 40px
+
+	.formCarrito
+		margin 0 auto
+		max-width 1050px
+		h1
+			font-family 'seravekregular'
+			font-size 18px
+			letter-spacing 2px
+			text-align center !important
+			text-transform uppercase
+		.algoAndaMal
+		.carritoVacio
+			background naranjo
+			border 1px solid red
+			color white
+			margin 18px auto 0
+			padding 12px 0
+			text-align center
+			width 80%
+			max-width 1150px
+		.cart_last_product
+			display none
+		.detalleProducto
+			margin 25px auto 10px
+			//width 80%
+
+		.formRodea
+			margin 0 auto
+			text-align center
+			//width 80%
+		.heading-counter
+			//background naranjo
+			//border-radius 5px
+			color otroGris
+			display block
+			
+			font-size 13px
+			font-weight 100
+			line-height 25px
+			margin 0
+			text-align center
+			//width 400px
+
+		.listaDireccion
+			display none
+			margin 28px auto 0
+			text-align center
+			width 100%
+			.contenedorListaDireccion
+				border 1px solid #999
+				border-radius 3px
+				display inline-block
+				margin 0
+				width 49%
+				ul
+					//background clarito
+					margin 0
+					padding 0
+					width 100%
+					li
+						border-bottom .5px solid clarito
+						color oscuro
+						display block
+						list-style none
+						margin 0 auto
+						text-align center
+						//width 300px
+						width 100%
+						h3
+							background oscuro
+							border-bottom 1px solid #999
+							color clarito
+							
+							font-size 18px
+							font-weight 100
+							line-height 50px
+							margin 0
+							//text-align center
+							text-transform uppercase
+
+						span
+							//display inline-block
+							
+							font-size 13px
+							text-transform uppercase
+		// aca estaba el navegador
+		.orderAddress
+			.addresses
+				margin 0 auto
+				width 80%
+				.contenedorAddresses
+					margin 18px 1% 0 0
+					//width 49%
+					.selccionDireccion
+						text-align center
+						.selector1
+							text-align center
+							.agregarNueva
+								//background naranjito
+								//border-radius 5px
+								display none
+								//line-height 60px
+								margin 0
+								text-align right
+								//width 300px
+								a
+									text-decoration none
+									span
+										color otroGris
+										
+										font-size 13px
+									&:hover
+										span
+											color rojoAsiste
+							.checkboxSelecciona
+								background clarito
+								margin 1em 0 0 0
+								text-align center
+								&:hover
+									background oscuro
+									label
+										color white
+								label
+									font-size 13px
+								label
+								.checker
+									display inline-block
+									vertical-align middle
+								.checker
+									width 13px
+									input
+										height 15px
+							.eligeDireccion
+								//background colorao
+								border-radius 5px
+								color oscuro
+								display block
+								
+								font-size 15px
+								line-height 40px
+								//margin 0 auto 10px
+								//width 300px
+							.eligeDireccion
+							.selector
+								display inline-block
+								vertical-align middle
+							.selector
+								margin 0 auto
+								width 200px !important
+								span
+									display none
+								select
+									//border-radius 5px
+									display block
+									font-size 13px
+									margin 0 auto
+									width 100%
+							.selccionOtraDireccion
+								.select
+									text-align right
+									a
+										text-decoration none
+										span
+											color otroGris
+											
+											font-size 13px
+										&:hover
+											span
+												color rojoAsiste
+									label
+										
+										font-size 15px
+					.listaDireccion
+						display block
+						margin 5px 0 0 0
+						//padding-top 10px
+						width 100%
+						.contenedorListaDireccion
+							border none
+							//margin-left 10%
+							width 100%
+							ul
+								background white
+								border 1px solid #dddce0
+								//margin-top 10px
+								li
+									background white
+									display block
+									padding 0 5%
+									text-align left
+									text-transform capitalize
+									width 89%
+								.address_title
+									h3
+										background white
+										color oscuro
+										font-size 15px
+										font-weight 100
+										line-height 26px
+										text-align left
+							.alternate_item
+								li
+									display none !important
+								.address_address1
+								.address_title
+									display block !important
+				.contenedorAddresses
+				.quieresAgregaComentario
+					display inline-block
+					vertical-align top
+					width 49%
+				.quieresAgregaComentario
+					margin-top 69px
+					p
+						background clarito
+						color oscuro
+						cursor pointer
+						font-size 13px
+						font-weight 400
+						line-height 26px
+						margin 32px 0 0 0
+						padding 0 5%
+						&:hover
+							background oscuro
+							color white
+					.agregaComentario
+						display none
+						margin-top 15px
+						label
+							display block
+							font-size 12px
+							text-align left
+						textarea
+							border 1px solid #dddce0
+							box-sizing border-box
+							height 93px
+							width 100%
+			//aca estaba el navegador
+
+	.micuenta
+		margin 0 auto
+		max-width 950px
+		h1
+			text-align center
+		.info-account
+			
+			font-size 13px
+			//font-style italic
+			font-weight 100
+			margin 0 0 25px
+			text-align center
+		.rodeaListaDirecciones
+			margin-bottom 80px
+			.listaDirecciones
+				//display inline-block
+				margin-left 17%
+				//vertical-align top
+				width 49%
+				ul
+					margin 0
+					padding 0
+					width 100%
+					li
+						//border 1px solid #999
+						//display inline-block
+						font-size 0
+						list-style none
+						margin 5px 0
+						//width 49%
+						a
+							//background clarito
+							border-radius 35px 2px 2px 35px
+							display block
+							//font-family 'oswaldregular'
+							//font-weight 100
+							position relative
+							text-align left
+							text-decoration none
+							// &:hover
+							// 	background oscuro
+							// 	span
+							// 		color clarito
+							&:hover
+								span
+									color azulAsiste
+									text-decoration underline
+							span
+								color oscuro
+								font-size 18px
+								line-height 40px
+								margin-left 50px
+								transition .3s
+							.icon-ban-circle
+								background black
+								//border 2px solid azulAsiste
+								//border-radius 20%
+								height 35px
+								position absolute
+								text-align center
+								width 35px
+								&:before
+									//border-right 1px solid #999
+									//color rojoAsiste
+									color white
+									content '\e631'
+									display block
+									font-family 'icos'
+									font-size 18px
+									height 100%
+									left 0
+									line-height 34px
+									//position absolute
+									//width 35px
+							.icon-building
+								background black
+								//border 2px solid azulAsiste
+								//border-radius 20%
+								height 35px
+								position absolute
+								text-align center
+								width 35px
+								&:before
+									//border-right 1px solid #999
+									//color rojoAsiste
+									color white
+									content '\e642'
+									display block
+									font-family 'icos'
+									font-size 18px
+									height 100%
+									left 0
+									line-height 34px
+									//position absolute
+									//dth 35px
+							.icon-list-ol
+								background black
+								//border 2px solid azulAsiste
+								//border-radius 20%
+								height 35px
+								position absolute
+								text-align center
+								width 35px
+								&:before
+									//border-right 1px solid #999
+									//color rojoAsiste
+									color white
+									content '\e6b6'
+									display block
+									font-family 'icos'
+									font-size 18px
+									height 100%
+									left 0
+									line-height 34px
+									//position absolute
+									//width 35px
+							.icon-user
+								background black
+								//border 2px solid azulAsiste
+								//border-radius 20%
+								height 35px
+								position absolute
+								text-align center
+								width 35px
+								&:before
+									//border-right 1px solid #999
+									//color rojoAsiste
+									color white
+									content '\e670'
+									display block
+									font-family 'icos'
+									font-size 18px
+									height 100%
+									left 0
+									line-height 34px
+									//position absolute
+									//width 35px
+			.listaregalo
+				//display inline-block
+				margin 0
+				//vertical-align top
+				width 49%
+				ul
+					margin 0
+					padding 0
+					li
+						//border 1px solid #999
+						border-radius 3px
+						//display inline-block
+						list-style none
+						margin 5px 0
+						width 100%
+						a
+							//background clarito
+							color oscuro
+							display block
+							//font-weight 100
+							line-height 40px
+							position relative
+							text-align left
+							text-decoration none
+							&:hover
+								span
+							 		color azulAsiste
+									text-decoration underline
+							// 	span
+							// 		color clarito
+							.icon-barcode
+								&:before
+									content '\e631'
+							.icon-barcode
+							.icon-heart
+								background clarito
+								border-radius 20%
+								border 2px solid azulAsiste
+								height 35px
+								position absolute
+								text-align center
+								width 35px
+								&:before
+									//border-right 1px solid #999
+									//border-radius 50%
+									color azulAsiste
+									display block
+									font-family 'icos'
+									font-size 18px
+									height 35px
+									left 0
+									line-height 40px
+									position absolute
+									width 35px
+							.icon-heart
+								&:before
+									content '\e6d1'
+							span
+								color oscuro
+								font-size 18px
+								margin-left 50px
+								transition .3s
+
+		.volverHome
+			margin 18px 0 0 0
+			padding 0
+			li
+				border 1px solid #999
+				border-radius 3px
+				list-style none
+				margin 0
+				padding 0
+				width 49%
+				a
+					background clarito
+					display block
+					position relative
+					text-align center
+					text-decoration none
+					&:hover
+						background oscuro
+						span
+							color clarito
+					span
+						color oscuro
+						font-size 18px
+						line-height 40px
+						transition .3s
+					.icon-chevron-left
+						&:before
+							border-right 1px solid #999
+							color colorao
+							content '\e726'
+							display block
+							font-family 'icos'
+							font-size 18px
+							height 100%
+							left 0
+							line-height 40px
+							position absolute
+							width 35px
+	.popularesMasVendidos
+		margin 0 auto
+		max-width 1050px
+		div
+			//font-size 0
+			ul
+				margin 0 auto
+				padding 0
+				width 100%
+				li
+					display inline-block
+					list-style none
+					text-align center
+					vertical-align top
+					width 100%
+			.menuProductosHome
+				//background naranjito
+				margin 1em auto 2em
+				max-width 1050px
+				li
+					// background linear-gradient(45deg , naranjito 50%, naranjo) !important
+					// background naranjito
+					border-bottom 4px solid clarito
+					//border-top 2px solid naranjito
+					display block
+					height 30px
+					margin 0 0 0 auto
+					position relative
+					width 83%
+					a
+						color white
+						display block
+						
+						font-size 22px
+						//font-weight 600
+						line-height 40px
+						text-decoration none
+						text-align center
+						width 100%
+					p
+						//background naranjito
+						//border 1px dashed white
+						color oscuro
+						display block
+						
+						font-size 20px
+						//font-weight 600
+						//left 50%
+						//letter-spacing 2px
+						line-height 30px
+						margin 0 auto
+						position relative
+						text-align left
+						text-decoration none
+						text-transform uppercase
+						//top 25px
+						//width 50%
+					.blockbestsellers
+						text-align center
+						//color naranjito
+						// &:after
+						// 	content '\e6ff'
+						// 	display block
+						// 	font-family 'icos'
+						// 	font-size 25px
+						// 	font-weight 100
+						// 	line-height 40px
+						// 	position absolute
+						// 	right 25%
+						// 	text-align center
+						// 	top 0
+						// 	width 25px
+					.homefeatured
+						color calipso
+						&:before
+							content '\e6ce'
+							display block
+							font-family 'icos'
+							font-size 25px
+							font-weight 100
+							left 25%
+							line-height 40px
+							position absolute
+							text-align center
+							top 0
+							width 25px
+				.active
+					//display inline-block
+					vertical-align middle
+					a
+						//color white
+						display block
+						font-size 22px
+						font-weight 400
+						line-height 40px
+						text-decoration none
+						//text-transform uppercase
+						width 100%
+					.blockbestsellers
+						//background naranjito
+						text-align center
+					.homefeatured
+						background white
+
+			.tab-content
+				//display none
+				margin 0 auto
+				// .product-listContenedor
+				// 	width 100%
+				//width 1050px
+				.listaProducto
+					margin 0 0 0 auto
+					width 83%
+
+				.active
+					display block
+				.homePopulares
+					li
+						font-size 18px
+						&:hover
+							.añadeCarrituHome
+								opacity 1
+							.contenedorPopular
+								.right-block
+									h2
+										width 100%
+									.precios
+										.descuento
+										.precioAnterior
+										.precio
+											opacity 1
+
+					.productosVacios
+						display none
+						width 100%
+	.productoPag
+		//border-top 4px solid #C41925
+		margin 0 auto
+		padding 10px
+		max-width 1050px
+		.productoFoto
+			font-size 0
+			margin 2em auto
+			width 100%
+			.contenedorProductoFoto
+				position relative
+				.descripcion
+					//background rgba(cafoso, .6)
+					margin-left 1.001%
+					max-height 300px
+					padding 0
+					position relative
+					width 67%
+					h1
+						color oscuro
+						font-family 'quicksandbold'
+						font-size 24px
+						font-weight 100
+						letter-spacing -2px
+						margin 10px 0
+						padding 0 5px 0 15px
+						text-align left
+					.carroDecripcion
+						//background clarito
+						//height 300px
+						padding-left 16px
+						//position absolute
+						//right 0
+						//top 0
+						width 100%
+						form
+							font-size 16px
+							position relative
+							.box-info-product
+								height 100%
+								.content_prices
+									//position absolute
+									//top 0
+									width 100%
+									.price
+										font-size 16px
+										padding 10px 0
+										position relative
+										.box-cart-bottom
+											display inline-block
+											margin-left 19%
+											/*position absolute
+											top 135px*/
+											vertical-align middle
+											width 40%
+											div
+												.agregaCarrito
+													display block
+													margin 0
+													button
+														background rojoAsiste
+														border none
+														//border-radius 5px
+														display block
+														line-height 50px
+														margin 0
+														position relative
+														text-align center
+														transition .3s
+														width 100%
+														/*&:before
+															//background naranjito
+															color white
+															content "\e636"
+															font-family 'icos'
+															font-size 1.5em
+															font-weight 100
+															left 0
+															line-height 52px
+															position absolute
+															top 0
+															width 45px*/
+														span
+															color white
+															display block
+															
+															font-size 20px
+															//margin-left 49px
+															//text-align left
+														&:hover
+															background #c41925
+															box-shadow 2px 2px 5px oscuro
+											.buttons_bottom_block
+												height 50px
+												a
+													//background oscuro
+													border 1px solid #aeadb3
+													//border-radius 5px
+													color white
+													display block
+													font-size 15px
+													height 30px
+													margin 0 auto
+													position relative
+													text-align center
+													text-decoration none
+													width 80%
+													&:before
+														color #aeadb3
+														content "\e606"
+														font-family 'icos'
+														font-size 18px
+														font-weight 100
+														left 0
+														line-height 30px
+														position absolute
+														text-align center
+														top 0
+														width 40px
+													span
+														color #aeadb3
+														display block
+														font-family 'oswaldregular'
+														font-size 14px
+														//margin-left 55px
+														padding 5px
+														text-align right
+														width 90%
+										.precioActual
+											//background rojoAsiste
+											//border-radius 2px
+											display inline-block
+											line-height 50px
+											margin 0
+											position relative
+											text-align left
+											vertical-align middle
+											width 40%
+											span
+												color rojoAsiste
+												font-family 'quicksandbold'
+												font-size 30px
+												font-weight 100
+												letter-spacing -1px
+												//padding-right 20px
+											.textChico
+												color oscuro
+												
+												font-size 13px
+								.cantidad
+									border-bottom 2px solid #ddd
+									border-top 2px solid #ddd
+									font-size 15px
+									margin 0 auto
+									padding 8px 0
+									text-align center
+									width 100%
+									label
+										display block
+										margin-top 18px
+										text-align center
+									.contieneCantidad
+										display block !important
+										//height 31px
+										margin 0
+										position relative
+										text-align left
+										width 180px
+										input
+											border none
+											//border-radius 5px
+											bottom 0
+											box-sizing border-box
+											color rojoAsiste
+											
+											font-size 20px !important
+											height 40px
+											left 0
+											padding 10px
+											//position absolute
+											text-align right
+											width 155px
+										.product_quantity_down
+										.product_quantity_up
+											background oscuro
+											//border-radius 5px
+											display block
+											height 17px
+											overflow hidden
+											position absolute
+											text-align center
+											text-decoration none
+											width 17px
+											span
+												display block
+												line-height 17px
+												height 17px
+										.product_quantity_down
+											bottom 0
+											right 0
+											/*&:before
+												bottom 2px
+												color white
+												content '\e701'
+												font-family 'icos'
+												font-size 12px
+												left 0
+												position absolute
+												//text-align center
+												width 100%*/
+										.product_quantity_up
+											top 0
+											right 0
+											/*&:before
+												color white
+												content '\e702'
+												font-family 'icos'
+												font-size 12px
+												left 0
+												position absolute
+												//text-align center
+												top 2px
+												width 100%*/
+								
+						.pay
+							bottom -122px
+							left 5px
+							position absolute
+					.topDescripcion
+						background clarito
+						//border 2px solid #ddd
+						border-radius 4px
+						box-shadow 1px 1px 5px #adadad
+						//padding-left 1em
+						padding-left 15px
+						position relative
+						.linksDescripcion
+							//background grisClaro1
+							//bottom 0
+							display inline-block
+							height 100%
+							line-height 20px
+							margin 0
+							padding 0
+							position absolute
+							right 0
+							text-align right
+							vertical-align top
+							//width 30%
+							li
+								//background #ddd
+								//border 1px solid rgb(174, 173, 179)
+								border-radius 15px
+								display inline-block
+								font-size 13px
+								list-style none
+								padding .4em 3px
+								//width 100px
+								&:hover
+									background #b53646
+									a
+										color white
+								a
+									color otroGris
+									display block
+									font-family 'quicksandbold'
+									letter-spacing -1px
+									padding 0 3px
+									text-decoration none
+							
+						.referencias
+							display inline-block
+							vertical-align top
+							width 60%
+							.commentsValorizacion
+								font-size 0
+								margin-right 5px
+								text-align right
+								span
+									
+									font-size 13px
+								span
+								.star_content
+									display inline-block
+									line-height 18px
+									vertical-align middle
+								.star_content
+									margin-top 4px
+							.commentsValorizacion							
+							.referencia
+								display inline-block
+								vertical-align top
+								width 47%
+							.referencia
+								label
+								span
+									color otroGris
+									font-family 'quicksandregular'
+									font-size 13px
+									letter-spacing -1px
+									line-height 28px
+									margin 0
+									
+					.linkComentario
+						bottom 40px
+						display block
+						position absolute
+						width 100%
+						.comments_note
+							span
+								color oscuro
+								font-size 11px
+						.comments_advices
+							margin 0
+							padding 0
+							li
+								font-size 15px
+								list-style none
+								a
+									color oscuro
+					
+					.referencia
+						margin-top 3px
+					.socialsharing_product
+						//bottom -35px
+						display none
+						//float right
+						left 0
+						margin 0
+						//position absolute
+						text-align right
+						width 100%
+						button
+							background transparent
+							//border 2px solid white
+							//border-radius 50%
+							height 25px
+							font-size 0
+							margin-right 2px
+							padding 0
+							width 25px
+					// .socialsharing_product
+					// .stock
+					// 	display inline-block
+					// 	position absolute
+					.stock
+						background clarito
+						border 1px solid white
+						border-radius 3px
+						color oscuro
+						//display block
+						//float left
+						
+						font-size 10px
+						margin-left 15px
+						padding 2px
+						text-align justify
+						width 150px
+					.textoDescripcion
+						margin 0
+						padding 0 5px 0 15px
+						.rodeaTexto
+							p
+								color oscuro
+								
+								font-size 15px
+				.contenedorImagenes
+				.descripcion
+					display inline-block
+					vertical-align top
+				.contenedorImagenes
+					width 32%
+					max-width 300px
+					.imagenGrande
+						border 1px solid clarito
+						//height 350px
+						margin-right 2%
+						//overflow hidden
+						position relative
+						width 100%
+						.contenedorImagen
+							cursor pointer
+							display block
+							overflow hidden
+							position relative
+							text-align center
+							width 100%
+							&:hover
+								.quick-view
+									opacity 1
+							img
+								width 100%
+			.muestraChica
+				overflow hidden
+				width 100%
+				.rodeaMuestraChica
+					ul
+						display block
+						margin 16px 0
+						padding 0
+						text-align left
+						width 100% !important
+						li
+							border 1px solid clarito
+							border-radius 5px
+							display inline-block
+							//float right
+							height 70px
+							margin-right 4px
+							width 70px
+							a
+								img
+									height 70px
+									width 70px
+		.fichaTecnica
+			margin-top 36px
+			h3
+				color white
+				font-weight 500
+				line-height 33px
+				margin 0
+				position relative
+				&:after
+					color white
+					content '\e74a'
+					font-family 'icos'
+					font-size 27px
+					font-weight 100
+					margin-left 13px
+					position absolute
+					top 1px
+			table
+				border-spacing 0
+				border-collapse collapse
+				margin 0 auto
+				width 80%
+				max-width 1150px
+				tbody
+					box-sizing border-box
+					border 1px solid clarito
+					tr
+						td
+							line-height 40px
+							padding-left 18px
+							&:nth-child(1)
+								width 30%
+					.even
+						td
+							&:nth-child(odd)
+								background clarito
+					.odd
+						td
+							&:nth-child(even)
+								background clarito
+		.reseñaComentario
+			margin 34px auto 0
+			.homeTab
+				.main
+					background calipso
+			h3
+				color white
+				font-weight 500
+				margin 0
+				padding 4px 0
+				text-align center
+				&:after
+					content '\e66d'
+					font-family 'icos'
+					font-size 27px
+					color white
+					margin-left 13px
+					font-weight 100
+			.contenedorComentario
+				margin 0 auto
+				width 80%
+				max-width 1150px
+				.contenedorInternoComentario
+					p
+						a
+							background naranjo
+							border-radius 5px
+							display block
+							line-height 50px
+							margin 0 auto
+							text-decoration none
+							width 300px
+							span
+								color white
+								font-size 16px
+								font-weight 100
+					.comentario
+						border 1px solid clarito
+						border-radius 5px
+						margin-bottom 18px
+						padding 4px 0
+						.detalleComentario
+							margin-left 4%
+							width 65%
+							.comentarioTitulo
+								color oscuro
+								display block
+								margin 0
+								text-align left
+								strong
+									text-transform uppercase
+						.detalleComentario
+						.usuarioInfo
+							display inline-block
+							vertical-align middle
+						.teSirvio
+							ul
+								margin 0
+								padding 0
+								li
+									display inline-block
+									font-size 13px
+									list-style none
+									button
+										border none
+										background transparent
+										margin 0
+									.like
+									.nolike
+										span
+											font-size 0
+									.like
+										&:before
+											color naranjito
+											content '\e6d4'
+											font-family 'icos'
+											font-size 18px
+									.nolike
+										&:before
+											color naranjito
+											content '\e6d5'
+											font-family 'icos'
+											font-size 18px
+									.report_btn
+										//background red
+										border-radius 5px
+										color red
+										cursor pointer
+										display block
+										margin-left 18px
+										padding 0 4px
+						.usuarioInfo
+							border 2px solid naranjito
+							border-radius 50%
+							//display block
+							height 100px
+							transition .5s
+							width 100px
+							&:hover
+								background oscuro
+								border 2px solid oscuro
+								.comment_author_infos
+									color white
+							.comment_author_infos
+								font-size 13px
+								strong
+									display block
+									margin-top 15px
+									text-transform uppercase
+								em
+									font-size 13px
+							//.star_content
+		.reseñaComentario
+		.reseñaInfo
+			text-align center
+
+		.reseñaInfo
+			margin-top 18px
+			.homeTab
+				.main
+					background rgba(251, 224, 152, 1)
+					h3
+						color oscuro
+						font-weight 500
+						margin 0 auto
+						padding 4px 0
+						text-align center
+						width 80%
+						max-width 1150px
+						&:after
+							content '\e641'
+							font-family 'icos'
+							font-size 27px
+							color oscuro
+							margin-left 13px
+							font-weight 100
+			.rte
+				margin 0 auto
+				width 80%
+				max-width 1150px
+				p
+					text-align left
+
+
+
+h1
+	color oscuro
+	text-align center
+	span
+		display block
+
+.head-fixed
+	background-color white
+	//border-bottom 2px solid white
+	//height 50px
+	position fixed !important
+	top 0
+	width 100%
+	z-index 4
+	.header
+		height 50px
+		.headerCOnt 
+			height 50px
+			a
+				img
+					margin 4px 0 0 0
+					width 80%
+			.buscador
+				//margin-right 25px
+				padding 0
+				top 7px
+			.contenedorMenu
+				.menuManias
+					.menuTop
+						li
+							ul
+								top 45px
+			.carrito 
+				top 55px
+				& > .ajax_cart_quantity
+				& > .ajax_cart_no_product
+					left -10px
+					top -15px
+			.loginUsuario
+				top 55px
+	/*.infoAdicionalHeader
+		display none*/
+	.menuTop > li > a
+		line-height 50px
+
+// header
+// 	//position absolute
+// 	top 0
+// 	left 0
+// 	width 100%
+// 	background #4e6361
+// 	z-index 3
+// 	transform translateZ(0)
+// 	backface-visibility hidden
+// 	transition-property transform
+// 	transition-duration 0.4s
+
+// header.lateral-menu-is-open
+// 	transform translateX(-260px)
+	
+// header.is-fixed
+// 	position fixed
+	
+// .menu-fixed
+// 	background-color white !important
+// 	border-bottom 2px solid verdeClaroPet
+// 	border-top none !important
+// 	position fixed !important
+// 	top 55px
+// 	width 100%
+// 	z-index 1
+// 	.menuManias
+// 		background-color white !important
+// 		height 25px !important
+// 		.menuTop
+// 			border-left 1px solid #ddd
+// 		.menuTop > li
+// 			border-right 1px solid #ddd
+// 			height 25px !important
+// 		.menuTop > li > a
+// 				color oscuro
+// 				font-size 16px
+// 				line-height 25px !important
+// 				text-transform capitalize !important
+	
+hr
+	display none
+
+table
+	font-size 15px
+	width 100%
+	thead
+		background black
+		border-bottom 1px solid rojoAsiste
+		
+		font-size 13px
+		tr
+			border-radius 2px
+			th
+				color white
+				//border-right 1px solid clarito
+				//font-weight 100
+				//font-weight 400
+				line-height 30px
+				text-transform uppercase
+				&:last-child
+					border-right none
+	tbody
+		tr
+			//height 100px
+			td
+				border-bottom 2px solid clarito
+				//height 100px
+				padding 0
+				text-align center
+				a
+					img
+						height 100px
+						width 100px
+			.cart_avail
+				span
+					background colorao
+					color white
+					display block
+					line-height 100px
+			.cart_delete
+				width 40px
+				div
+					display block
+					height 105px
+					position relative
+					width 40px
+					a
+						display block
+						width 40px
+						&:after
+							color rojoAsiste
+							content '\e6fa'
+							display block
+							font-family 'icos'
+							font-size 18px
+							height 100%
+							line-height 105px
+							position absolute
+							right 0
+							top 0
+							width 40px
+			.cart_description
+				padding 0 10px
+				text-align left
+				&:hover
+					a
+						text-decoration underline
+				p
+					margin 2px 0
+					a
+						color oscuro
+						text-decoration none
+				small
+					display block
+					font-style italic
+					max-width 350px
+					a
+						color oscuro
+						text-decoration none
+				.product-name
+					
+					font-size 16px
+					font-weight 100
+					max-width 350px
+			.cart_product
+				padding 0 20px
+				width 100px
+			.cart_total
+				span
+					
+					font-weight 600
+			.cart_quantity
+				
+				font-weight 100
+				input
+					box-sizing border-box
+					padding 3px 5px
+			.cart_unit
+				
+				.price
+					.special-price
+						display none
+					.price-percent-reduction
+						float right
+						margin-right 15px
+	tfoot
+		tr
+			text-align right
+			td
+				background white
+				border none
+				padding 5px
+			.cart_voucher
+				form
+					//background edeef0
+					border 1px solid clarito
+					padding 5px
+					fieldset
+						padding 0
+						button
+							background rojoAsiste
+							border none
+							height 22px
+							line-height 22px
+							text-align center
+							span
+								color white
+								line-height 22px
+						h4
+							color rojoAsiste
+							margin 0 5px
+							padding 0
+							text-transform uppercase
+						button
+						h4
+						input
+							display inline-block
+							vertical-align middle
+			.cart_voucher
+			.precioTotal
+			.textoTotal
+				background white
+				border none
+				margin 0
+			.conIva
+			.delivery
+			.textTotal
+			.textoTotal
+			.transporte
+				
+				font-size 13px
+			.precioTotal
+				border-bottom 2px solid #c41925
+				span
+					color #c41925
+					
+					font-size 30px
+					font-weight 600
+					text-transform uppercase
+			.price
+				
+				//font-weight 600
+		.cart_total_delivery
+			.text-right
+				
+				font-size 13px	
+		.cart_total_price
+			.priceFinal
+				border-bottom 2px solid #c41925
+				span
+					color #c41925
+					font-family 'seravekregular'
+					font-size 30px
+					font-weight 600
+					letter-spacing 2px
+					text-transform uppercase
+		.cart_total_voucher
+			text-align right
+			.price-discount
+				color colorao
+				font-weight 600
+				text-transform uppercase
+			// .price-discount
+			// .text-right
+			// 	display inline-block
+
+td
+	.sale-box
+		display none
+
+.adjuntos
+	display inline-block
+	margin-left 8%
+	margin-top 25px
+	vertical-align top
+	width 24%
+	h3
+		border 1px solid transparent
+		border-bottom 2px solid clarito
+		color oscuro
+		font-family 'quicksandbold'
+		font-size 20px
+		font-weight 100
+		letter-spacing -1px
+		line-height 40px
+		margin 0
+		padding 5px 10px 0 10px
+		text-transform uppercase
+	.col-lg-4
+		border 1px solid clarito
+		h4
+			//background naranjito
+			//border-radius 5px
+			margin 0
+			position relative
+			text-align left
+			width 100%
+			a
+				color oscuro
+				display block
+				font-family 'quicksandregular'
+				font-size 18px
+				font-weight 400
+				letter-spacing -1px
+				line-height 50px
+				margin 0 0 0 5%
+				text-decoration none
+				width 95%
+			&:after
+				color rojoAsiste
+				content '\e65e'
+				font-family 'icos'
+				font-size 22px
+				font-weight 100
+				position absolute
+				right 20px
+				top 12px
+			&:hover
+				background rojoAsiste
+				a
+					color white
+				&:after
+					color white
+		p
+			display none
+			font-family 'oswaldlight'
+			font-size 11px
+			margin 0 0 0 5%
+			width 95%
+	
+.ac_results
+	background white
+	border 1px solid clarito
+	border-radius 0 0 5px 5px
+	margin-top 2px
+	z-index 10000000000000000000
+	ul
+		margin 0
+		padding 0
+		li
+			cursor pointer
+			list-style none
+			font-size 13px
+			font-weight 600
+			//margin 0 0 0 5px
+			margin 0
+			padding 3px
+			&:hover
+				background #00c7d1
+				color white
+
+.accedeCuentaChica
+	background white
+	//border 2px solid clarito
+	box-shadow 0 2px 18px rgba(0,0,0,0.2)
+	display none
+	margin-left -100px
+	padding 10px
+	position relative
+	z-index 4
+	.close
+		position absolute
+		text-align right
+		top 0
+		width 90%
+		.icon-cross 
+			font-size 10px
+	form
+		padding-top 15px
+		width 100%
+		.form_content
+			.form-group
+				padding 5px 0
+				label
+					display block
+					font-size 13px
+					text-align left
+					width 100%
+				input
+					border-radius 2px
+					display block
+					font-size 15px
+					width 100%
+					&:focus
+						background aliceblue
+			.emailLogin
+			.passwordLogin
+				font-family 'seravekregular'
+				letter-spacing 2px
+				text-transform uppercase
+				input
+					border 1px solid #8cecec
+			.linkCreaCuenta
+				background black
+				border-radius 2px
+				color white
+				display block
+				font-family 'seravekregular'
+				font-size 15px
+				letter-spacing 2px
+				line-height 30px
+				margin 0
+				text-decoration none
+				text-transform uppercase
+				&:hover
+					text-decoration underline
+			.lost_password
+				font-size 12px
+				margin 14px 0 0 0
+				a
+					color oscuro
+					font-weight 100
+					text-decoration none
+					&:hover
+						text-decoration underline
+			.submit
+				margin 10px 0 0 0
+				text-align right
+				button
+					background transparent
+					border 1px solid #F4ADAD
+					border-radius 2px
+					color oscuro
+					width 100%
+					&:hover
+						background #F4ADAD
+						color white
+					span
+						font-family 'seravekregular'
+						font-size 15px
+						letter-spacing 2px
+						line-height 30px
+						text-transform uppercase
+				input
+					display block
+					width 100%
+
+.accesorios
+	margin-top 20px
+	.relacionados
+		border-bottom 4px solid clarito
+		display block
+		h3
+			color naranjo
+			font-family 'oswaldregular'
+			font-size 20px
+			font-weight 400
+			margin 0
+			text-align left
+			text-transform uppercase
+.activaMenu
+	//left 0 !important
+	opacity 1 !important
+	transition .3s !important
+	//transform translateX(0) !important
+	visibility visible !important 			
+.active
+	display block
+
+.activo
+	display block !important
+
+.adresses_bloc
+	.row
+		.col-xs-12
+			display inline-block
+			vertical-align top
+			width 49%
+			ul
+				margin 0
+				padding 5px 2%
+				width 98%
+				li
+					list-style none
+					margin 0
+					padding 0
+					text-align left
+					h3
+						font-weight 100
+						margin 0
+						text-align left
+
+.alertClica
+	color #999
+	
+	font-size 15px
+	margin 20px 0
+	text-align center
+
+.alert-warning
+	border 2px solid colorao
+	box-sizing border-box
+	color colorao
+	font-size 13px
+	margin 25px auto
+	padding 5px 15px
+	text-align center !important
+	max-width 900px
+	width 80%
+
+.alert-danger
+	background colorao
+	border-radius 5px
+	margin 16px auto
+	padding 5px 0
+	width 80%
+	p
+		color white
+		display none
+		text-align center
+	ol
+		margin 0
+		padding 0
+		li
+			color white
+			text-align center
+	.lnk
+		background naranjito
+		border-radius 5px
+		display block
+		margin 16px auto
+		width 100px
+		a
+			color white
+.alert-success
+	background naranjito
+	border-radius 5px
+	color white
+	margin 16px auto 0
+	padding 5px 0
+	text-align center
+	width 80%
+.alerta
+	color white
+	ol
+		background naranjito
+		border-radius 5px
+		margin 0
+		padding 4px
+		li
+			font-size 15px
+			list-style none
+			
+.añadeCarrituHome
+	//background linear-gradient(to bottom right, white 50%, naranjoPet 50%)
+	//border-radius 50%
+	//box-shadow 0 0 10px oscuro
+	//bottom 0
+	//bottom -40px
+	//cursor pointer
+	display block
+	//font-size 13px
+	//float right
+	//right -40px
+	//height 80px
+	//margin-left -27px
+	margin-top 10px
+	//opacity 0
+	//position absolute
+	transition .4s
+	//transform rotate(45deg)
+	//width 80px
+	z-index 1
+	a
+		//display block
+		//height 50px
+		position relative
+		text-decoration none
+		//width 50px
+		span
+			//display block
+			/*&:before
+				bottom 35px
+				color white
+				content '\e636'
+				display block
+				font-family 'icos'
+				font-size 20px
+				left 5px
+				//line-height 66px
+				position absolute
+				text-align center
+				transform rotate(-45deg)
+				width 25px*/
+			/*&:before
+				bottom 0
+				color white
+				content '\ea3e'
+				font-family 'iconos'
+				font-size 30px
+				left 10px
+				position absolute
+				top 12px*/
+	a
+	.carritoVacio
+		background #ccc
+		display initial
+		font-size 13px
+		//opacity 0
+		padding 5px 10px
+		transition .3s
+		//visibility hidden
+		span
+			color white
+			font-family 'seravekregular'
+			font-size 13px
+			//font-weight 600
+			text-transform uppercase	
+	.carritoVacio
+		/*&:before
+			color white
+			content '\e688'
+			display block
+			font-family 'icos'
+			font-size 20px
+			line-height 45px
+			text-align center
+			width 45px*/
+	.carritoBoton
+		color red
+		font-family 'icos'
+		font-size 11px
+		height 25px
+		position absolute
+		top 0
+		width 25px
+
+.bigTriangleColor
+	position absolute
+	path
+		fill naranjoPet
+		stroke naranjoPet
+		stroke-width 2
+
+.block-cms
+.rte
+	margin 0 auto
+	max-width 1050px
+	text-align left
+	h1
+	h2
+	h3
+		text-decoration underline
+		text-transform uppercase
+	h1
+	h2
+		font-size 16px
+		font-weight 600
+		a
+			color oscuro
+			display block
+			text-align left
+			transition .2s
+			&:hover
+				color naranjoPet 
+	h3
+	p
+		font-size 15px
+	h3
+		font-weight 400
+		text-align left
+	p
+		font-size 15px
+		a
+			color naranjoPet
+			font-style italic
+			font-weight 600
+	.list-group
+		margin 0
+		padding 0
+		li
+			border 2px solid naranjoPet
+			border-radius 19px
+			display block
+			margin-bottom 5px
+			padding 5px 0
+			text-align center
+			width 300px
+			a
+				color oscuro
+				display block
+				font-size 13px
+				font-weight 600
+				text-decoration none
+				text-transform uppercase
+				transition .2s
+				width 100%
+				&:hover
+					color naranjoPet
+					text-decoration underline
+
+.bodyWishlist
+	
+	font-size 100
+
+.boton
+	background clarito
+	
+.boton-search
+	background #003366
+	border-radius 3px
+	cursor pointer
+	height 37px
+	display block
+	position absolute
+	right 43px
+	top 23px
+	width 37px
+	.icon-search
+		color white
+		display block
+		font-size 25px
+		line-height 37px
+		text-align center
+		width 37px
+	.icon-cross
+		color white
+		display block
+		font-size 18px
+		line-height 37px
+		text-align center
+		width 37px
+
+.bottom-footer
+	display none
+
+
+.box
+	//border 1px solid clarito
+	font-size 15px
+	margin-top 18px !important
+	//padding 20px
+	text-align left !important
+	a
+		color oscuro
+		font-weight 600
+		transition .3s
+		&:hover
+			color colorao
+	p
+		display block
+		font-size 15px
+		margin 0 auto
+		text-align left
+
+.box-security
+	display none
+	
+.breadcrumb
+	//background clarito
+	border 1px solid clarito
+	color #aeadb3
+	display none
+	font-family 'oswaldregular'
+	font-size 13px
+	line-height 20px
+	margin 35px auto 15px
+	position relative
+	a
+		margin-top -3px !important
+		&:after
+			border-bottom 11px solid clarito
+			border-left 5px solid transparent
+			border-right 5px solid clarito
+			border-top 11px solid transparent
+			bottom 0
+			content ''
+			position absolute
+			right 0
+			z-index 1
+		&:before
+			border-bottom 11px solid white
+			border-left 5px solid transparent
+			border-right 5px solid white
+			border-top 11px solid transparent
+			bottom 0
+			content ''
+			position absolute
+			right -1px
+			z-index 2
+	a
+	span
+		margin 0
+	a
+	span
+	.home
+		//background white
+		//border-right 1px solid clarito
+		color #aeadb3
+		display inline-block
+		line-height 20px
+		padding 0 25px
+		position relative
+		text-decoration none
+		vertical-align middle
+	.home
+		margin 0 -2px 0 0
+		.icon-home
+			position relative
+			&:before
+				color #aeadb3
+				content '\e600'
+				font-family 'icos'
+				font-size 11px
+	.navigation_page
+		color oscuro !important
+	.navigation-pipe
+		display none
+
+.btn-facebook
+	position relative
+	&:after
+		color oscuro
+		content '\e76a'
+		font-family 'icos'
+		font-size 18px
+		
+.btn-google-plus
+	position relative
+	&:after
+		color oscuro
+		content '\e766'
+		font-family 'icos'
+		font-size 18px
+		
+.btn-pinterest
+	display none
+	
+.btn-twitter
+	position relative
+	&:after
+		color oscuro
+		//content '\e76d'
+		content '\e76e'
+		font-family 'icos'
+		font-size 18px
+
+.buton
+	ul
+		list-style-type circle !important
+	&:hover
+		ul
+			display block !important
+			transition .5s
+
+.bx-controls
+	bottom 0
+	height 100%
+	position absolute
+	text-align center
+	width 100%
+.bx-controls-direction
+	position relative
+	width 100%
+	.bx-next
+	.bx-prev
+		//background red
+		font-size 0
+		height 50px
+		opacity .6
+		position absolute
+		text-decoration none
+		top 165px
+		width 50px
+		&:hover
+			opacity 1
+	.bx-next
+		right 0
+		text-align right
+		transition .4s
+		&:after
+			color otroGris
+			content 'Avanza para saber más'
+			display block
+			font-family 'open sans'
+			font-size 13px
+			font-style italic
+			position absolute
+			right 0
+			text-align right
+			top 50px
+			width 100px
+		&:before
+			color white
+			content "\ea65"
+			display block
+			font-family 'iconos' 
+			font-size 50px
+			text-shadow 0 2px 5px rgba(black, .6)
+			width 100%
+			
+	.bx-prev
+		left 0
+		text-align left
+		transition .4s
+		&:before
+			color white
+			content "\e9f4"
+			display block
+			font-family 'iconos' 
+			font-size 50px
+			text-shadow 0 2px 5px rgba(black, .6)
+			width 100%
+.bx-start.active
+.bx-pager-link.active
+	//background azulAsiste
+	//border 2px solid white
+	&:before
+		color naranjoPet
+		content '\ea34'
+		font-family 'iconos'
+		font-size 35px
+		line-height 35px
+.bx-pager-link
+	background clarito
+	//border 2px solid azulAsiste
+	border-radius 50%
+	bottom 0
+	display inline-block
+	left 0
+	height 35px
+	position absolute
+	text-decoration none
+	//text-indent -9999px
+	vertical-align middle
+	width 35px
+	&:before
+		color otroGris
+		content '\ea34'
+		font-family 'iconos'
+		font-size 25px
+		line-height 35px
+.bx-pager
+	bottom 0
+	position absolute
+	width 100%
+.bx-pager-item
+	display inline-block
+	height 35px
+	margin 0 4px 0 0
+	position relative
+	width 35px
+	z-index 3
+	a
+		font-size 0
+
+.candadito
+	left 50%
+	line-height 40px
+	margin-left -80px
+	position absolute
+	top 0
+	img
+		filter grayscale(1)
+		margin-top -3px
+		-ms-filter grayscale(1)
+		-webkit-filter grayscale(1)
+		width 22px
+	.imgCandadito:hover ~ .textCandadito
+		color otroGris
+	img
+	p
+		display inline-block
+		vertical-align middle
+	.textCandadito
+		color otroGris
+		font-size 10px
+		//font-style italic
+		margin 0
+		text-transform uppercase
+		transition .5s
+
+.capaCarrito
+	background white
+	color oscuro
+	position fixed
+	h2
+		font-size .8em
+.cart_quantity_button
+	display none
+
+.categoriasHome
+	box-sizing border-box
+	margin 1em auto
+	position relative
+	max-width 1050px
+	#htmlcontent_home
+	.contenedor
+		//background red
+		//overflow hidden
+		position relative
+		width 100%
+		ul
+		.row
+			font-size 0
+			list-style-type none
+			margin 0
+			padding 0
+			li
+				display inline-block
+				height 200px
+				margin 0 0 -5px 0
+				padding 0
+				overflow hidden
+				padding 5px
+				//position absolute
+				width 33%
+				&:hover
+					.categoriaIcon
+						bottom 5px
+				&:nth-child(1)
+					//border-top 5px solid naranjo
+					/*left 0
+					top 0*/
+					a
+					.linkToCategory
+						background #32a99a
+						//border-radius 10px
+						figure
+							figcaption
+								h3
+									bottom 2em
+									color white
+									margin 0
+									text-align center
+									text-transform uppercase
+									width 100%
+				&:nth-child(2)
+					//border-top 5px solid naranjito
+					/*left 33.3%
+					top 0*/
+					a
+					.linkToCategory
+						background #32a99a
+						//border-radius 10px
+						figure
+							figcaption
+								h3
+									bottom 2em
+									color white
+									margin 0
+									text-align center
+									text-transform uppercase
+									width 100%				
+				&:nth-child(3)
+					//border-top 5px solid #BA007C
+					/*left 66.6%
+					top 0*/
+					a
+					.linkToCategory
+						background #32a99a
+						//border-radius 10px
+						figure
+							figcaption
+								h3
+									color black
+									margin 0 5% 0 5%
+									text-align left
+									text-transform uppercase
+									top 2em
+									width 90%
+								p
+									color black
+									margin 0 5% 0 5%
+									text-align justify
+									top 4em
+									width 90%
+				&:nth-child(4)
+					//border-top 5px solid #BA007C
+					/*left 66.6%
+					top 0*/
+					a
+					.linkToCategory
+						background #32a99a
+						//border-radius 10px
+						figure
+							figcaption
+								h3
+									color black
+									margin 0 5% 0 5%
+									text-align left
+									text-transform uppercase
+									top 2em
+									width 90%
+								p
+									color black
+									margin 0 5% 0 5%
+									text-align justify
+									top 4em
+									width 90%
+				&:nth-child(5)
+					//border-top 5px solid #A38051
+					//left 33.3%
+					//margin-top 10px
+					//top 33.4%
+					//width 50%
+					a
+					.linkToCategory
+						background #32a99a
+						figure
+							figcaption
+								h3
+									color black
+									margin 0
+									text-align center
+									text-transform uppercase
+									top 1em
+									width 100%
+				&:nth-child(6)
+					//border-top 5px solid #579532
+					/*bottom 0
+					left 33.3%*/
+					a
+					.linkToCategory
+						background #32a99a
+						figure
+							figcaption
+								h3
+									bottom 2em
+									color white
+									margin 0
+									text-align center
+									text-transform uppercase
+									width 100%
+				&:nth-child(7)
+					//border-top 5px solid #7B057E
+					bottom 0
+					left 66.6%
+					a
+					.linkToCategory
+						background #32a99a
+						figure
+							figcaption
+								h3
+									color black
+									margin 0
+									text-align center
+									text-transform uppercase
+									top 1em
+									width 100%
+						.item-html
+							h3
+								color oscuro
+								margin 0
+								text-align center
+								text-transform uppercase
+								top 1em
+								width 100%
+							p
+								color black
+								margin 0 5% 0 5%
+								text-align justify
+								top 4em
+								width 90%
+				a
+				.linkToCategory
+					display block
+					height 100%
+					margin 0
+					overflow hidden
+					padding 0
+					position relative
+					img
+						//height 100%
+						margin 0
+						padding 0
+						//width 100%
+					&:before
+						background linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.5) 75%)
+						content ''
+						height 100%
+						left 0
+						opacity 0
+						position absolute
+						top 0
+						transform translate3d(0,50%,0)
+						transition .3s
+						width 100%
+					&:hover
+						&:before
+							opacity 1
+							transform: translate3d(0, 0 ,0)
+						.item-html
+							.abajo
+								margin-bottom 1em
+							.arriba
+								margin-top 1em
+					figure
+						margin 0
+						padding 0
+						transition 0.35s
+						figcaption
+							transition .3s
+							h3
+								
+								position absolute
+								left 0
+								width 100%
+								color #484c61
+								transform translate3d(0,-50%,0)
+							h3
+							p
+								position absolute
+								transition 0.35s
+							p
+								font-family 'proxima_novalight'
+								//font-size 15px
+								left 0
+								//text-transform uppercase
+								transform translate3d(0,10px,0)
+								width 100%
+						img
+							margin 0
+							padding 0
+							width 100%
+						
+					.item-html
+						bottom 0
+						padding 5px 15px
+						position absolute
+						transition .3s
+						width 100%
+						h3
+						p
+							transition 0.35s
+							width 100%
+						h3
+							//bottom 2em
+							color white
+							font-family 'quicksandregular'
+							font-size 16px
+							letter-spacing -1px
+							margin 0
+							text-align left
+							text-transform uppercase
+							width 100%
+						p
+							color white
+							display block
+							font-family 'open sans'
+							font-size 13px
+							margin 16px 0 0 0
+							//margin 0 5% 0 5%
+							text-align left
+							//top 4em
+							width 100%
+							//width 90%
+						ul
+							list-style-type disc
+							margin 16px 0 0 0
+							padding 0
+							li
+								color white
+								display list-item
+								font-family 'open sans'
+								font-size 13px
+								height initial
+								margin 0 0 0 16px
+								overflow visible
+								padding 0
+								text-align left
+								width 100%
+
+.category-thumbnail
+	/*position absolute !important
+	right 20px
+	top 20px*/
+	bottom 15px
+	margin 0
+	padding 0
+	position absolute !important
+	right 15px
+	div
+		width 200px
+		img
+			width 100%
+					
+.carrito
+	//background #f8b302
+	//background #003F3F
+	//background rgb(255, 76, 0)
+	//background rojoAsiste
+	cursor pointer
+	//float right
+	height 35px
+	position absolute
+	right 0
+	text-align center
+	text-decoration none
+	top 75px
+	transition .3s
+	//width 35px
+	z-index 1
+	.carritoIcon
+		background-color black
+		border-radius 50%
+		display inline-block
+		height 35px
+		text-align center
+		vertical-align middle
+		width 35px
+		svg
+			margin-top 6px
+			width 65%
+		/*&:before
+			color white
+			content "\e601"
+			display block
+			font-family 'manias'
+			font-size 30px
+			font-weight 100
+			left 0
+			line-height 30px
+			position absolute
+			text-align center
+			top 0
+			width 90px*/
+	// &:hover
+	// 	.carritoHover
+	// 		display block
+	.carritoHover
+		background white
+		border-radius 5px
+		box-shadow 1px 1px 10px oscuro
+		//border 1px solid #aeadb3
+		display none
+		padding 0 3px
+		position absolute
+		right 0
+		text-align left
+		top 40px
+		transition .3s
+		width 300px
+		z-index 10000
+		.carritoDeCompra
+			position relative
+			.topCarrito
+				background #006666
+				//display block
+				display none
+				height 40px
+				width 100%
+				h3
+					color oscuro
+					font-family 'quicksandregular'
+					font-size 14px
+					line-height 40px
+					margin 0 0 0 50px
+					position relative
+					text-align left
+					&:before
+						content '\e636'
+						font-family 'icos'
+						font-size 20px
+						left -30px
+						font-weight 100
+						position absolute
+						top 0px
+					span
+						display inline-block
+						font-weight 100
+					.unvisible
+						display none
+			.cart_block
+				.block_content
+					position relative
+					.cart_block_list
+						.products
+							dd
+								display none
+							.first_item
+							.item
+							.last_item
+								font-family 'seravekregular'
+								letter-spacing 2px
+								margin 3px 0
+								overflow hidden
+								padding-bottom 7px
+								position relative
+								text-transform uppercase
+								&:hover
+									background #00c7d1
+									.cart-info
+										.product-name
+											a
+												color white
+											.cantidad
+												span
+													color white
+											.nombreProducto
+												.cart_block_product_name
+													color white
+											.quantity-formated
+												color white
+												.quantity
+													color white
+										.product-atributes
+											a
+												color white
+										span
+										.price
+											color white
+									.remove_link
+										a
+											&:after
+												color clarito
+								.cart-images
+									//border-radius 5px
+									display block
+									float left
+									height 55px
+									//margin-left 5px
+									img
+										border 2px solid #00c7d1
+										//border 1px solid clarito
+										border-radius 3px
+										margin 5px
+										width 50px
+								.cart-info
+									float left
+									position relative
+									width 160px
+									.product-name
+										float left
+										
+										width 110px
+										.cantidad
+											span
+												margin-left -4px
+										.cantidad
+										.quantity-formated
+											width 25px
+											span
+												color oscuro
+												display inline-block
+												
+												font-size 13px
+											.quantity
+												margin-right 5px
+										.cantidad
+										.nombreProducto
+											display inline-block
+											vertical-align top
+										.nombreProducto
+											width 68px
+											.cart_block_product_name
+												color oscuro
+												display block
+												font-family 'seravekregular'
+												font-size 13px
+												letter-spacing 2px
+												line-height initial
+												margin 0
+												overflow hidden
+												padding 10.5px 0
+												text-decoration none
+												text-transform uppercase
+										.cart_block_product_name
+											line-height initial
+											margin-top 8px
+											width 68px
+										.cart_block_product_name
+										.quantity-formated
+											color oscuro
+											float left
+											font-size 13px
+											text-transform uppercase
+										.quantity-formated
+											//margin-right 5px
+											width 35px
+									.product-name
+									.product-atributes
+									.price
+										// display inline-block
+										// vertical-align top
+										line-height 40px
+									.price
+										font-family 'seravekregular'
+										font-size 15px
+										position absolute
+										text-align right
+										text-transform uppercase
+										top 0
+										right 0
+									.product-atributes
+										display none
+										a
+											color oscuro
+									span
+									.price
+										color oscuro
+										float right
+										font-size 13px
+										//width 30%
+								.remove_link
+									//background green
+									cursor pointer
+									//float left
+									height 40px
+									position absolute
+									right 0
+									top 0
+									width 20px
+									a
+										font-size 0
+										&:after
+											color oscuro
+											content '\e6fa'
+											display block
+											font-family 'icos'
+											font-size 12px
+											left 0
+											line-height 40px
+											position absolute
+											text-align center
+											top 0
+											transition .2s
+											width 16px
+										// &:hover
+										// 	&:after
+										// 		color rojoAsiste
+		.cart-buttons
+			background black
+			//border-radius 20px
+			//float right
+			margin 15px 0 15px auto
+			padding 0 1em
+			position relative
+			transition .3s
+			//width 150px
+			/*&:after
+				border-bottom 17.5px solid transparent
+				border-top 17.5px solid transparent
+				border-right 10px solid #000
+				content ''
+				left -10px
+				position absolute
+			&:before
+				border-bottom 17.5px solid transparent
+				border-top 17.5px solid transparent
+				border-right 10px solid #000
+				content ''
+				position absolute
+				right -10px*/
+			a
+				display block
+				line-height 30px
+				position relative
+				text-align center
+				text-decoration none
+				span
+					color white
+					//font-family 'quicksandbold'
+					font-family 'seravekregular'
+					font-size 15px
+					letter-spacing 2px
+					margin 0
+					text-transform uppercase
+					/*&:after
+						content '\e722'
+						font-family 'icos'
+						font-size 10px
+						//right 0
+						font-weight 100
+						//line-height 40px
+						margin-left 7px
+						margin-top 10px*/
+			&:hover
+				a
+					span
+						text-decoration underline
+
+		.productoCarrito
+			position relative
+
+.carrito > .ajax_cart_quantity
+	background #f4adad
+	border 3px solid white
+	border-radius 50%
+	color white
+	font-size 11px
+	left -12px
+	line-height 19px
+	height 25px
+	position absolute
+	text-align center
+	top -12px
+	width 25px
+.carrito > .ajax_cart_no_product
+	display none !important
+
+.carritoAlert
+	//background clarito
+	background-color white
+	//border 1px solid otroGris
+	//border 2px solid otroGris
+	//border-radius 40px
+	box-shadow 1px 1px 10px oscuro
+	box-sizing border-box
+	display none
+	font-size 12px
+	left 50%
+	margin-left -210px
+	//margin-top 78px
+	//padding 15px 10px
+	position fixed
+	text-align right
+	top 125px !important
+	min-width 200px
+	z-index 100001
+	.crossseling
+		overflow hidden
+		.crossseling-content
+			h2
+				color otroGris
+				font-family 'oswaldregular'
+				font-size 15px
+				font-weight 100
+				margin 0 0 .8em 0
+				text-align left
+				text-transform uppercase
+		#blockcart_list
+			.bx-controls
+				text-align center
+				width 100%
+			.bx-viewport
+				ul
+					margin 0
+					padding 0
+					li
+						margin 5px
+						padding 0
+						.price_display
+							display none
+						.product-image-container
+							a
+								img
+									border 1px solid clarito
+									width 100%
+						.product-name
+							a
+								color oscuro
+								font-size 13px
+								font-weight 600
+								text-transform uppercase
+	.layer_cart_product
+		text-align left
+		h2
+			background-color black
+			box-shadow 1px 1px 10px rgba(67,65,66,0.4)
+			//border-radius 10px
+			color white
+			font-size 15px
+			//font-style italic
+			font-weight 100
+			margin 0
+			padding 15px 10px
+			text-align left
+			text-transform uppercase
+		.cross
+			background white
+			border 1px solid clarito
+			border-radius 50%
+			cursor pointer
+			height 30px
+			position absolute
+			right -10px
+			top -10px
+			width 30px
+			&:after
+				color naranjoPet
+				content '\e6fa'
+				font-family 'icos'
+				font-size 16px
+				display block
+				line-height 28px
+				text-align center
+				width 28px
+		.layer_cart_img
+			//border 1px solid clarito
+			background-color white
+			//border-radius 50%
+			box-shadow 1px 1px 10px rgba(67,65,66,0.4)
+			//height 200px
+			margin 0 auto
+			padding 0
+			width 100%
+			img
+				//border-radius 50%
+				box-shadow none
+				display block
+				margin 0 auto
+				padding 0
+				width 200px
+		/*.layer_cart_img
+		.layer_cart_product_info
+			box-sizing border-box
+			display inline-block
+			text-align left
+			vertical-align top*/
+		.layer_cart_product_info
+			background-color black
+			box-shadow 1px 1px 10px rgba(67,65,66, 1)
+			//border-radius 15px
+			color white
+			padding 10px 0
+			position relative
+			text-align center
+			width 100%
+			.product-name
+				display block
+				font-size 15px
+				font-weight 600
+				text-transform uppercase
+			span
+				text-shadow 1px 1px 3px rgba(67,65,66,0.4)
+
+.carritoHover
+	.bloc_cart_voucher
+		.name
+			display none
+		.price
+			padding-left 5%
+			text-align left
+			width 50%
+		.price
+		.quantity
+			font-family 'oswaldregular'
+			font-size 15px
+			font-weight 100
+		.quantity
+			//padding-right 9%
+			text-align right
+			width 50%
+
+.categoriaIcon
+	background naranjoPet
+	border-radius 50%
+	bottom -20px
+	height 100px
+	margin-right -50px
+	position absolute
+	right 50%
+	text-align center
+	transition .3s
+	width 100px
+	.icon-meter
+		color white
+		font-size 50px
+		line-height 100px
+		
+.cd-img-replace
+	display inline-block
+	overflow hidden
+	text-indent 100%
+	white-space nowrap
+
+.cd-main-content
+	backface-visibility hidden
+	background white
+	position relative
+	transform translateZ(0)
+	transition-duration 0.4s
+	transition-property transform
+	z-index 2
+
+.cd-main-content.lateral-menu-is-open
+	transform translateX(-260px)
+
+.checkbox
+	a
+		background clarito
+		border-radius 5px
+		color oscuro
+		display block
+		font-size 13px
+		line-height 40px
+		margin 18px auto
+		width 300px
+	label
+	.checker
+		display inline-block
+	.checker
+		span
+			width 40px
+			input
+				text-align center
+
+.checkbox
+	margin 0 auto
+	width 70%
+	label
+		font-size 13px
+		text-align left
+		width 75%
+	label
+	.checker
+		display inline-block
+		vertical-align top
+		span
+			input
+				height 15px
+				width 15px
+	.checker
+		text-align right
+		
+.checkboxIncribase
+	display inline-block
+	margin-top 15px
+	vertical-align top
+	width 48%
+	label
+		font-size 11px
+		font-weight 100
+		text-align left
+		width 91%
+	label
+	.checker
+		display inline-block
+		vertical-align top
+		span
+			input
+				height 15px
+				width 15px
+
+.cierraDespliega
+	display none
+	&:before
+		content ''
+
+.cienPorciento
+	width 100% !important
+
+.cierraMenu
+	//background-color naranjito
+	cursor pointer
+	height 25px
+	position absolute
+	right 0
+	top 5px
+	visibility visible
+	width 25px
+	z-index 10
+
+.clear
+	clear both
+
+.clearfix:before
+.clearfix:after
+	content " "
+	display table
+
+.col-sm-2
+	display block
+	width 20%
+
+.color-option
+	border-radius 50%
+	height 20px
+	width 20px
+	vertical-align middle
+
+.colorao
+	color colorao
+
+.comparison_infos
+	a
+		text-decoration none
+		span
+			color clarito
+			transition .3s
+			&:hover
+				color naranjito
+
+.condicion
+	font-family 'quicksandregular'
+	font-size 13px
+	letter-spacing -1px
+	padding 0 5px 0 15px
+	//width 50%
+	.ProdNuevo
+	.ProdReparado
+	.ProdUsado
+		//display block
+		padding-left 15px
+		position relative
+		width 45px
+		&:before
+			border-radius 50%
+			color white
+			display block
+			font-family 'Open Sans'
+			font-size 10px
+			font-weight 600
+			height 13px
+			left 0
+			line-height 13px
+			position absolute
+			text-align center
+			top -1px
+			width 13px
+	.ProdNuevo
+		
+		&:before
+			background-color verdeClarito
+			content 'N'
+	.ProdReparado
+		
+		&:before
+			background-color verdeAsiste
+			content 'R'
+	.ProdUsado
+		
+		&:before
+			background-color rojoAsiste
+			content 'U'
+
+.conoce
+	margin 10px auto
+	max-width 1050px
+	h2
+		font-style italic
+		font-weight 100
+		margin 0
+		span
+			color naranjoPet
+			font-weight 600
+	h2
+	p
+		display block
+		text-align center
+	p
+		font-size 13px
+		margin 0
+		font-style italic
+		a
+			color verdeClaroPet
+			transition .3s
+			&:hover
+				color naranjoPet
+		
+
+.contacto
+	margin-top 10px
+	fieldset
+		.contenedorForm
+			border 1px solid clarito
+			padding 5px 5%
+			.desc_contact
+				display block
+				font-size 10px
+				//margin 0 auto
+				//width 90%
+			.selector1
+				margin-top 10px
+				text-align left
+				label
+					
+					font-weight 100
+					display block
+					width 100%
+				.selector
+					width 100% !important
+					span
+						display none
+					select
+						width 100%
+			.formularioUno
+				//background otroGris
+				//height 250px
+				text-align left
+				.form-group
+					margin 5px 0
+					width 90%
+					label
+						
+						font-weight 100
+					input
+						width 100%
+					.uploader
+						span
+							display none
+				.selector1
+					label
+						display block
+						width 100%
+					.selector
+						width 100% !important
+						span
+							display none
+						select
+							width 100%
+			.formularioUno
+			.mensaje
+				display inline-block
+				vertical-align top
+				width 49%
+			.mensaje
+				.form-group
+					margin 5px auto 0
+					label
+						display block
+						
+						font-weight 100
+						margin 2px 0
+						text-align left
+					textarea
+						height 130px
+						width 100%
+		.submit
+			margin-top 10px
+			text-align right
+			button
+				background clarito
+				border none
+				padding 5px 25px
+				text-align center
+				span
+					
+				&:hover
+					background rojoAsiste
+					span
+						color white
+						font-weight 100
+
+.container
+	margin 240px auto .6em
+	//max-width 950px
+
+.contenedorFormNuevoComentario
+	text-align center
+	label
+		display block
+	textarea
+		border-radius 5px
+		width 70%
+	.footerFormComentarios
+		.botonesAgregaComentario
+			text-align right
+			width 100% !important
+			// a
+			// 	background clarito
+			// 	border 1px solid oscuro
+			// 	border-radius 5px
+			// 	color oscuro
+			// 	display block
+			// 	margin 10px auto 0
+			// 	text-align center
+			// 	text-decoration none
+			// 	width 40%
+			button
+				background rojoAsiste
+				border none
+				//border-radius 5px
+				width 30%
+				span
+					color white
+					font-family 'quicksandregular'
+					font-weight 100
+
+	.new_comment_form_content
+		input
+			width 70%
+		ul
+			margin 20px 0 20px 29%
+			padding 0
+			width 69%
+			li
+				background clarito
+				list-style none
+				margin 0
+				padding 0 5px
+				label
+					
+					font-size 15px
+					font-weight 100
+					margin 5px 0
+					text-align left
+				.star_content
+					text-align left
+		.formComentario
+			margin 20px 0 20px 29%
+			text-align left
+			width 69%
+			label
+			textarea	
+				font-size 15px
+				font-weight 100
+				margin 5px 0
+			input
+			textarea
+				border-radius 0
+				box-sizing border-box
+				width 100%
+	.product
+		border 1px solid clarito
+		padding 10px
+		.fotoNuevoComentatio
+			border 1px solid clarito
+			//border-radius 50%
+			margin-right 3%
+			width 30%
+		.fotoNuevoComentatio
+		.product_desc
+			display inline-block
+			vertical-align top
+		.product_desc
+			//background oscuro
+			//border-radius 5px
+			margin 0 auto
+			width 65%
+			p
+				color oscuro
+				//font-family 'quicksandregular'
+				font-size 15px !important
+				margin 0
+				text-align justify
+			.product_name
+				margin-bottom 5px
+				text-align left
+				strong
+					font-family 'quicksandbold'
+					font-size 20px
+					font-weight 100
+
+.contenedorHistoria
+	margin 0 auto
+	max-width 950px
+	h1
+		margin-top 16px
+	table
+		margin 18px auto
+		tbody
+			tr
+				.footable-first-column
+					a
+						color azulAsiste
+						text-decoration none
+						&:hover
+							text-decoration underline
+
+.contenedorMenu
+	//background verdeOscuro
+	position relative
+	left 0
+	top 0
+	width 100%
+	
+.contenedorPartners
+	border-top 2px solid #f5f5f5
+	margin 30px auto
+	overflow hidden
+	position relative
+	width 950px
+	
+.presentacion
+	position relative
+	.contenedorPresentacion
+		//background-color red
+		background url('../img/cabecera/flores.jpg') fixed
+		background-size cover
+		//height 500px
+		height 600px
+		position relative
+		width 100%
+		.contFoto
+			height 100%
+			margin 0 auto
+			max-width 1050px
+			position relative
+			.fotoPresentacion
+				left 0
+				margin 0
+				padding 0
+				position absolute
+				bottom 30px
+				max-width 500px
+				img
+					width 100%
+			.contTxt
+				position absolute
+				right 0
+				text-align center
+				top 55%
+				width 80%
+				a
+					background-color black
+					//color white
+					display block
+					margin-top 15px
+					padding 5px 10px
+					text-align center
+					text-decoration none
+					width 150px
+					&:hover
+						span
+							color white
+					span
+						color #8cecec
+						font-family 'seravekregular'
+						font-size 13px
+						letter-spacing 2px
+						line-height 21px
+						text-transform uppercase
+				h2
+					color white
+					font-family 'Times New Roman'
+					font-size 30px
+					line-height 35px
+					margin 0
+					text-align left
+					text-shadow 1px 1px 2px rgba(black, .9)
+					text-transform uppercase
+				span
+					color white
+				.destacadoTxt
+					color white
+					text-shadow 2px 2px 8px rgba(black, .9)
+					font-size 75px
+					line-height 50px
+					
+				
+			
+					
+.contenedorDivisor
+.contenedorDivisor2
+	//box-shadow 0 0 10px oscuro
+	
+	display block
+	//height 190px
+	overflow hidden
+	position absolute
+	width 100%
+	z-index 1
+	/*&:after
+		background linear-gradient(to bottom right, transparent 50%, naranjoPet 50%)
+		content ''
+		height 40px
+		right 0
+		position absolute
+		top -40px
+		width 50%
+	&:before
+		background linear-gradient(to bottom left, transparent 50%, naranjoPet 50%)
+		content ''
+		height 40px
+		left 0
+		position absolute
+		top -40px
+		width 50%*/
+	.contenedorTexto
+		//height 190px
+		height 20px
+		margin 0 auto
+		padding 0
+		position relative
+		//max-width 1360px
+		h2
+			//background-color naranjoPet
+			//bottom 40%
+			display block
+			font-weight 600
+			font-size 26px
+			line-height 60px
+			margin 0 auto
+			position absolute
+			text-align center
+			text-transform uppercase
+			width 100%
+			z-index 1
+		.figura
+			display block
+			max-width 100%
+			position relative
+	.bottomDivisor
+		border-style solid
+		border-width 50px 50vw 0 50vw
+		height 0
+	.topDivisor
+		border-style solid
+		border-width 50px 50vw 0 50vw
+		height 0
+.contenedorDivisor
+	bottom -60px
+	.contenedorTexto
+		background-color #ebeff2
+		h2
+			color oscuro
+	.bottomDivisor
+		border-color transparent transparent transparent transparent
+	.topDivisor
+		border-color transparent #ebeff2 transparent #ebeff2
+.contenedorDivisor2
+	bottom -70px
+	.contenedorTexto
+		background-color oscuro
+		h2
+			color clarito
+	.bottomDivisor
+		border-color oscuro transparent transparent transparent
+	.topDivisor
+		border-color transparent oscuro transparent oscuro
+
+
+/*svg
+	width 100%*/
+.content_scene_cat
+	border-top 5px solid #f8b302
+	color #d7d7d7
+	line-height 19px
+	margin 0 0 26px 0
+	a 
+		color white 
+		&:hover 
+			text-decoration underline 
+	p
+		color white
+		margin-bottom 0
+	span.category-name
+		color white
+		font 600 42px/51px "oswaldregular"
+		margin-bottom 12px
+	.content_scene 
+		color #777777 
+		.cat_desc 
+			padding-top 20px 
+			a 
+				color #777777
+				&:hover 
+					color #515151
+	.content_scene_cat_bg
+		background-color #009999 !important
+		padding 18px 10px 10px 42px
+
+.content_only
+	h2
+		color colorao
+		font-family 'oswaldregular'
+		margin-bottom 15px !important
+		span
+			span
+				border-bottom 1px solid colorao
+	h2
+	h3
+		margin 0
+	h2
+	p
+		span
+			span
+				background transparent !important
+	h3
+		font-size 16px
+	p
+		font-size 14px
+		text-align justify
+
+.content_sortPagiBar
+	margin 0 auto
+	max-width 1050px
+	.bottom-pagination-content
+		border-top 1px solid clarito
+		overflow hidden
+		padding-top 7px
+		width 100%
+		form
+			line-height 50px
+			margin-bottom 1em
+			width 150px
+			button
+				background white
+				border-bottom 2px solid calipso
+				border-left none
+				border-top none
+				border-right none
+				width 100%
+				span
+					color oscuro
+					
+				&:hover
+					background calipso
+					span
+						color white
+		.compare-form
+			display none
+			float right
+		.pagination
+			ul
+				margin 0
+				padding 0
+				text-align center
+				li
+					background-color clarito
+					border 2px solid clarito
+					border-radius 2px
+					box-sizing border-box
+					display inline-block
+					padding 5px 10px
+					a
+						color #BABBBB
+						font-weight 800
+						text-decoration none
+						&:hover
+							text-decoration underline
+				.active
+					background-color white
+					border 2px solid rojoAsiste
+					span
+						color rojoAsiste
+						font-weight 800
+				.pagination_next
+					background-color white
+					border none
+					margin-left 5px
+					padding 0
+					a
+						position relative
+						b
+							display none
+						.icon-chevron-right
+							background url('../img/cd-arrow.svg') 0 0 no-repeat
+							display inline-block
+							height 11px
+							width 20px
+					span
+						opacity .3
+						b
+							display none
+						.icon-chevron-right
+							background url('../img/cd-arrow.svg') 0 0 no-repeat
+							display inline-block
+							height 11px
+							width 20px
+				.pagination_previous
+					background-color white
+					border none
+					margin-right 5px
+					padding 0
+					a
+						position relative
+						b
+							display none
+						.icon-chevron-left
+							background url('../img/cd-arrow.svg') no-repeat
+							display inline-block
+							height 11px
+							transform rotate(180deg)
+							width 20px
+					span
+						opacity .3
+						b
+							display none
+						.icon-chevron-left
+							background url('../img/cd-arrow.svg') no-repeat
+							display inline-block
+							height 11px
+							transform rotate(180deg)
+							width 20px
+		.product-count
+			float left
+			font-size 15px
+			line-height 50px
+	.sortPagiBar
+		width 100%
+		form
+			.select
+				.selector
+					select
+						//border-radius 5px
+						font-size 13px
+						font-weight 600
+						text-align center
+						text-transform uppercase
+		ul
+			margin 0
+			padding 0
+			li
+				margin 0
+				padding 0
+		.productsSortForm
+			background white
+			border-bottom 1px solid clarito
+			//border-radius 5px
+			position relative
+			margin 0 auto 16px auto
+			padding 7px 0
+			text-align left
+			//width 80%
+			span
+				display none
+			.select
+				//margin 0 auto
+				text-align left
+				//width 50%
+				label
+					color oscuro
+					font-size 18px
+				label
+				.selector
+					display inline-block
+					font-family 'seravekregular'
+					letter-spacing 2px
+					text-transform uppercase
+					vertical-align middle
+				.selector
+					margin-left 20px
+					font-size 13px
+					//width 100% !important
+	.top-pagination-content
+		display none		
+.corte
+	background linear-gradient(to bottom, #ecedef 10%, #ddd 50%)
+	height 50px
+	width 100%
+.cruz
+	&:before
+		color naranjito
+		content '\e6fd'
+		font-family 'icos'
+		font-size 20px
+
+.cuadroComentario
+	h1
+		border-bottom 1px solid clarito
+	form
+		.table-responsive
+			table
+				tfoot
+					tr
+						td
+							padding 0 1.5%
+							text-align right
+	p
+		font-size 15px
+	.adresses_bloc
+		display none
+	.box-small
+		padding 20px 5%
+		width 90%
+		form
+			height 29px
+			text-align left
+			position relative
+			a
+				border 2px solid clarito
+				font-size 15px
+				margin-bottom 10px
+				position absolute
+				right 0
+				text-align center
+				width 20%
+				span
+					line-height 25px
+			p
+				left 0
+				position absolute
+				width 80%
+				strong
+					line-height 29px
+	.info-order
+		//height 62px
+		padding 20px 5%
+		width 90%
+	.std
+		padding 15px 10%
+		width 80%
+		h3
+			text-transform uppercase
+		.form-group
+			label
+				
+				font-weight 100
+				text-transform capitalize
+			textarea
+				width 100%
+		.submit
+			button
+				padding 5px 15px
+	.submit
+		text-align right
+		button
+			background clarito
+			border none
+			span
+				color oscuro
+				
+			&:hover
+				background colorao
+				span
+					color white
+
+.filtro
+	.block
+		.block_content
+			ul
+				.layered_filter
+					width 200px
+				.cuadroNodriza
+					display inline-block
+					margin-bottom 3px
+					text-align center 
+					vertical-align top
+					width 135px
+					&:hover
+						&:nth-child(1)
+							.checker
+								box-shadow inset 0 0 0 8px rgba(0,198,208,1)
+						&:nth-child(2)
+							.checker
+								box-shadow inset 0 0 0 8px rgba(51,199,166,1)
+						&:nth-child(3)
+							.checker
+								box-shadow inset 0 0 0 8px rgba(102,200,125,1)
+						&:nth-child(4)
+							.checker
+								box-shadow inset 0 0 0 8px rgba(152,201,83,1)
+						&:nth-child(5)
+							.checker
+								box-shadow inset 0 0 0 8px rgba(204,202,42,1)
+						&:nth-child(6)
+							.checker
+								box-shadow inset 0 0 0 8px rgba(255,203,0,1)
+						.checker
+								box-shadow inset 0 0 0 8px rgba(0,0,0,0.2)
+					.contenedorCuadroNodriza
+						.checker
+							background-color #ECEDEF
+							border-radius 35px
+							height 70px 
+							position relative
+							top 0
+							transition .4s
+							width 100% 
+							span
+								background-color transparent
+								border 0
+								border-radius 0
+								display block
+								height 100%
+								width 100%
+								.checkbox
+									opacity 0
+							span.checked
+								background-color white
+								border-radius 35px
+								box-shadow inset 0 0 0 4px rgba(0,0,0,0.2)
+								&:before
+									color #f38a00
+									//content "\e93e"
+									content: "\e940"
+									display block
+									font-family 'iconos'
+									font-size 19px
+									position absolute
+									right -3px
+									text-shadow 1px 1px 2px rgba(black, .3) 
+									top -3px
+								/*&:nth-child(1)
+									box-shadow inset 0 0 0 8px rgba(0,198,208,1)
+								&:nth-child(2)
+									box-shadow inset 0 0 0 8px rgba(51,199,166,1)
+								&:nth-child(3)
+									box-shadow inset 0 0 0 8px rgba(102,200,125,1)
+								&:nth-child(4)
+									box-shadow inset 0 0 0 8px rgba(152,201,83,1)
+								&:nth-child(5)
+									box-shadow inset 0 0 0 8px rgba(204,202,42,1)
+								&:nth-child(6)
+									box-shadow inset 0 0 0 8px rgba(255,203,0,1)*/
+						.radio
+							span
+								.radioButton
+									color transparent
+									background transparent
+									
+										
+						.selectTxt
+							left 0
+							margin 0
+							padding 0
+							position absolute
+							top 0
+							width 100%
+							.nombreFiltro
+								//font-family 'quicksanditalic'
+								font-size 16px
+								font-weight 600
+								line-height 70px
+							.nombreFiltro
+							.numFiltros
+								color white
+								display block
+							.numFiltros
+								font-size 13px
+				.cuadroNodriza
+					&:nth-child(1)
+						.contenedorCuadroNodriza
+							/*.checker
+								background-color #94CF1A*/
+							.selectTxt
+								span
+									color #00C6D0
+					&:nth-child(2)
+						.contenedorCuadroNodriza
+							/*.checker
+								background-color #A2C11B*/
+							.selectTxt
+								span
+									color #33C7A6
+					&:nth-child(3)
+						.contenedorCuadroNodriza
+							/*.checker
+								background-color #B1B31C*/
+							.selectTxt
+								span
+									color #66C87D
+					&:nth-child(4)
+						.contenedorCuadroNodriza
+							/*.checker
+								background-color #BFA51E*/
+							.selectTxt
+								span
+									color #99C953
+					&:nth-child(5)
+						.contenedorCuadroNodriza
+							/*.checker
+								background-color #CE971F*/
+							.selectTxt
+								span
+									color #CCCA2A
+					&:nth-child(6)
+						.contenedorCuadroNodriza
+							/*.checker
+								background-color #DC8920*/
+							.selectTxt
+								span
+									color #FFCB00
+					
+								
+							
+
+.detail_step_by_step
+	tbody
+		tr
+			td
+				span
+					color white
+					display block
+
+.dialog
+	align-items center
+	display flex
+	justify-content center
+	pointer-events none
+	position fixed
+	z-index 99999999999
+
+.dialog,
+.dialog__overlay
+	height 100%
+	left 0
+	top 0
+	width 100%
+
+
+.dialog__overlay
+	background rgba(55, 58, 71, 0.9)
+	opacity 0
+	position absolute
+	transition opacity 0.3s
+
+.dialog--open
+	.dialog__overlay
+		opacity 1
+		pointer-events auto
+
+.dialog__content
+	background #fff
+	max-width 560px
+	min-width 290px
+	opacity 0
+	padding 4em
+	position relative
+	text-align center
+	width 50%
+	z-index 5
+
+
+.dialog--open
+	.dialog__content
+		pointer-events auto
+
+/* Content */
+.dialog
+	h2
+		font-size 2em
+		font-weight 400
+		margin 0
+		padding 0 0 2em
+		
+.dialog.dialog--open .dialog__content,
+.dialog.dialog--close .dialog__content
+	animation-duration 0.3s
+	animation-fill-mode forwards
+
+.dialog.dialog--open
+	.dialog__content
+		animation-name anim-open
+
+.dialog.dialog--close
+	.dialog__content
+		animation-name anim-close
+
+.dl-submenu
+	.category-thumbnail
+		display none
+
+#enabled_filters
+	display none
+
+.error
+	background red
+	border none
+	border-radius 5px
+
+.explicacion
+	background clarito
+	//border-bottom 5px solid #00c7d1
+	border-top 1px solid #ddd
+	margin-top 46px
+	width 100%
+	.row
+		//background url('../img/patota.png') no-repeat center
+		background-size 100%
+		margin 0 auto
+		max-width 1055px
+		padding 0 0 13px 0
+		h2
+			//background-color oscuro
+			//border-bottom 1px solid otroGris
+			//box-shadow 0 5px 5px oscuro
+			color oscuro
+			display block
+			//font-family 'quicksandbold'
+			//font-size 24px
+			font-style italic
+			font-weight 100
+			letter-spacing -1px
+			margin 0 auto
+			text-align center
+			//text-decoration underline
+			text-transform capitalize
+		ul
+			display block
+			font-size 0
+			margin 16px 0 0 0
+			padding 0
+			width 100%
+			li
+				color oscuro
+				display inline-block
+				font-family 'quicksandregular'
+				font-size 20px
+				letter-spacing -1px
+				margin-bottom 16px
+				padding 10px
+				text-align center
+				vertical-align top
+				width 32%
+				&:hover
+					.img
+						//background-color verdeClaroPet
+						box-shadow inset 0 0 0 9px rgba(#00C7D1 ,0.2)
+				.img
+					background-color transparent
+					border 1px solid #00C7D1
+					border-radius 50%
+					display block
+					height 150px
+					margin 0 auto
+					transition .3s
+					width 150px
+
+					img
+						margin 0 auto
+						padding-top 5px
+						width 90%
+				span
+					font-size 13px
+					font-style italic
+
+.f-nav
+	position fixed
+	top 5px
+
+.fancybox-wrap
+	.fancybox-skin
+		padding 10px !important
+		.fancybox-outer
+			.fancybox-inner
+				//width 300px !important
+				p
+					
+					font-size 20px
+					font-weight 100
+					vertical-align middle
+					width 90%
+				.fancybox-error
+					border-bottom 1px solid otroGris
+					border-top 1px solid otroGris
+					display inline-block
+					padding 15px 10px
+					width 100%
+					&:before
+						color rojoAsiste
+						content '\e6fd'
+						display inline-block
+						font-family 'icos'
+						font-size 35px
+						line-height 35px
+						height 30px
+						vertical-align middle
+						width 45px
+
+.fancyComent
+	form
+		text-align left
+		h2
+			font-family 'quicksandregular'
+			font-weight 100
+			margin 0
+			text-align left
+
+.fechaNacimiento
+	label
+		color oscuro
+		display block
+		font-weight 600
+		text-align center
+	.contenedorFecha
+		//border-bottom 1px solid naranjito
+		// border-top 1px solid naranjito
+		//margin 0 auto
+		width 70%
+		.selectorFecha
+			display inline-block
+			text-align center
+			width 32%
+			.selector
+				width 100% !important
+				select
+					background none
+					//border 1px solid #999
+					//border-radius 5px
+					//border none
+					box-sizing border-box
+					color #999
+					font-size 13px
+					//height 27px
+					left 0px
+					//opacity 0
+					outline 0
+					//position absolute
+					//padding 5px
+					text-align center
+					top 0px
+					width 100%
+					// &:hover
+					// 	background naranjito
+					// 	color white
+					option
+						background white
+						box-sizing border-box
+						color oscuro
+				span
+					display none
+			// 	select
+			// 		background none
+			// 		border 1px solid oscuro
+			// 		height 27px
+			// 		left 0px
+			// 		//opacity 0
+			// 		//position absolute
+			// 		top 0px
+			// 		width 100%
+			// 	span
+			// 		display none
+
+.figura
+	image
+		fill naranjoPet
+
+.filtro
+	background clarito
+	box-shadow 3px 3px 10px #ddd
+	//border 1px solid grisClaro1
+	//font-family 'quicksandregular'
+	font-size 14px
+	margin 1em auto
+	padding 15px
+	max-width 1050px
+	.block
+		.block_content
+			display inline-block !important
+			ul
+				list-style-type none
+				padding 0
+				text-align center
+				li
+					cursor pointer
+					display inline-block
+					margin-bottom 5px
+					position relative
+					text-align left
+					//width 200px
+					&:hover
+						.contEdad
+							.checker
+								span
+									box-shadow 2px 2px 5px rgba(black, .2)
+					/*a
+						color oscuro
+						//font-family 'quicksandregular'
+						font-size 13px
+						font-weight 100
+						text-decoration none
+						text-transform uppercase
+						transition .3s*/
+					.contEdad
+						margin 0
+						position relative
+						label
+							display block
+							left 0
+							position absolute
+							text-align center
+							top 0
+							width 65px
+							span
+								color white
+								display block
+								font-size 12px
+								font-weight 600
+								line-height 65px
+								text-transform uppercase
+								width 100%
+						.checker
+							height 65px
+							left 0
+							//margin-top -9px
+							//position absolute
+							top 50%
+							width 65px
+							//z-index 1
+							span
+								//background-color rgba(75,170,43, .5)
+								background-color #ccc
+								//border 7px solid rgba(0,0,0,0.2)
+								border-radius 50%
+								display block
+								height 100%
+								transition .3s
+								width 100%
+								input[type=checkbox]
+									//display none
+									height 100%
+									opacity 0
+									width 100%
+							span.checked
+								background-color rgb(248, 169, 2) !important
+								&:before
+									background-color #00c7d1
+									border 2px solid white
+									border-radius 50%
+									color white
+									//content: "\e93e"
+									content: "\e940"
+									display block
+									font-family 'iconos'
+									font-size 19px
+									height 25px
+									line-height 25px
+									position absolute
+									text-align center
+									top -3px
+									right -3px
+									width 25px
+							
+						
+					label
+						position relative
+						padding 0 
+						span
+							font-size 20px
+					label
+					.checker
+						display inline-block
+						vertical-align middle
+					.checker
+						height 50px
+						left 0
+						//margin-top -9px
+						//position absolute
+						top 50%
+						width 50px
+						//z-index 1
+						span
+							//background-color rgba(75,170,43, .5)
+							background-color white
+							//border 7px solid rgba(0,0,0,0.2)
+							border-radius 50%
+							display block
+							height 100%
+							transition .3s
+							width 100%
+							input[type=checkbox]
+								//display none
+								height 100%
+								opacity 0
+								width 100%
+						span.checked
+							background-color white
+							&:before
+								color #4BAA2B
+								//content: "\e93e"
+								content: "\e940"
+								display block
+								font-family 'iconos'
+								font-size 19px
+								position absolute
+								top -3px
+								right -3px
+				.colorEdad
+					&:nth-child(1)
+						.contEdad
+							.checker
+								span
+									background-color #00C6D0
+					&:nth-child(2)
+						.contEdad
+							.checker
+								span
+									background-color #14C6C0
+					&:nth-child(3)
+						.contEdad
+							.checker
+								span
+									background-color #27C7B0
+					&:nth-child(4)
+						.contEdad
+							.checker
+								span
+									background-color #3BC7A0
+					&:nth-child(5)
+						.contEdad
+							.checker
+								span
+									background-color #4EC890
+					&:nth-child(6)
+						.contEdad
+							.checker
+								span
+									background-color #62C880
+					&:nth-child(7)
+						.contEdad
+							.checker
+								span
+									background-color #76C870
+					&:nth-child(8)
+						.contEdad
+							.checker
+								span
+									background-color #89C960
+					&:nth-child(9)
+						.contEdad
+							.checker
+								span
+									background-color #9DC950
+					&:nth-child(10)
+						.contEdad
+							.checker
+								span
+									background-color #B1C940
+					&:nth-child(11)
+						.contEdad
+							.checker
+								span
+									background-color #C4CA30
+					&:nth-child(12)
+						.contEdad
+							.checker
+								span
+									background-color #D8CA20
+					&:nth-child(13)
+						.contEdad
+							.checker
+								span
+									background-color #EBCB10
+					&:nth-child(14)
+						.contEdad
+							.checker
+								span
+									background-color #FFCB00
+					
+			.dynamized	
+				text-align left
+				li
+					display inline-block
+					margin 0 5px 0 0 
+					vertical-align top
+					width inherit
+					a
+						background-color #ccc
+						color white
+						border-radius 15px
+						padding 5px 10px
+						text-decoration none
+						&:hover
+							background-color naranjoPet
+							color white
+							//text-decoration underline
+		.block_content
+		.title_block
+			vertical-align middle
+			width 100%
+		.title_block
+			display none
+			font-size 18px
+			font-weight normal
+			margin 0
+
+.footer-container
+	background #ddd
+	//border-top 1px solid #E2E2E2
+	box-shadow 3px 0 10px rgba(black, .2)
+
+.formCarritoFinalCompra
+	.box
+		font-size 13px
+		width 60%
+		p
+			margin 7px 0
+			.strong
+				font-size 16px
+
+.formDirecciones
+	h1
+		margin-top 0
+	p
+		font-size 13px
+	.info-title
+		text-align center
+
+.formPassForgot
+.submitPassForgot
+	display inline-block !important
+	vertical-align middle
+
+.goCarrito
+	color oscuro
+	display block
+	margin-right 5px
+	text-align right
+	text-decoration none
+
+.hidden
+.hidden-xs
+	display none
+
+.history_state
+	span
+		color white
+		display block
+
+.homeTab
+	box-sizing border-box
+	height 80px
+	margin 0 auto
+	//max-width 1000px
+	position relative
+	width 100%
+
+	.main
+		background naranjito
+		//background #f7f7f8
+		box-sizing border-box
+		display block
+		margin 0 auto
+		padding 5px
+		position relative
+		text-align center
+		top 0
+		width 90%
+		//z-index 10
+		div
+			border 1px dashed clarito
+			border-color rgba(255, 255, 255, 0.5)
+			box-sizing border-box
+			height 40px
+			h3
+				margin 0 auto
+
+.hoverMenu
+	&:hover
+		.sub-menuDesktop
+			display block !important
+			
+.hoverMenuUl:hover ~ .hoverMenu
+		background red
+
+/*#homefeatured
+	font-size 0
+	max-width 1050px
+	.listaProductoLi
+		width 25%*/
+
+.icon-phone
+	color #4BAA2B
+
+.icon-petcart
+	&:before
+		color #00c7d1
+		font-size 33px
+.icon-plus
+.icon-minus
+	color white
+	font-size 13px
+
+.infoAdicionalHeader
+	//background #f8f8f8
+	border-bottom 2px solid clarito
+	//height 60px
+	margin 0 auto
+	//position absolute
+	//top -25px
+	//width 100%
+	.row
+		margin 0 auto
+		position relative
+		text-align center
+		max-width 1050px
+		padding-bottom 16px
+		.shop-email
+		.shop-phone
+			font-family 'Times New Roman'
+			font-size 24px
+			//line-height 58px
+			margin 0
+			span
+				//background #00C7D1
+				border-radius 10px
+				color otroGris
+				//color white
+				font-style italic
+				font-weight initial
+				padding 2px 10px
+		.shop-titulo
+			font-size 13px
+			margin 0
+		.shop-email
+		.shop-phone
+		.shop-titulo
+			display block
+			//font-family 'seravekmedium'
+			margin-left 20%
+			text-align left
+			text-transform uppercase
+			width 60%
+			span
+				text-transform lowercase
+
+.info-title
+	
+	font-size 13px
+	font-weight 100
+	margin 0
+
+.informations_block_left
+#stores_block_left
+#viewed-products_block_left
+	display none
+
+.items
+	position absolute
+	
+.layered_color
+	padding 0 0 0 10px !important
+	vertical-align middle
+	
+.layered_filter
+.layered_price
+	display block
+	padding 0
+	width 100%
+	ul
+		li
+			display block
+			label
+				span
+					background-color transparent
+					cursor pointer
+	.layered_subtitle_heading
+	.tituloFiltro
+		text-decoration none
+		.layered_subtitle
+			color oscuro
+			font-weight 600
+			text-transform uppercase
+	.tituloFiltro
+		text-align center
+.layered_filter
+	ul
+		li
+			.layered_color
+				display none !important
+	.color-group
+		li
+			display inline-block
+			height 20px
+			vertical-align top
+			width 20px
+			.color-option
+				border 1px solid #babbbb
+				margin 5px
+				//padding 2.5px
+				//	position absolute
+				transition .3s
+				&:hover
+					box-shadow 0 0 7px #aaa
+			.on
+				border 2px solid #4baa2b
+				box-shadow 0 0 5px #4baa2b
+
+.layered_filter_ul
+	//text-align center
+	label
+	span
+		color #434142
+		font-size 13px
+		font-weight 100
+		text-transform uppercase
+		
+
+.layered_slider_container
+	margin 1em auto
+	padding 0 3px
+	//width 90%
+
+.layered_slider
+	a
+		border-radius 50%
+
+.layered_subtitle_heading
+	font-size 15px
+	font-weight 100
+	text-decoration underline
+
+.lineas
+	&:before
+		color naranjito
+		content '\e6b8'
+		font-family 'icos'
+		font-size 20px
+
+.listaCompra
+	//background #dddce0
+	font-size 0
+	margin 18px auto
+	padding 0
+	//width 80%
+	max-width 1150px
+	li
+		display inline-block
+		
+		font-weight 100
+		//height 30px
+		list-style none
+		text-align center
+		width 20%
+		span
+			font-size 16px
+			line-height 30px
+			text-align center
+			em
+				display none
+	.last
+		border-radius 0 2px 2px 0
+	.first
+		border-radius 2px 0 0 2px
+	.step_current
+		border-bottom 2px solid rojoAsiste
+		border-top 2px solid rojoAsiste
+		color oscuro
+		position relative
+	.step_done
+		//background white
+		border-bottom 2px solid clarito
+		border-top 2px solid clarito
+		font-size 16px
+		line-height 30px
+		text-align center
+		a
+			color clarito
+			text-decoration none
+		em
+			display none
+		&:hover
+			a
+				color #d3d3d3
+	.step_todo
+		//background #dddce0
+		border-bottom 2px solid clarito
+		border-top 2px solid clarito
+		color #ddd
+
+.listaDireccion
+	margin 28px auto 0
+	//width 80%
+	.contenedorListaDireccion
+		border 1px solid #999
+		border-radius 3px
+		display inline-block
+		width 49%
+		ul
+			//background clarito
+			margin 0
+			padding 0
+			width 100%
+			li
+				border-bottom .5px solid clarito
+				color oscuro
+				display block
+				font-size 13px
+				list-style none
+				margin 0 auto
+				text-align center
+				text-transform uppercase
+				width 100%
+				h3
+					background oscuro
+					border-bottom 1px solid #999
+					color clarito
+					
+					font-size 18px
+					font-weight 100
+					line-height 50px
+					margin 0
+					//text-align center
+					text-transform uppercase
+
+				span
+					//display inline-block
+					
+					font-size 13px
+					text-transform uppercase
+		
+.listaProducto
+	background none
+	font-size 0
+	margin 14px auto
+	padding 0
+	max-width 1050px
+	.listaProductoLi
+		//border-radius 9px
+		//border 1px solid transparent
+		display inline-block
+		list-style none
+		margin 0
+		overflow hidden
+		padding-bottom 1em
+		position relative
+		vertical-align top
+		width 25%
+		&:hover
+			//border 1px solid clarito
+			box-shadow 1px 1px 10px rgba(oscuro, .4)
+			//box-shadow inset 0 0 0 15px rgba(black, .2)
+			.contenedorPopular
+				.functional-buttons
+					.compare
+						a
+							&:before
+								color #c41925
+							span
+								color #c41925
+						.checked
+							&:before
+								color #c41925
+
+				.left-block
+					position relative
+					.product-image-container
+						a
+							img
+								opacity .8
+						.quick-view
+							opacity 1
+					// .sale-box
+					// 	.sale-label
+					// 		background naranjito
+					// 		span
+					// 			color white
+				.right-block
+					.añadeCarrituHome
+						a
+							background black
+ 
+					.wishlist
+						opacity 1
+		.contenedorPopular
+			background none
+			font-size 18px
+			margin 7px auto
+			//overflow hidden
+			position relative
+			width 98%
+			.functional-buttons
+				//position relative
+				.compare
+					display none
+					margin 0 auto
+					width 90%
+					a
+						background transparent
+						//border 1px solid #999
+						border-radius 5px
+						color oscuro
+						display block
+						font-size 11px
+						height 25px
+						margin 5px 0 0 0
+						text-align left
+						text-decoration none
+						transition .3s
+						width 185px
+						z-index 3
+						&:before
+							color #bbb
+							//content '\e737'
+							content '\e739'
+							font-family 'icos'
+							font-size 16px
+							line-height 25px
+							position absolute
+						span
+							color #bbb
+							//display none
+							display block
+							font-size 13px
+							line-height 25px
+							margin-left 20px
+					.checked
+						&:before
+							color #bbb
+							content '\e73a'
+							font-family 'icos'
+							font-size 16px
+							line-height 25px
+			.left-block
+				position relative
+				text-align left
+				.product-image-container
+					a
+					span
+						font-size 18px
+						img
+							border-radius 9px
+							display block
+							margin 0 auto
+							opacity 1
+							padding 5%
+							transition .3s
+							width 90%
+					.vistaRapida
+						display none
+
+			.right-block
+				display block
+				font-size 18px
+				margin 0 auto
+				position relative
+				text-align left
+				width 90%
+
+				h2
+					display block
+					font-size 13px
+					//font-weight 700
+					height 40px
+					margin 0
+					text-align left
+					transition .4s
+					transition-property width
+					-webkit-transition-property width
+					width 100%
+					a
+						color oscuro
+						display block
+						//font-family 'quicksandbold'
+						font-weight 600
+						//letter-spacing -1px
+						text-decoration none
+						text-transform uppercase
+						transition .4s
+
+				.comments_note
+					display none
+					font-size 11px
+					text-align center
+				.disponibilidad
+					color #babbbb
+					display block
+					
+					font-size 11px
+					text-align left
+					text-transform uppercase
+
+				.precios
+					font-size 18px
+					//font-weight 700
+					text-align left
+					span
+						border-radius 7px
+						color azulAsiste
+						display block
+						//line-height 30px
+						margin 4px 0
+						//text-align center
+						vertical-align top
+					.descuento
+						font-size 11px
+					.descuento
+					.precioAnterior
+
+						color oscuro
+						display inline-block
+						font-weight 600
+						margin 0
+						opacity .5
+						transition .5s
+					.ivaInclude
+						color oscuro
+						//display none
+						font-size 10px
+						font-weight 600
+						margin 0
+						text-transform uppercase
+					.precioAnterior
+						font-size 11px
+						text-decoration line-through
+					.precio
+						//background oscuro
+						//border 1px solid oscuro
+						//color white
+						color #c41925
+						//font-family 'quicksandbold'
+						font-size 18px
+						font-weight 800
+						//letter-spacing -1px
+						margin 0
+						position relative
+						//text-align left
+						//width 50%
+						// &:after
+						// 	color rojoAsiste
+						// 	content 'iva incl'
+						// 	font-size 10px
+						// 	font-weight 400
+						// 	margin 0
+						// 	position absolute
+						// 	text-transform capitalize
+				.wishlist
+					background rojoAsiste
+					border-radius 50%
+					height 45px
+					//margin-right -27px
+					opacity 0
+					position absolute
+					right 10%
+					text-align center
+					top -70px
+					transition .3s
+					width 45px
+					a
+						color transparent
+						cursor pointer
+						display block
+						font-size 10px
+						height 55px
+						width 55px
+						z-index 10
+						&:before
+							color white
+							content "\e606"
+							font-family 'icos'
+							font-size 20px
+							font-weight 100
+							left 0
+							line-height 45px
+							position absolute
+							top 0
+							width 45px
+							z-index 0
+	/*.listaProductoLi2
+		border 1px solid transparent
+		border-radius 2px
+		display inline-block
+		font-size 18px
+		list-style none
+		margin 2px 0
+		position relative
+		text-align center
+		vertical-align top
+		width 20%
+		&:hover
+			border 1px solid clarito
+			.añadeCarrituHome
+				opacity 1
+		.añadeCarrituHome
+			left 50%
+			margin-left -22.5px
+			top 50%
+		.product_desc
+			width 100%
+			a
+				img
+					border-radius 9px
+					width 100%
+			.block_description
+				display none
+				a
+					color oscuro
+					text-decoration none
+		.s_title_block
+			h5
+				margin 0
+				a
+					color oscuro
+					font-size 14px
+					text-decoration none
+			span
+				color naranjito
+				font-size 18px
+				font-weight 600*/
+
+.loginUsuario
+	//background grisClaro2
+	border-radius 2px
+	//bottom 0
+	height 35px
+	position absolute
+	right 70px
+	text-align center
+	top 75px
+	//width 90px
+	z-index 1
+	.contenedorLogin
+		background-color black
+		//border-radius 12px
+		cursor pointer
+		display block
+		height 35px
+		//margin-top 19px
+		//overflow hidden
+		position relative
+		//width 90px
+		//z-index 100
+		&:before
+			border-bottom 17.5px solid transparent
+			border-top 17.5px solid transparent
+			border-right 10px solid black
+			//color white
+			content ''
+			//font-family 'iconos'
+			//font-size 16px
+			left -10px
+			position absolute
+			//top 3px
+			//transform rotate(-180deg)*/
+		&:hover
+			&:before
+				color white
+			.login
+				color white
+		.despliega
+			background white
+			//border 1px solid #ddd
+			border-radius 5px
+			box-shadow 0 2px 18px rgba(0,0,0,0.2)
+			box-sizing border-box
+			cursor initial
+			display none
+			//height 60px
+			padding 0
+			position absolute
+			right calc(50% - 75px)
+			text-align left
+			top 35px
+			width 150px
+			z-index 3
+			&:before
+				//box-shadow 1px 1px 10px oscuro
+				content ''
+				position absolute
+				border-bottom 10px solid white
+				border-left 10px solid transparent
+				border-right 10px solid transparent
+				border-top 10px solid transparent
+				left 50%
+				margin-left -5px
+				top -20px
+			.account
+				//background calipso
+				color clarito
+				display block
+				//height 25px
+				text-align center
+				text-decoration none
+				text-transform uppercase
+				.texto
+					border-bottom 1px solid #ddd
+					color oscuro
+					display block
+					font-size 13px
+					line-height 25px
+					text-decoration none
+					width 100%
+			.account
+			.logout
+				border-radius 5px
+				transition .3s
+				&:hover
+					background-color rgba(naranjoPet , .8)
+					span
+						color white
+			.logout
+				//background #005959
+				color clarito
+				display block
+				//font-size 11px
+				//height 25px
+				//margin 2px auto
+				text-align center
+				text-decoration none
+				text-transform uppercase
+				.texto
+					border-bottom 1px solid #ddd
+					color oscuro
+					display block
+					font-size 13px
+					line-height 25px
+					text-decoration none
+					width 100%
+		.login
+			//background oscuro
+			border-radius 2px
+			color #8CECEC
+			display block
+			font-family 'seraveklight'
+			font-size 13px
+			font-weight 800
+			letter-spacing 4px
+			line-height 37px
+			//padding 0 20px
+			padding 0 10px
+			position relative
+			text-transform uppercase
+			//width 100%
+			z-index 1
+		.nombre
+			color white
+			//font-family 'quicksandregular'
+			//height 40px
+			//left 0
+			//overflow hidden
+			padding 0 20px
+			//position absolute
+			//top 0
+			//width 100%
+			span
+				color white
+				display block
+				font-size 11px
+				line-height 37px
+				//line-height 22px
+				
+
+// .maniaBackground1 >	ul
+// 	background #fff url('../img/asiste-01.jpg')
+// 	//background #fff url('../img/asiste2.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+// .maniaBackground2 >	ul
+// 	background #fff url('../img/asiste-02.jpg')
+// 	//background #fff url('../img/asiste3.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+// .maniaBackground3 > ul
+// 	background #fff url('../img/asiste-03.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+// .maniaBackground4 >	ul
+// 	background #fff url('../img/asiste-04.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+// .maniaBackground5 >	ul
+// 	background #fff url('../img/asiste-05.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+// .maniaBackground6 >	ul
+// 	background #fff url('../img/asiste-06.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+// .maniaBackground7 >	ul
+// 	background #fff url('../img/asiste-07.jpg')
+// 	background-position left bottom
+// 	background-repeat no-repeat
+// 	background-size 100%
+// 	border-left 1px solid clarito
+// 	border-right 1px solid clarito
+	
+.marginHeader
+	margin 0 auto !important
+
+
+.margin-top
+	margin-top 90px
+
+.menudespliega
+	display none
+	position absolute
+		
+
+.menuManias
+	display block
+	//height 45px
+	position relative
+	width 100%
+	// .category-thumbnail
+	// 	display none !important
+	.closeMenu
+		opacity 0
+		position absolute
+		visibility hidden
+		
+.menuTop
+	//border-left 1px solid grisClaro1
+	margin 0 auto
+	padding 0
+	position relative
+	text-align left
+	width 60%
+.menuTop > li
+	//border-right 1px solid grisClaro1
+	display inline-block
+	list-style none
+	font-size 0
+	margin 0 !important
+	padding 0
+	position relative
+	text-align left
+	transition .3s
+	vertical-align top
+	&:hover
+		a
+			color naranjoPet
+		ul
+			display block
+			li
+				a
+					color #5b5b5b
+/*.menuTop > li > a:hover
+	background #f8f8f8*/
+.menuTop > li > ul
+	background white
+	border-radius 5px
+	box-shadow 1px 1px 10px oscuro
+	display none
+	//height 200px
+	left 0
+	margin 0
+	//opacity 0
+	padding 20px
+	position absolute
+	text-align left
+	top 85px
+	transition .3s
+	//visibility hidden
+	min-width 450px
+	z-index 2
+	/*&:before
+		//box-shadow 1px 1px 10px oscuro
+		content ''
+		position absolute
+		border-bottom 10px solid white
+		border-left 10px solid transparent
+		border-right 10px solid transparent
+		border-top 10px solid transparent
+		top -20px*/
+	& > li
+		//display inline-block
+		margin-bottom 10px
+		padding 0 10px
+		position relative
+		//vertical-align top
+		max-width 200px	
+
+		& > a
+			border-bottom 1px solid clarito
+			display block
+			font-family 'open sans'
+			font-size 13px
+			font-weight 600
+			padding 0
+			position relative
+			text-align left
+			text-decoration none
+			text-transform uppercase
+			&:hover
+				color naranjoPet
+				&:after
+					content '\ea65'
+					font-family 'iconos'
+					position absolute
+					top 3px
+				
+		ul
+			margin 10px 0 0 0
+			padding 0
+		ul > li
+			display block
+			margin 0
+			padding 0
+			& > a
+				color oscuro
+				font-size 13px
+				//font-style italic
+				text-decoration none
+				text-transform uppercase
+				&:hover
+					color naranjoPet
+		
+.menuTop > li > a
+	//color naranjito
+	color #5b5b5b
+	display block
+	font-family 'quicksandbold'
+	//font-family 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif
+	font-size 16px
+	font-weight 600
+	letter-spacing -1px
+	line-height 85px
+	padding 0 30px 0 0
+	position relative
+	text-decoration none
+	text-transform uppercase
+	transition .4s
+	&:after
+		background #d94f5c
+		//background clarito
+		bottom 20%
+		content ''
+		height 2px
+		left 0
+		position absolute
+		transform scale3d(0, 1, 1)
+		transition transform 0.1s
+		width 80%
+	/*&:before
+		background transparent
+		bottom 20%
+		content ''
+		height 2px
+		left 10%
+		position absolute
+		transform scale3d(0, 1, 1)
+		transition transform 0.1s
+		width 80%*/
+	&:hover
+		&:before
+		&:after
+			transform scale3d(1, 1, 1)
+			transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
+			transition-duration 0.3s
+
+
+.my-placeholder
+	color #ccc
+
+.mywishlist
+	form
+		fieldset
+			h3
+				font-weight 100
+				margin 0 auto 18px
+			.form-group
+				text-align center
+				label
+					
+					font-weight 100
+				input
+				label
+				.submit
+					display inline-block
+					margin 0 5px
+					vertical-align middle
+				.submit
+					button
+						background rojoAsiste
+						border none
+						border-radius 2px
+						padding 2px 15px
+						//width 80px
+						span
+							color white
+							//line-height 40px
+							
+							font-weight 100
+						&:hover
+							background oscuro
+	.volver
+		display none
+	.comparte
+		border-radius 2px
+		margin 0 auto
+		text-align left
+		transition .2s
+		//width 30%
+		a
+			background clarito
+			display block
+			padding 5px 15px
+			text-decoration none
+			width 103px
+			span
+				color oscuro
+				//display block
+				
+				font-weight 100
+				line-height 40px
+				//width 100%
+			&:hover
+				background rojoAsiste
+				span
+					color white
+	input
+		border-radius 2px
+	td
+		a
+			color oscuro
+			font-weight 700
+
+.navegador
+	display block
+	margin 18px auto
+	height 40px
+	//overflow hidden
+	position relative
+	max-width 1050px
+	.checkout
+		background transparent
+		float right
+		outline 0
+		padding-right 20px
+		position relative
+		text-align right
+		span
+			color oscuro
+			line-height 40px
+			transition .3s
+			&:after
+				//background-color naranjoPet
+				color white
+				content "\ea65"
+				display inline-block
+				font-family 'iconos'
+				margin-top -1px
+				vertical-align middle
+			.icon-chevron-right
+				display none
+	.checkout
+	.volverCompra
+		//background naranjo
+		border 0
+		//border-radius 20px
+		color oscuro
+		display block
+		font-family 'seravekregular'
+		font-size 16px
+		letter-spacing 2px
+		height 40px
+		padding 0 10px
+		position relative
+		text-decoration none
+		text-transform uppercase
+		transition .3s
+		min-width 200px
+		&:hover
+			background-color black
+			//border-bottom 4px solid black
+			color white
+			span
+				color white
+	.volverCompra
+		float left
+		line-height 40px
+		padding-left 20px
+		position relative
+		text-align left
+		transition .3s
+		&:before
+			//background-color naranjoPet
+			color white
+			content "\e9f4"
+			display inline-block
+			font-family 'iconos'
+			line-height 40px
+			margin-top -3px
+			vertical-align middle
+		.icon-chevron-left
+			display none
+
+.nbrItemPage
+	font-size 14px
+	margin 1em 0
+	text-align right
+	label
+	span
+	.selector
+		display inline-block
+		vertical-align top
+	.selector
+		span
+			display none
+
+.one > div
+	box-sizing border-box
+	height 50px
+
+.order_carrier_content
+	margin-top 18px !important
+	.carrier_title
+		display none
+	.checkbox
+		margin-top 18px
+		//text-align left
+		width 100%
+		a
+			background white
+			border 1px solid clarito
+			
+			font-size 16px
+			font-weight 100
+			margin 0 0 0 15%
+			text-align center
+			width 30%
+			&:hover
+				background clarito
+		a
+		label
+		.checker
+			display inline-block
+			vertical-align middle
+		label
+			width 50%
+	.delivery_options_address
+		.carrier_title
+			
+			font-size 15px
+			text-align left
+		.delivery_options
+			text-align center
+			.delivery_option
+				display inline-block
+				margin-bottom 15px
+				vertical-align top
+				width 70%
+				.eligeTransporte
+					font-size 13px
+					width 100%
+					tbody
+						tr
+							border-right 1px solid clarito
+							text-align left
+							td
+								height 55px
+							.cuerpo
+								width 240px
+								span
+									display block
+									
+									margin 0 5%
+									text-align left
+									width 90%
+									strong
+										font-weight 100
+										display block
+							.delivery_option_logo
+								width 100px
+								img
+									max-width 55px
+							.delivery_option_price
+								.delivery_option_price
+									color verdeAsiste
+									font-weight 600
+									//line-height 45px
+									padding 0 20px
+									text-align center
+							.delivery_option_radio
+								.radio
+									span
+										cursor pointer
+										display block
+										height 13px
+										width 13px
+										input
+											cursor pointer
+											height 13px
+
+.oscuro
+	color oscuro !important
+
+.Otroquick-view
+.quick-view
+	//background rgba(rojoAsiste, .5) !important
+	//background rojoAsiste
+	border 2px solid #ccc
+	border-radius 50%
+	color naranjito
+	//display block
+	font-size 0
+	font-weight 600
+	height 44px
+	//line-height 40px
+	//margin-right -22px
+	opacity 0
+	//padding-top 22px
+	position absolute
+	right 0
+	text-align center
+	text-decoration none
+	top 0
+	transition .3s
+	width 44px
+	//z-index 1000
+	&:after
+		//background rgba(255,255,255, .7)
+		top 1px
+		color #ccc
+		content '\e67f'
+		font-family 'icos'
+		font-size 20px
+		font-weight 100
+		//margin-top 5px
+		left 0
+		line-height 39px
+		position absolute
+		text-align center
+		width 100%
+	/*&:before
+		content ''
+		border-bottom 30px solid rojoAsiste
+		border-left 7px solid transparent
+		border-right 0
+		border-top 0
+		left -7px
+		position absolute*/
+
+.overflow-hidden
+	overflow hidden
+
+.owl-carousel
+	.owl-stage-outer
+		.owl-stage
+			margin 0 auto
+.owl-nav
+	text-align center
+	.owl-next
+	.owl-prev
+		background calipso
+		border-radius 3px
+		color #fff
+		cursor pointer
+		display inline-block
+		font-size 14px
+		margin 5px
+		padding 4px 7px
+.owl-dots
+	text-align center
+	.active
+		background rojoAsiste !important
+	.owl-dot
+		background clarito
+		border-radius 50%
+		display inline-block
+		height 15px
+		margin 3px
+		width 15px !important
+.owl-item
+	//filter grayscale(1)
+	opacity .8
+	transition .2s
+	//-webkit-filter grayscale(1)
+	&:hover
+		//filter grayscale(0)
+		opacity 1
+		//-webkit-filter grayscale(0)
+
+.pagar
+	margin 0 auto 80px !important
+	width 60% !important
+	p
+		font-size 13px
+		line-height 25px
+		text-align justify
+	.cheque-indent
+		font-size 15px
+		margin-bottom 15px
+
+.paiement_block
+	margin 18px auto
+	//width 80%
+
+.page-heading
+	text-align left !important
+.page-heading
+.product-listing
+	//border-top 4px solid #c41925
+	font-size 15px
+	font-weight 100
+	display block
+	margin 0 auto
+	overflow hidden
+	padding-top 1em
+	text-align left
+	max-width 1050px
+	span
+		display inline-block
+	.cat-name
+		float left
+	.heading-counter
+		float right
+
+.page-subheading
+	font-family 'seravekregular'
+	font-size 20px
+	font-weight 100
+	letter-spacing 2px
+	text-align center
+	text-transform uppercase
+
+.productoCesta
+	//overflow hidden
+	.totalEnvio
+	.totalFinal
+	.totalProducto
+		//margin-left 100px
+		strong
+			color #818181
+			font-family 'seravekregular'
+			font-size 13px
+			font-weight 100
+			letter-spacing 2px
+			text-align right
+			text-transform uppercase
+			width 50%
+		strong
+		span
+			display inline-block
+		span
+			//font-family 'quicksandbold'
+			font-family 'open sans'
+			font-size 15px
+	.totalFinal
+		span
+			color #c41925
+			font-family 'seravekregular'
+			font-size 20px
+			font-weight 600
+			letter-spacing 2px
+			text-transform uppercase
+
+.products_block
+	table
+		margin 0 auto
+		width 80%
+		tbody
+			tr
+				background oscuro
+				&:nth-child(1)
+					background white
+					td
+						border 1px solid oscuro
+						color oscuro
+				td
+					border 1px solid clarito
+					color white
+					padding 0 3px
+					&:hover
+						.remove
+							opacity 1
+						.product-image-block
+							.Otroquick-view
+								opacity 1
+						.tituloComparacion
+							.añadeCarrituHome
+								a
+									background naranjoPet
+					.remove
+						text-align right
+						height 50px
+						opacity 0
+						transition .3s
+					.product-image-block
+					.tituloComparacion
+						position relative
+						h5
+							a
+								color oscuro
+								font-size 18px
+								text-decoration none
+						.añadeCarrituHome
+							span
+								font-size 0
+
+.quick-view > span
+	color azulAsiste
+	display none
+	font-size 0 !important
+	font-weight 600
+	line-height normal
+	margin-top 35px
+	text-align center
+	
+.remove
+	a
+		text-decoration none
+		.icon-trash
+			position relative
+			&:before
+				color rojoAsiste
+				content '\e6fa'
+				font-family 'icos'
+				font-size 18px
+				position absolute
+				right 0
+				top 5px
+
+.rodeaContacto
+	form
+		fieldset
+			border-radius 5px
+			margin 0 auto
+			text-align center
+			width 60%
+			h3
+				text-align center
+			.contenedor
+				width 100%
+				.formularioUno
+					.form-group
+						label
+							display block
+						.selector
+							margin 0 auto
+							width 50% !important
+							span
+								display none
+						.uploader
+							span
+								display none
+
+.sale-box
+	font-size 16px !important
+	height 80px
+	left 0
+	overflow hidden
+	position absolute
+	top 0
+	width 80px
+	z-index 1
+	.sale-label
+		background #70A83B
+		//border 2px solid naranjito
+		bottom 35px
+		display block
+		height 90px
+		left -50px
+		//line-height 50px
+		margin 0
+		position absolute
+		text-align center
+		transform rotate(-45deg)
+		width 90px
+		// &:after
+		// 	content ''
+		// 	border-bottom 13px solid transparent
+		// 	border-left 13px solid transparent
+		// 	border-right 13px solid naranjito
+		// 	border-top 13px solid naranjito
+		// 	position absolute
+		// 	right 2px
+		// 	top 0
+		// &:before
+		// 	content ''
+		// 	border-bottom 13px solid transparent
+		// 	border-left 13px solid naranjito
+		// 	border-right 13px solid transparent
+		// 	border-top 13px solid naranjito
+		// 	left 4px
+		// 	position absolute
+		span
+			bottom 0
+			color white
+			display block
+			font-size 16px !important
+			position absolute
+			width 100%
+			
+.search_query:focus ~ .buscador
+	width 300px !important
+
+.selectCategory
+	//background red
+	display block
+	margin 2em auto 0
+	max-width 1050px
+	text-align center
+	ul
+		font-size 0
+		list-style-type none
+		margin 0 0 10px auto
+		padding 0
+		width 83%
+		& > li
+			// background linear-gradient(to bottom , clarito 50%, #ddd 50%)
+			//border-radius 68px
+			display inline-block
+			font-size 0
+			height 100%
+			overflow hidden
+			position relative
+			transition .4s
+			text-align left
+			vertical-align top
+			a
+				display block
+				height 100%
+				//padding 10px
+				text-decoration none
+				width 100%
+				&:hover
+					figure
+						img
+							opacity 1	
+				figure
+					background-color #f4adad
+					//border-radius 0 0 68px 0
+					//bottom 0
+					margin 0
+					overflow hidden
+					padding 0
+					//position relative
+					//right 0
+					transition .4s
+					width 100%
+					img
+						opacity .9
+						transition .3s
+						width 100%
+			& > .chicas
+				list-style none
+				height 100%
+				margin 0
+				padding 0
+				position relative
+				width 100%
+				& > li
+					height 49%
+					width 100% !important
+				.bottom
+					bottom 0
+					margin 1% 0 0 0
+					left 0
+				.bottom
+				.top
+					position absolute
+				.top
+					background-color black
+					left 0
+					margin 0 0 1% 0
+					top 0
+					a
+						figure
+							background-color transparent
+							img
+								opacity 1
+			
+			.plan
+				background-color black
+				//border-radius 50%
+				display inline-block
+				height 55px
+				position absolute
+				right 10%
+				opacity 1
+				top 0
+				transition .4s
+				width 35px
+				vertical-align middle
+				z-index 1
+				span
+					bottom 0
+					color white
+					display block
+					font-size 26px
+					font-weight 600
+					left 23px
+					position absolute
+					text-align center
+					text-transform uppercase
+					transition .4s
+					top 7px
+					transform rotate(-90deg)
+					right 0
+				h2
+					color white
+					font-family 'open sans'
+					font-size 91px
+					//line-height 115px
+					margin 0 0 0 20%
+					text-align center
+					transition .4s
+					width 80%
+				.icon-star-full
+					text-align center
+					&:before
+						color white
+						display block
+						font-size 13px
+						line-height 55px
+						width 100%
+			.ifoPlan
+				background-color black
+				bottom 0
+				display inline-block
+				//margin-left 16px
+				padding 0 15px
+				position absolute
+				text-align right
+				vertical-align middle
+				width 100%
+				z-index 1
+				h2
+					color #5d5d5d
+					font-family 'seravekregular'
+					font-size 15px
+					letter-spacing 2px
+					margin 5px 0
+					text-transform uppercase
+				p
+					color #5d5d5d
+					font-family 'seravekregular'
+					font-size 13px
+					letter-spacing 2px
+					margin 0 5px
+					text-transform uppercase
+	.abajo
+		height 630px
+		//margin-left 1%
+		li
+			/*&:hover
+				box-shadow 3px 3px 10px rgba(oscuro, .4)*/
+			&:nth-child(1)
+				margin-right 1%
+				width 39%
+				/*.plan
+					background #00C7D1*/
+			&:nth-child(2)
+				width 60%
+				/*.plan
+					background #73D000*/
+			&:nth-child(3)
+				/*.plan
+					background #FFCC00*/
+	.arriba
+		height 400px
+		li
+			/*&:hover
+				box-shadow 3px 3px 10px rgba(oscuro, .4)*/
+			&:nth-child(1)
+				margin-right 1%
+				width 49%
+				/*.plan
+					background #00C7D1*/
+			&:nth-child(2)
+				margin-right 1%
+				width 24%
+				/*.plan
+					background #73D000*/
+			&:nth-child(3)
+				width 25%
+				/*.plan
+					background #FFCC00*/
+
+
+.sf-sub-indicator
+	display none
+
+.slider-container
+	margin 0
+	padding 0
+	position relative
+
+.socialsharing_product
+	font-size 0
+	text-align center
+	button
+		//background oscuro
+		border none
+		border-radius 50%
+		height 40px
+		margin 3px
+		width 40px
+
+.star
+	cursor pointer
+	display inline-block
+	margin 1px
+	height 18px
+	position relative
+	width 18px
+	&:after
+		color rojoAsiste
+		content '\e6ce'
+		font-family 'icos'
+		font-size 12px
+		height 18px
+		left 0
+		line-height 18px
+		//padding 3px
+		position absolute
+		text-align center
+		top 0
+		width 18px
+	a
+		font-size 0
+
+.star_hover
+	height 18px
+	position relative
+	width 18px
+	&:after
+		background rojoAsiste
+		color clarito
+		content '\e6ce'
+		font-family 'icos'
+		font-size 12px
+		height 18px
+		left 0
+		line-height 18px
+		//padding 3px
+		position absolute
+		text-align center
+		top 0
+		width 18px
+.star_on
+	height 18px
+	position relative
+	width 18px
+	&:after
+		background rojoAsiste
+		color white
+		content '\e6ce'
+		font-family 'icos'
+		font-size 12px
+		height 18px
+		left 0
+		line-height 18px
+		//padding 3px
+		position absolute
+		text-align center
+		top 0
+		width 18px
+
+.std
+	border 1px solid clarito
+	margin 0 auto
+	padding 18px
+	width 70%
+
+.subcategories
+	display none
+	ul
+		li
+			h5
+				a
+					font-size 15px !important
+
+.subcategories
+	border-top 1px solid #d6d4d4
+	overflow hidden
+	padding 15px 0 0px 0 
+	p.subcategory-heading
+		color #333333
+		font-family 'quicksandbold'
+		margin 0 0 15px 0 
+		text-align center
+	ul
+		margin 0
+		padding 0
+		text-align center
+		li
+			display inline-block
+			height 202px 
+			list-style none
+			margin 0 10px 13px 0
+			text-align center
+			width 145px
+			h5
+				margin 0
+      
+			.subcategory-image
+				padding 0
+				a
+					border 15px solid clarito 
+					border-radius 50%
+					display block
+					height 145px
+					overflow hidden
+					//padding 9px
+					transition .3s
+					width 145px
+					img
+						vertical-align top 
+						width 100%
+			.subcategory-name
+				color #555454
+				
+				text-transform uppercase 
+				&:hover
+					color #515151 
+			.cat_desc
+				display none 
+			&:hover .subcategory-image a
+				border 15px solid verdeClaroPet
+				//padding 5px 
+
+.subcategory-name
+	font-size 15px !important
+	font-weight 100 !important
+
+.submitPassForgot
+	button
+		background naranjito
+		border none
+		span
+			color white
+
+.tabsInfoCms
+	width 100% !important
+	.tabs
+		.navTabs
+			ul
+				background white
+				li
+					background white !important
+					border-bottom 1px solid #aeadb3
+					border-top 1px solid #aeadb3
+					display inline-block
+					margin 0
+					padding 0
+					text-align center
+					width 180px
+					a
+						color #aeadb3
+						display block
+						font-size 15px
+						font-family 'oswaldregular'
+						line-height 40px
+						text-decoration none
+						text-transform uppercase
+						h3
+							font-weight 100
+							margin 0
+							padding 5px 5px 0 5px
+						&:hover
+							color rojoAsiste
+							text-decoration underline
+			.seccion
+				padding 20px 0 30px
+				h2
+					font-family 'oswaldregular'
+					font-size 18px
+					font-weight 100
+					text-align left
+					text-decoration underline
+				p
+					font-size 14px
+					a
+						color oscuro
+						display inline
+						font-size 15px
+						font-family 'oswaldregular'
+						line-height 40px
+						text-decoration none
+						text-transform uppercase
+						&:hover
+							color rojoAsiste
+							text-decoration underline
+				ul
+					border-bottom 1px solid clarito
+					border-top 1px solid clarito
+					margin 0
+					padding 0
+					li
+						border none
+						display block
+						font-size 15px
+						list-style-type circle
+						padding 5px 0
+						text-align left
+						width 100%
+						a
+							display inline
+							
+.tabsInfoCms
+.tabsInfo
+	display inline-block
+	margin-top 25px
+	vertical-align top
+	width 67%
+	.tabs
+		.navTabs
+			ul
+				font-size 0
+				margin 0
+				padding 0
+				li
+					background clarito
+					border-bottom 1px solid #aeadb3
+					display inline-block
+					margin 0
+					padding 0
+					text-align center
+					width 180px
+					a
+						color #aeadb3
+						display block
+						font-size 17px
+						//font-family 'oswaldregular'
+						font-family 'quicksandbold'
+						letter-spacing -1px
+						line-height 40px
+						text-decoration none
+						text-transform uppercase
+						h3
+							font-weight 100
+							margin 0
+							padding 5px 5px 0 5px
+				.tab-current
+					background white
+					border-bottom 1px solid white
+					border-left 1px solid #aeadb3
+					border-top 1px solid #aeadb3
+					border-right 1px solid #aeadb3
+					a
+						color oscuro
+						h3
+							padding 5px 10px 0 10px
+		.content-wrap
+			table
+				width 100% !important
+			section
+			.seccionTab
+				display none
+				p
+					font-size 14px
+					font-weight 100
+					margin 0
+				.contenedorComentario
+					.contenedorInternoComentario
+						.comentario
+							border-bottom 1px solid clarito
+							padding 15px 0
+							.usuarioInfo
+								width 120px
+								.comment_author_infos
+									text-transform uppercase
+									em
+										font-size 13px
+										margin 0
+									em
+									strong
+										display block
+										padding-left 5px
+								.star_content
+									margin-top 5px
+									.star
+										height 13px
+										margin 0
+										width 13px
+										&:after
+											font-size 9px
+							.usuarioInfo
+							.detalleComentario
+								display inline-block
+								vertical-align top
+							.detalleComentario
+								p
+									strong
+										font-style normal
+										font-weight 400
+										text-transform capitalize
+							.teSirvio
+								display none
+						.align_center
+							
+							font-size 15px
+							margin-top 15px
+							text-align right
+							a
+								color #aeadb3
+								&:hover
+									color rojoAsiste
+
+			section
+			.content-current
+				margin-top -1px
+			.content-current
+				border 1px solid #aeadb3
+				box-sizing border-box
+				display block
+				padding 25px
+				width 100%
+				table
+					
+					font-weight 100
+					tbody
+						.even
+							td
+								border 0
+						.even
+						.odd
+							td
+								padding 5px 10px
+						.odd
+							background clarito
+							border 0
+						tr
+							td
+								text-align left
+								&:nth-child(1)
+									color #aeadb3
+
+.telefono:hover ~ .telefonoContenedor
+	display block
+
+.textoLink
+	color oscuro
+	font-size 15px
+	//padding 5px
+	text-align left
+	width 100%
+	.row
+	.payment_module
+		background #fbfbfb
+		border 2px solid #ddd
+		//border-radius 10px
+		display block
+		margin 2px auto
+		width 70%
+	.payment_module
+		margin 0 auto
+		a
+			//border-radius 10px
+			color oscuro
+			display block
+			
+			//font-size 14px
+			line-height 79px
+			margin 0 1px
+			padding 15px
+			position relative
+			text-decoration none
+			text-transform uppercase
+			transition .3s
+			&:hover
+				background #999
+				color white
+				&:after
+				&:before
+					background white
+					/*border-bottom 2px solid oscuro
+					border-top 2px solid oscuro
+					border-right 2px solid oscuro
+					color white
+				&:before
+					border-left 2px solid oscuro*/
+			&:after
+				background #ddd
+				/*border-bottom 1px solid #E4E4E4
+				border-top 1px solid #E4E4E4
+				border-right 1px solid #E4E4E4*/
+				bottom 0
+				color colorao
+				content '\e732'
+				font-family 'icos'
+				font-size 18px
+				height 30px
+				line-height 30px
+				padding 0 5px
+				position absolute
+				right -2px
+				transition .3s
+			&:before
+				background #ddd
+				/*border-bottom 1px solid #E4E4E4
+				border-left 1px solid #E4E4E4
+				border-top 1px solid #E4E4E4*/
+				bottom 0
+				color colorao
+				content 'Ir a Pagar'
+				
+				font-size 15px
+				font-weight 600
+				height 30px
+				line-height 30px
+				padding 0 10px
+				position absolute
+				text-transform initial
+				right 23px
+				transition .3s
+			img
+				border none
+				height 75px !important
+				margin-right 5px
+				vertical-align middle
+				width 75px !important
+			span
+				display none
+		&:hover
+			background clarito
+	.row
+		.payment_module
+			border 1px solid transparent
+			width 100%
+
+.textoSimple
+	font-size 15px
+
+.titulocentrado
+	margin 0 auto
+	max-width 950px
+
+.toggle-footer
+	span
+		a
+			color clarito
+			transition .2s
+			&:hover
+				color naranjito
+
+.trigger
+	display none
+
+.unvisible
+	display none
+
+.view-port
+	overflow hidden
+	position relative
+
+.visible
+	visibility visible !important
+
+.volverBusqueda
+	a
+		color oscuro
+		display block
+		font-family 'oswaldregular'
+		font-weight 100
+		margin-bottom 15px
+
+.wishlisturl
+	input
+		background #eaeaea
+		cursor not-allowed
+		font-size 15px
+		font-weight 300
+	input
+	label
+		text-align left
+		width 100%
+	label
+		font-weight 700
+
+.wlp_bought
+	margin-top 26px
+	ul
+		margin 0
+		padding 0
+		li
+			display inline-block
+			margin 0 0.3%
+			padding 0
+			width 24%
+			.row
+				img
+					width 100%
+				p
+					display block
+					//text-align center
+					label
+						font-size 11px
+						display block
+						width 100%
+					input
+					select
+						display block
+						border-radius 2px
+						margin 0
+						text-align right
+						width 80%
+					select
+						option
+							text-align right
+				.col-xs-6
+					.product_infos
+						.product-name
+							font-size 14px
+							font-weight 600
+	.btn_action
+		border-bottom 1px solid clarito
+		border-radius 2px
+		//display block
+		//line-height 40px
+		margin 0 auto
+		padding-bottom 25px
+		text-align left
+		transition .3s
+		//width 30%
+		a
+			background clarito
+			margin-right 5%
+			padding 3px 15px
+			text-decoration none
+			span
+				color oscuro
+				
+				font-weight 100
+			&:hover
+				background rojoAsiste
+				span
+					color white
+
+.wl_send
+	margin-top 24px !important
+	fieldset
+		div
+			margin 5px auto
+			input
+				width 200px
+			label
+				color oscuro
+		.required
+			color oscuro
+			font-size 13px
+			text-align right
+		.submit
+			text-align right
+			button
+				background clarito
+				border none
+				span
+					color oscuro
+					padding 5px 15px
+
+//
+// .cupon
+// 	background rgba(oscuro, .5)
+// 	//display block
+// 	height 100%
+// 	position fixed
+// 	visibility hidden
+// 	width 100%
+// 	z-index 10000
+// 	.avisoCupon
+// 		background white
+// 		margin 0 auto
+// 		width 500px
+
+// @keyframes anim-open {
+// 	0% { opacity: 0; transform: scale3d(1.1, 1.1, 1); }
+// 	100% { opacity: 1; transform: scale3d(1, 1, 1); }
+// }
+
+// @keyframes anim-close {
+// 	0% { opacity: 1; }
+// 	100% { opacity: 0; transform: scale3d(0.9, 0.9, 1); }
+// }
+
+// .no-touch #cd-top-nav a:hover
+// 	color rgba(255, 255, 255, 0.7)
+
+// #cd-lateral-nav
+// 	backface-visibility hidden
+// 	background-color #ECEDEF
+// 	height 100%
+// 	overflow-y auto
+// 	position fixed
+// 	right 0
+// 	top 0
+// 	transform translateX(80px)
+// 	transform translateZ(0)
+// 	transition transform .4s 0s, visibility 0s .4s
+// 	visibility hidden
+// 	width 260px
+// 	z-index 1
+// 	a
+// 		display block
+// 		.current
+// 			background-color #3a4a4d
+// 			color #FFF
+// 	.sub-menu
+// 		display none
+// 	&.lateral-menu-is-open
+// 		-webkit-overflow-scrolling touch
+// 		transform translateX(0)
+// 		transition transform .4s 0s, visibility 0s 0s
+// 		visibility visible
+	
+// 	.item-has-children > a
+// 		position relative
+// 		text-transform uppercase
+// 		&:after
+// 			background url("../img/cd-arrow.svg") no-repeat center center
+// 			background-size 8px 11px
+// 			bottom auto
+// 			content ''
+// 			display block
+// 			height 11px
+// 			position absolute
+// 			right 1em
+// 			top 50%
+// 			transform translateY(-50%)
+// 			transition-duration 0.2s
+// 			transition-property transform
+// 			width 8px
+// 		.submenu-open
+// 			&:after
+// 				transform translateY(-50%) rotate(90deg)
+
+// #cd-logo
+// 	display block
+// 	float left
+// 	margin 12px 0 0 20px
+// 	img
+// 		display block
+		
+// #cd-menu-trigger
+// 	background-color #ECEDEF
+// 	border 1px solid #879193
+// 	border-radius 5px
+// 	height 100%
+// 	position absolute
+// 	right 5px
+// 	top 0
+// 	width 40px
+
+// 	.cd-menu-text
+// 		color #FFF
+// 		display none
+// 		font-weight 600
+// 		height 100%
+// 		text-transform uppercase
+// 	.cd-menu-icon
+// 		background-color #434142 
+// 		bottom auto
+// 		display inline-block
+// 		height 2px
+// 		left 50%
+// 		position absolute
+// 		right auto
+// 		top 50%
+// 		transform translateX(-50%) translateY(-50%)
+// 		width 18px
+// 		&:after
+// 			top 5px
+// 		&:before,
+// 		&:after
+// 			background-color #434142
+// 			content ''
+// 			height 100%
+// 			left 0
+// 			position absolute
+// 			width 100%
+// 		&:before
+// 			bottom: 5px
+			
+// 	&.is-clicked .cd-menu-icon
+// 		background-color: rgba(255, 255, 255, 0)
+// 		&:after
+// 			top 0
+// 			transform rotate(-45deg)
+// 		&:before,
+// 		&:after
+// 			background-color #434142
+// 		&:before
+// 			bottom 0
+// 			transform rotate(45deg)
+
+// #cd-top-nav 
+// 	display none
+// 	height 100%
+// 	position absolute
+// 	right 120px
+// 	top 0
+// 	ul 
+// 		height 100%
+// 		padding-top 18px
+// 		li 
+// 			display inline-block
+// 			margin-right 1em
+// 	a 
+// 		color #FFF
+// 		display inline-block
+// 		font-weight 600
+// 		padding .5em
+// 		text-transform uppercase
+// 		.current 
+// 			background-color #242e30
+
+
+#block_various_links_footer
+	display none
+	
+#productosHome
+	#left_column
+		display none
+
+#sslsSiteSeal
+	display inline-block
+	vertical-align top
+	width 200px
+	.sslslock
+		padding 0 !important
+		img
+			height 40px !important
+			
+#videoholder
+	padding 0 !important
+
+// cosas sin resolver
+
+#oosHook
+	display none
+	
+// import de styl externos
+
+@import "normalize"
+@import "responsive"
+@import "owl.carousel"
+@import "verticalmenu"
+@import "fancybox"
+@import "iconos"
+
+
+
+
+/*
+* ui slider css
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* For IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+
+
+/*!
+ * jQuery UI CSS Framework 1.10.3
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
+ */
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-size: 1.1em/*{fsDefault}*/;
+}
+.ui-widget .ui-widget {
+	font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+	font-size: 1em;
+}
+.ui-widget-content {
+	border: 1px solid #aaaaaa/*{borderColorContent}*/;
+	background: #ffffff;
+	color: #222222/*{fcContent}*/;
+}
+.ui-widget-content a {
+	color: #222222/*{fcContent}*/;
+}
+.ui-widget-header {
+	border: 1px solid #aaaaaa/*{borderColorHeader}*/;
+	background: #cccccc;
+	color: #222222/*{fcHeader}*/;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #222222/*{fcHeader}*/;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: 2px solid #4baa2b/*{borderColorDefault}*/;
+	background: #e6e6e6;
+	font-weight: normal/*{fwDefault}*/;
+	color: #555555/*{fcDefault}*/;
+	transition: .3s;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #555555/*{fcDefault}*/;
+	text-decoration: none;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: 1px solid #999999/*{borderColorHover}*/;
+	background: #dadada;
+	font-weight: normal/*{fwDefault}*/;
+	color: #212121/*{fcHover}*/;
+}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited {
+	color: #212121/*{fcHover}*/;
+	text-decoration: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	/*border: 1px solid #aaaaaa{borderColorActive}*/;
+	background: #4baa2b;
+	font-weight: normal/*{fwDefault}*/;
+	color: #212121/*{fcActive}*/;
+}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #212121/*{fcActive}*/;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #fcefa1/*{borderColorHighlight}*/;
+	background: #fbf9ee;
+	color: #363636/*{fcHighlight}*/;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+	color: #363636/*{fcHighlight}*/;
+}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+	border: 1px solid #cd0a0a/*{borderColorError}*/;
+	background: #fef1ec;
+	color: #cd0a0a/*{fcError}*/;
+}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+	color: #cd0a0a/*{fcError}*/;
+}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+	color: #cd0a0a/*{fcError}*/;
+}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70);
+	font-weight: normal;
+}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	background-image: none;
+}
+.ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	width: 16px;
+	height: 16px;
+}
+
+
+/* positioning */
+.ui-icon-blank { background-position: 16px 16px; }
+.ui-icon-carat-1-n { background-position: 0 0; }
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+.ui-icon-carat-1-e { background-position: -32px 0; }
+.ui-icon-carat-1-se { background-position: -48px 0; }
+.ui-icon-carat-1-s { background-position: -64px 0; }
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+.ui-icon-carat-1-w { background-position: -96px 0; }
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.ui-icon-extlink { background-position: -32px -80px; }
+.ui-icon-newwin { background-position: -48px -80px; }
+.ui-icon-refresh { background-position: -64px -80px; }
+.ui-icon-shuffle { background-position: -80px -80px; }
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+.ui-icon-folder-open { background-position: -16px -96px; }
+.ui-icon-document { background-position: -32px -96px; }
+.ui-icon-document-b { background-position: -48px -96px; }
+.ui-icon-note { background-position: -64px -96px; }
+.ui-icon-mail-closed { background-position: -80px -96px; }
+.ui-icon-mail-open { background-position: -96px -96px; }
+.ui-icon-suitcase { background-position: -112px -96px; }
+.ui-icon-comment { background-position: -128px -96px; }
+.ui-icon-person { background-position: -144px -96px; }
+.ui-icon-print { background-position: -160px -96px; }
+.ui-icon-trash { background-position: -176px -96px; }
+.ui-icon-locked { background-position: -192px -96px; }
+.ui-icon-unlocked { background-position: -208px -96px; }
+.ui-icon-bookmark { background-position: -224px -96px; }
+.ui-icon-tag { background-position: -240px -96px; }
+.ui-icon-home { background-position: 0 -112px; }
+.ui-icon-flag { background-position: -16px -112px; }
+.ui-icon-calendar { background-position: -32px -112px; }
+.ui-icon-cart { background-position: -48px -112px; }
+.ui-icon-pencil { background-position: -64px -112px; }
+.ui-icon-clock { background-position: -80px -112px; }
+.ui-icon-disk { background-position: -96px -112px; }
+.ui-icon-calculator { background-position: -112px -112px; }
+.ui-icon-zoomin { background-position: -128px -112px; }
+.ui-icon-zoomout { background-position: -144px -112px; }
+.ui-icon-search { background-position: -160px -112px; }
+.ui-icon-wrench { background-position: -176px -112px; }
+.ui-icon-gear { background-position: -192px -112px; }
+.ui-icon-heart { background-position: -208px -112px; }
+.ui-icon-star { background-position: -224px -112px; }
+.ui-icon-link { background-position: -240px -112px; }
+.ui-icon-cancel { background-position: 0 -128px; }
+.ui-icon-plus { background-position: -16px -128px; }
+.ui-icon-plusthick { background-position: -32px -128px; }
+.ui-icon-minus { background-position: -48px -128px; }
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-close { background-position: -80px -128px; }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-icon-key { background-position: -112px -128px; }
+.ui-icon-lightbulb { background-position: -128px -128px; }
+.ui-icon-scissors { background-position: -144px -128px; }
+.ui-icon-clipboard { background-position: -160px -128px; }
+.ui-icon-copy { background-position: -176px -128px; }
+.ui-icon-contact { background-position: -192px -128px; }
+.ui-icon-image { background-position: -208px -128px; }
+.ui-icon-video { background-position: -224px -128px; }
+.ui-icon-script { background-position: -240px -128px; }
+.ui-icon-alert { background-position: 0 -144px; }
+.ui-icon-info { background-position: -16px -144px; }
+.ui-icon-notice { background-position: -32px -144px; }
+.ui-icon-help { background-position: -48px -144px; }
+.ui-icon-check { background-position: -64px -144px; }
+.ui-icon-bullet { background-position: -80px -144px; }
+.ui-icon-radio-on { background-position: -96px -144px; }
+.ui-icon-radio-off { background-position: -112px -144px; }
+.ui-icon-pin-w { background-position: -128px -144px; }
+.ui-icon-pin-s { background-position: -144px -144px; }
+.ui-icon-play { background-position: 0 -160px; }
+.ui-icon-pause { background-position: -16px -160px; }
+.ui-icon-seek-next { background-position: -32px -160px; }
+.ui-icon-seek-prev { background-position: -48px -160px; }
+.ui-icon-seek-end { background-position: -64px -160px; }
+.ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first { background-position: -80px -160px; }
+.ui-icon-stop { background-position: -96px -160px; }
+.ui-icon-eject { background-position: -112px -160px; }
+.ui-icon-volume-off { background-position: -128px -160px; }
+.ui-icon-volume-on { background-position: -144px -160px; }
+.ui-icon-power { background-position: 0 -176px; }
+.ui-icon-signal-diag { background-position: -16px -176px; }
+.ui-icon-signal { background-position: -32px -176px; }
+.ui-icon-battery-0 { background-position: -48px -176px; }
+.ui-icon-battery-1 { background-position: -64px -176px; }
+.ui-icon-battery-2 { background-position: -80px -176px; }
+.ui-icon-battery-3 { background-position: -96px -176px; }
+.ui-icon-circle-plus { background-position: 0 -192px; }
+.ui-icon-circle-minus { background-position: -16px -192px; }
+.ui-icon-circle-close { background-position: -32px -192px; }
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+.ui-icon-circle-check { background-position: -208px -192px; }
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 4px/*{cornerRadius}*/;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 4px/*{cornerRadius}*/;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 4px/*{cornerRadius}*/;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 4px/*{cornerRadius}*/;
+}
+
+/* Overlays */
+.ui-widget-overlay {
+	background: #aaaaaa;
+	opacity: .3/*{opacityOverlay}*/;
+	filter: Alpha(Opacity=30)/*{opacityFilterOverlay}*/;
+}
+.ui-widget-shadow {
+	margin: -8px/*{offsetTopShadow}*/ 0 0 -8px/*{offsetLeftShadow}*/;
+	padding: 8px/*{thicknessShadow}*/;
+	background: #aaaaaa;
+	opacity: .3/*{opacityShadow}*/;
+	filter: Alpha(Opacity=30)/*{opacityFilterShadow}*/;
+	border-radius: 8px/*{cornerRadiusShadow}*/;
+}
+
+#cmsinfo_block
+	display none
+	
+
+
+/* Menu icon styles */
+
+.menu-icon-wrapper {
+	position: relative;
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+	/*margin: 2em;*/
+	pointer-events: none;
+	transition: 0.1s;
+}
+
+.menu-icon-wrapper.scaled {
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.menu-icon-wrapper svg {
+	position: absolute;
+	top: -33px;
+	left: -33px;
+	-webkit-transform: scale(0.1);
+	-ms-transform: scale(0.1);
+	transform: scale(0.1);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.menu-icon-wrapper svg path {
+	stroke: transparent;
+	/*stroke: #f4adad;*/
+	stroke-width: 60px;
+	stroke-linecap: round;
+    stroke-linejoin: round;
+	fill: transparent;
+}
+
+.menu-icon-wrapper .menu-icon-trigger {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	pointer-events: auto;
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-icon-wrapper .menu-icon-trigger:hover,
+.menu-icon-wrapper .menu-icon-trigger:focus {
+	outline: none;
+}
