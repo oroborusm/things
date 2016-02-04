@@ -157,13 +157,13 @@
 				width 100%
 			&:hover
 				color #790b19
-	.selectCategory 
+	/*.selectCategory 
 		.arriba 
 			li:nth-child(2)
 				a 
 					figure 
 						img
-							width 120%
+							width 120%*/
 				
 
 				
@@ -217,10 +217,10 @@
 				a
 					figure
 						border-radius 0*/
-@media screen and (max-width: 850px)
+/*@media screen and (max-width: 850px)
 	.selectCategory
 		.abajo
-			height 400px
+			height 400px*/
 
 @media screen and (max-width: 800px)
 	body
@@ -285,6 +285,12 @@
 					width 100%
 					img
 						width 200px !important
+						
+		header
+			.header
+				.headerCOnt
+					.buscador
+						right 220px
 		.accedeCuentaChica
 			box-sizing border-box
 			margin 0
@@ -310,18 +316,8 @@
 					.esTelefono
 					.infoAdicional
 						width 100%
-		/*.carrito 
-			background-color #ff4c00
-			border-radius 0
-			position relative
-			top 15px
-			right 0
-			width 100%
-			.carritoHover
-				width 100%
-			.carritoIcon
-				&:before
-					width 100%*/
+		.carrito 
+			top 28px
 		/*.carrito > .ajax_cart_no_product
 		.carrito > .ajax_cart_quantity
 			height 25px
@@ -361,18 +357,11 @@
 			.rodeaListaDirecciones
 				.listaDirecciones
 					width 100%
-		/*.loginUsuario
-			border-radius 0
-			//display none
-			left 0
-			margin-top 23px
-			position relative
-			//top 120px
-			width 100%
+		.loginUsuario
+			top 28px
 			.contenedorLogin
-				.despliega
-					width 100%
-					z-index 1*/
+				&:before
+					border-right 10px solid transparent
 		.order_carrier_content
 			.checkbox
 				padding 10px
@@ -523,9 +512,21 @@
 				button
 					span
 						font-size 16px
+	.head-fixed 
+		.header 
+			.headerCOnt 
+				.carrito
+				.loginUsuario
+					top 7px
 	.infoAdicionalHeader
 		.row
 			width 100%
+			.shop-titulo
+				font-size 80%
+			.shop-email
+			.shop-phone
+				font-size 90% !important
+				font-weight 600
 	.listaProducto
 		.listaProductoLi
 			width 23.5%
@@ -639,6 +640,11 @@
 					max-width 100%
 					padding 10px 0
 					width 100%
+					a
+						margin 0 auto
+					h2
+						margin-bottom 15px
+						text-align center
 				.fotoPresentacion 
 					width 80%
 					left 10%
@@ -656,8 +662,8 @@
 		ul
 			li
 				.ifoPlan
-					h2
-						line-height 55px
+					/*h2
+						line-height 55px*/
 					p
 						display none
 	#homefeatured
@@ -802,14 +808,23 @@
 		.row
 			padding 0 10px
 			text-align right
+			.shop-email
 			.shop-phone	
+			.shop-titulo
 				line-height initial					
-	.loginUsuario
+				margin-left 25%
+				width 75%
+	/*.loginUsuario
 		margin auto 0 auto auto
 		position relative
 		width 150px
 		.contenedorLogin 
-			margin-top 5px
+			margin-top 5px*/
+			
+/*@media screen and (max-width: 690px)
+	.selectCategory 
+		.arriba
+			height 300px*/
 
 @media all and (max-width: 680px) {
   .skew.l {
@@ -926,14 +941,14 @@
 	.pagar
 		padding 1em
 		width 100% !important
-	.selectCategory
+	/*.selectCategory
 		ul
 			li
 				a
 					figure
 						width 100px
 						img
-							width 150px
+							width 150px*/
 	#sslsSiteSeal
 		.sslslock
 			img
@@ -943,16 +958,42 @@
 		font-size 13px
 
 @media screen and (max-width:550px)
-	/*body 
+	body 
 		header 
 			.header 
 				figure
-					width 180px
+					overflow hidden
+					width 60px
 					a
 						img
-							width 100%*/
+							width 180px
+				.headerCOnt 
+					.buscador
+						display none
+	.head-fixed 
+		.header
+			figure
+				width 40px
+	.infoAdicionalHeader
+		.row
+			.shop-email
+			.shop-phone	
+			.shop-titulo
+				margin-left 0
+				width 100%
+			.shop-titulo
+				color transparent
+	.loginUsuario 
+		.contenedorLogin 
+			background-color transparent
+			.nombre
+				color black
+				padding 0
+				span
+					color black
 	.presentacion
 		.contenedorPresentacion
+			height 400px
 			.contFoto
 				.contTxt
 					h2
@@ -960,6 +1001,7 @@
 					.destacadoTxt
 						font-size 120%
 						line-height initial
+
 
 @media screen and (max-width:500px)
 	body
@@ -989,7 +1031,16 @@
 									box-shadow inset 0 0 0 4px rgba(black, .2)
 								span
 									padding 10px 0
-	.selectCategory
+	.presentacion 
+		.contenedorPresentacion 
+			.contFoto 
+				.contTxt
+					.destacadoTxt
+						font-size 15px
+					h2
+						font-size 13px
+					
+	/*.selectCategory
 		ul
 			width 100%
 			li
@@ -997,21 +1048,20 @@
 					figure
 						width 130px
 		.doggy
-			margin 0
+			margin 0*/
 
 @media screen and (max-width:470px)
 	body 
 		header 
 			.header 
-				figure
-					overflow hidden
-					width 37px
-					a
-						img
-							width 180px
 				.headerCOnt
 					.buscador
 						width 50%
+	.añadeCarrituHome 
+		a
+		.carritoVacio
+			span
+				font-size 11px
 	.head-fixed 
 		.header 
 			.headerCOnt 
@@ -1065,6 +1115,11 @@
 		.fechaNacimiento
 			.contenedorFecha
 				width 100%
+		.infoAdicionalHeader 
+			.row 
+				.shop-email
+				.shop-phone
+					font-size 75% !important
 		.micuenta
 			.rodeaListaDirecciones
 				.listaDirecciones
@@ -1098,6 +1153,14 @@
 				.headerCOnt
 					.buscador
 						width 40%
+	.añadeCarrituHome 
+		a 
+		.carritoVacio
+			span
+				font-size 11px
+	.infoAdicionalHeader
+		.row
+			padding 0 5px
 	.presentacion 
 		.contenedorPresentacion 
 			.contFoto 
@@ -1225,6 +1288,7 @@
 				.mediosPago
 					img
 						width 150px !important
-	.listaDireccion .contenedorListaDireccion
-		width 100%
-		
+	.listaDireccion 
+		.contenedorListaDireccion
+			width 100%
+	

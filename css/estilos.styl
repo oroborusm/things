@@ -2201,13 +2201,13 @@ body
 					width 67%
 					h1
 						color oscuro
-						font-family 'quicksandbold'
-						font-size 24px
-						font-weight 100
-						letter-spacing -2px
-						margin 10px 0
-						padding 0 5px 0 15px
+						font-family 'seravekregular'
+						font-size 30px
+						font-weight 600
+						letter-spacing 2px
+						padding 0 0 0 15px
 						text-align left
+						text-transform uppercase
 					.carroDecripcion
 						//background clarito
 						//height 300px
@@ -2241,7 +2241,7 @@ body
 													display block
 													margin 0
 													button
-														background rojoAsiste
+														background #c41925
 														border none
 														//border-radius 5px
 														display block
@@ -2266,10 +2266,12 @@ body
 														span
 															color white
 															display block
-															
-															font-size 20px
+															font-family 'seravekregular'
+															font-size 15px
+															letter-spacing 2px
 															//margin-left 49px
 															//text-align left
+															text-transform uppercase
 														&:hover
 															background #c41925
 															box-shadow 2px 2px 5px oscuro
@@ -2320,16 +2322,18 @@ body
 											vertical-align middle
 											width 40%
 											span
-												color rojoAsiste
-												font-family 'quicksandbold'
+												color #c41925
+												font-family 'seravekregular'
 												font-size 30px
-												font-weight 100
-												letter-spacing -1px
-												//padding-right 20px
+												font-weight 600
+												letter-spacing 2px
+												text-transform uppercase
 											.textChico
 												color oscuro
-												
-												font-size 13px
+												font-family 'seravekregular'
+												font-size 10px
+												letter-spacing 2px
+												text-transform uppercase
 								.cantidad
 									border-bottom 2px solid #ddd
 									border-top 2px solid #ddd
@@ -2354,19 +2358,21 @@ body
 											//border-radius 5px
 											bottom 0
 											box-sizing border-box
-											color rojoAsiste
-											
+											color #c41925
+											font-family 'seravekregular'
 											font-size 20px !important
+											letter-spacing 2px
 											height 40px
 											left 0
 											padding 10px
 											//position absolute
 											text-align right
+											text-transform uppercase
 											width 155px
 										.product_quantity_down
 										.product_quantity_up
 											background oscuro
-											//border-radius 5px
+											border-radius 50%
 											display block
 											height 17px
 											overflow hidden
@@ -2433,23 +2439,25 @@ body
 							li
 								//background #ddd
 								//border 1px solid rgb(174, 173, 179)
-								border-radius 15px
+								//border-radius 15px
 								display inline-block
 								font-size 13px
 								list-style none
 								padding .4em 3px
 								//width 100px
 								&:hover
-									background #b53646
+									background black
 									a
 										color white
 								a
 									color otroGris
 									display block
-									font-family 'quicksandbold'
-									letter-spacing -1px
+									font-family 'seravekregular'
+									font-size 10px
+									letter-spacing 2px
 									padding 0 3px
 									text-decoration none
+									text-transform uppercase
 							
 						.referencias
 							display inline-block
@@ -2460,8 +2468,10 @@ body
 								margin-right 5px
 								text-align right
 								span
-									
-									font-size 13px
+									font-family 'seravekregular'
+									font-size 10px
+									letter-spacing 2px
+									text-transform uppercase
 								span
 								.star_content
 									display inline-block
@@ -2477,12 +2487,11 @@ body
 							.referencia
 								label
 								span
-									color otroGris
-									font-family 'quicksandregular'
-									font-size 13px
-									letter-spacing -1px
+									font-family 'seravekregular'
+									font-size 10px
 									line-height 28px
-									margin 0
+									letter-spacing 2px
+									text-transform uppercase
 									
 					.linkComentario
 						bottom 40px
@@ -4661,10 +4670,11 @@ td
 				color naranjito
 
 .condicion
-	font-family 'quicksandregular'
-	font-size 13px
-	letter-spacing -1px
+	font-family 'seravekregular'
+	font-size 9px
+	letter-spacing 2px
 	padding 0 5px 0 15px
+	text-transform uppercase
 	//width 50%
 	.ProdNuevo
 	.ProdReparado
@@ -4711,7 +4721,7 @@ td
 		font-weight 100
 		margin 0
 		span
-			color naranjoPet
+			color #c41925
 			font-weight 600
 	h2
 	p
@@ -4975,7 +4985,7 @@ td
 					background-color black
 					//color white
 					display block
-					margin-top 15px
+					margin 15px 0 0 0
 					padding 5px 10px
 					text-align center
 					text-decoration none
@@ -6110,8 +6120,10 @@ td
 		font-size 33px
 .icon-plus
 .icon-minus
-	color white
-	font-size 13px
+	color #f4adad
+	display block
+	font-size 11px
+	line-height 18px !important
 
 .infoAdicionalHeader
 	//background #f8f8f8
@@ -7540,6 +7552,7 @@ td
 		& > li
 			// background linear-gradient(to bottom , clarito 50%, #ddd 50%)
 			//border-radius 68px
+			//box-shadow 5px 5px 5px rgba(black, .2)
 			display inline-block
 			font-size 0
 			height 100%
@@ -7548,16 +7561,16 @@ td
 			transition .4s
 			text-align left
 			vertical-align top
+			&:hover
+				.ifoPlan
+					opacity 1
+					visibility visible
 			a
 				display block
 				height 100%
 				//padding 10px
 				text-decoration none
 				width 100%
-				&:hover
-					figure
-						img
-							opacity 1	
 				figure
 					background-color #f4adad
 					//border-radius 0 0 68px 0
@@ -7570,7 +7583,7 @@ td
 					transition .4s
 					width 100%
 					img
-						opacity .9
+						//opacity .9
 						transition .3s
 						width 100%
 			& > .chicas
@@ -7581,6 +7594,7 @@ td
 				position relative
 				width 100%
 				& > li
+					border 1px solid #ccc
 					height 49%
 					width 100% !important
 				.bottom
@@ -7601,7 +7615,7 @@ td
 							img
 								opacity 1
 			
-			.plan
+			/*.plan
 				background-color black
 				//border-radius 50%
 				display inline-block
@@ -7644,25 +7658,33 @@ td
 						display block
 						font-size 13px
 						line-height 55px
-						width 100%
+						width 100%*/
 			.ifoPlan
-				background-color black
+				background-color rgba(black, .9)
 				bottom 0
 				display inline-block
+				height 100%
 				//margin-left 16px
-				padding 0 15px
+				opacity 0
+				//padding 0 15px
 				position absolute
-				text-align right
+				text-align center
+				transition .3s
 				vertical-align middle
+				visibility hidden
 				width 100%
 				z-index 1
 				h2
 					color #5d5d5d
+					display block
 					font-family 'seravekregular'
 					font-size 15px
 					letter-spacing 2px
 					margin 5px 0
+					position absolute
 					text-transform uppercase
+					top calc(50% - 12px)
+					width 100%
 				p
 					color #5d5d5d
 					font-family 'seravekregular'
@@ -7671,40 +7693,47 @@ td
 					margin 0 5px
 					text-transform uppercase
 	.abajo
-		height 630px
+		//height 630px
 		//margin-left 1%
 		li
 			/*&:hover
 				box-shadow 3px 3px 10px rgba(oscuro, .4)*/
 			&:nth-child(1)
-				margin-right 1%
-				width 39%
+				border 1px solid #ccc
+				margin-right 2%
+				width 49%
 				/*.plan
 					background #00C7D1*/
 			&:nth-child(2)
-				width 60%
+				border 1px solid #ccc
+				width 49%
 				/*.plan
 					background #73D000*/
 			&:nth-child(3)
 				/*.plan
 					background #FFCC00*/
 	.arriba
-		height 400px
+		//height 400px
 		li
 			/*&:hover
 				box-shadow 3px 3px 10px rgba(oscuro, .4)*/
 			&:nth-child(1)
+				border 1px solid #ccc
 				margin-right 1%
-				width 49%
+				width 20%
+				
 				/*.plan
 					background #00C7D1*/
 			&:nth-child(2)
+				border 1px solid #ccc
 				margin-right 1%
-				width 24%
+				width 56.5%
+				
 				/*.plan
 					background #73D000*/
 			&:nth-child(3)
-				width 25%
+				width 21.5%
+				
 				/*.plan
 					background #FFCC00*/
 
@@ -7952,10 +7981,10 @@ td
 					a
 						color #aeadb3
 						display block
-						font-size 17px
+						font-size 15px
 						//font-family 'oswaldregular'
-						font-family 'quicksandbold'
-						letter-spacing -1px
+						font-family 'seravekregular'
+						letter-spacing 2px
 						line-height 40px
 						text-decoration none
 						text-transform uppercase
@@ -7973,6 +8002,7 @@ td
 						color oscuro
 						h3
 							padding 5px 10px 0 10px
+							
 		.content-wrap
 			table
 				width 100% !important

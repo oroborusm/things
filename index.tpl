@@ -41,9 +41,9 @@
 									</div>
 									<div class="ifoPlan">
 										<h2>LOREM IPSUM</h2>
-										<p>Ajuste perfecto 
+										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
-										Materiales de calidad</p>
+										Materiales de calidad</p> -->
 									</div>
 									<figure>
 										<img src="{$img_dir}/categorias/1.jpg" alt="">
@@ -106,9 +106,9 @@
 									</div>
 									<div class="ifoPlan">
 										<h2>LOREM IPSUM</h2>
-										<p>Ajuste perfecto 
+										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
-										Materiales de calidad</p>
+										Materiales de calidad</p> -->
 									</div>
 									<figure>
 										<img src="{$img_dir}/categorias/5.jpg" alt="">
@@ -122,9 +122,9 @@
 									</div>
 									<div class="ifoPlan">
 										<h2>LOREM IPSUM</h2>
-										<p>Ajuste perfecto 
+										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
-										Materiales de calidad</p>
+										Materiales de calidad</p> -->
 									</div>
 									<figure>
 										<img src="{$img_dir}/categorias/6.jpg" alt="">

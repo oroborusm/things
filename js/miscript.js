@@ -106,17 +106,17 @@ $(function(){
         fadingElement.css('opacity',opacity);*/
     });
 
-	/*defineSizes();
+	defineSizes();
 	$(window).on("resize", defineSizes);
 	function defineSizes(){
-		$(".categoriasHome .contenedor, #htmlcontent_home").each(function(i,el){
+		$(".arriba , .abajo").each(function(i,el){
 			$(el).css({
-				"height": ($(".contenedor, #htmlcontent_home").width() * 0.75)+"px"
+				"height": ($(".arriba, .abajo").width() * 0.4)+"px"
 			});
 		});
 	}
 
-	$('.menuTop > li:has(> ul)').addClass('item-has-children')
+	/*$('.menuTop > li:has(> ul)').addClass('item-has-children')
 
 	$('.item-has-children > ul').addClass('sub-menu')
 	$('.item-has-children > ul').addClass('sub-menuDesktop')
