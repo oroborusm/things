@@ -221,36 +221,9 @@
 						{if $product->description_short}
 							<div id="short_description_content" class="rodeaTexto" itemprop="description">{$product->description_short}</div>
 						{/if}
-
-						<!--{if $product->description}
-							<p class="buttons_bottom_block">
-								<a href="javascript:{ldelim}{rdelim}" class="button">
-									{l s='More details'}
-								</a>
-							</p>
-						{/if}
-						{if $packItems|@count > 0}
-							<div class="short_description_pack">
-							<h3>{l s='Pack content'}</h3>
-								{foreach from=$packItems item=packItem}
-
-								<div class="pack_content">
-									{$packItem.pack_quantity} x <a href="{$link->getProductLink($packItem.id_product, $packItem.link_rewrite, $packItem.category)|escape:'html':'UTF-8'}">{$packItem.name|escape:'html':'UTF-8'}</a>
-									<p>{$packItem.description_short}</p>
-								</div>
-								{/foreach}
-							</div>
-						{/if}-->
 					</div> <!-- end short_description_block -->
 				{/if}
-				<!-- {if ($display_qties == 1 && !$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && $product->available_for_order)} -->
-					<!-- number of item in stock -->
-					<!-- <p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if}>
-						<span id="quantityAvailable">{$product->quantity|intval}</span>
-						<span {if $product->quantity > 1} style="display: none;"{/if} id="quantityAvailableTxt">{l s='Item'}</span>
-						<span {if $product->quantity == 1} style="display: none;"{/if} id="quantityAvailableTxtMultiple">{l s='Items'}</span>
-					</p>
-				{/if} -->
+
 				{if $PS_STOCK_MANAGEMENT}
 					<!-- availability -->
 					<p id="availability_statut" class="stock"{if ($product->quantity <= 0 && !$product->available_later && $allow_oosp) || ($product->quantity > 0 && !$product->available_now) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if}>
