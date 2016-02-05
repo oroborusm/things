@@ -35,12 +35,12 @@
 					<div class="selectCategory">
 						<ul class="arriba">
 							<li>
-								<a href="#">
+								<a href="http://www.things.cl/index.php?id_product=10&controller=product">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>LOREM IPSUM</h2>
+										<h2>Diseño Valentina</h2>
 										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
 										Materiales de calidad</p> -->
@@ -51,12 +51,12 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="http://www.things.cl/index.php?id_product=16&controller=product">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>LOREM IPSUM</h2>
+										<h2>Diseño Josefa</h2>
 										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
 										Materiales de calidad</p> -->
@@ -69,7 +69,7 @@
 							<li>
 								<ul class="chicas">
 									<li class="top">
-										<a href="#">
+										<a href="http://www.things.cl/index.php?id_category=12&controller=category">
 											<!-- <div class="plan">
 												<span class="girado">plan</span>
 												<h2 class="numero">3</h2>
@@ -80,12 +80,12 @@
 										</a>
 									</li>
 									<li class="bottom">
-										<a href="##">
+										<a href="http://www.things.cl/index.php?id_product=15&controller=product">
 											<div class="plan">
 												<i class="icon-star-full"></i>
 											</div>
 											<div class="ifoPlan">
-												<h2>LOREM IPSUM</h2>
+												<h2>Diseño Bianca</h2>
 												<!-- <p>Ajuste perfecto 
 												Soluciones inteligentes 
 												Materiales de calidad</p> -->
@@ -100,12 +100,12 @@
 						</ul>
 						<ul class="abajo">
 							<li>
-								<a href="#">
+								<a href="http://www.things.cl/index.php?id_product=9&controller=product">
 									<div class="plan">
 										<i class="icon-star-full"></i>	
 									</div>
 									<div class="ifoPlan">
-										<h2>LOREM IPSUM</h2>
+										<h2>Diseño Magdalena</h2>
 										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
 										Materiales de calidad</p> -->
@@ -116,12 +116,12 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="http://www.things.cl/index.php?id_product=8&controller=product">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>LOREM IPSUM</h2>
+										<h2>Diseño Paulina</h2>
 										<!-- <p>Ajuste perfecto 
 										Soluciones inteligentes 
 										Materiales de calidad</p> -->
