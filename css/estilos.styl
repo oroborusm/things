@@ -2195,7 +2195,6 @@ body
 				.descripcion
 					//background rgba(cafoso, .6)
 					margin-left 1.001%
-					//max-height 300px
 					padding 0
 					position relative
 					width 67%
@@ -4717,14 +4716,42 @@ td
 .conoce
 	margin 10px auto
 	max-width 1050px
-	h2
-		font-style italic
-		font-weight 100
-		margin 0
-		span
-			color #c41925
-			font-weight 600
-	h2
+	.box
+		border-bottom 2px solid black
+		height 17.5px
+		margin-left 17%
+		text-align center !important
+		width 83%
+		h2
+			background-color black
+			color white
+			display initial
+			font-family 'seravekregular'
+			font-weight 100
+			letter-spacing 2px
+			margin 0
+			padding 5px 20px
+			position relative
+			text-align center
+			text-transform uppercase
+			&:after
+			&:before
+				content ''
+			&:after
+				border-bottom 22.5px solid transparent
+				border-top 22.5px solid transparent
+				border-right 10px solid #000
+				left -10px
+				position absolute
+				top 0
+			&:before
+				border-bottom 22.5px solid transparent
+				border-top 22.5px solid transparent
+				border-left 10px solid #000
+				position absolute
+				right -10px
+				top 0
+				/*h2
 	p
 		display block
 		text-align center
@@ -4736,7 +4763,7 @@ td
 			color verdeClaroPet
 			transition .3s
 			&:hover
-				color naranjoPet
+				color naranjoPet*/
 		
 
 .contacto
@@ -6285,9 +6312,12 @@ td
 		text-align center
 		width 20%
 		span
+			font-family 'seravekregular'
 			font-size 16px
+			//letter-spacing 2px
 			line-height 30px
 			text-align center
+			text-transform uppercase
 			em
 				display none
 	.last
@@ -6295,8 +6325,8 @@ td
 	.first
 		border-radius 2px 0 0 2px
 	.step_current
-		border-bottom 2px solid rojoAsiste
-		border-top 2px solid rojoAsiste
+		border-bottom 2px solid #f4adad
+		border-top 2px solid #f4adad
 		color oscuro
 		position relative
 	.step_done
@@ -6307,13 +6337,19 @@ td
 		line-height 30px
 		text-align center
 		a
-			color clarito
+			color oscuro
+			font-family 'seravekregular'
+			font-size 16px
+			//letter-spacing 2px
+			line-height 30px
+			text-align center
 			text-decoration none
+			text-transform uppercase
 		em
 			display none
 		&:hover
 			a
-				color #d3d3d3
+				color #f4adad
 	.step_todo
 		//background #dddce0
 		border-bottom 2px solid clarito
@@ -7090,7 +7126,7 @@ td
 		position relative
 		text-align right
 		span
-			color oscuro
+			color white
 			line-height 40px
 			transition .3s
 			&:after
@@ -7105,8 +7141,9 @@ td
 				display none
 	.checkout
 	.volverCompra
-		//background naranjo
-		border 0
+		background black
+		border none
+		//border 2px solid #F4ADAD
 		//border-radius 20px
 		color oscuro
 		display block
@@ -7121,12 +7158,19 @@ td
 		transition .3s
 		min-width 200px
 		&:hover
-			background-color black
+			//	border 2px solid #8cecec
 			//border-bottom 4px solid black
-			color white
+			color #F4ADAD
+			&:before
+				color #F4ADAD
 			span
-				color white
+				color #F4ADAD
+				&:after
+					color #F4ADAD
+		span
+			color white
 	.volverCompra
+		color white
 		float left
 		line-height 40px
 		padding-left 20px

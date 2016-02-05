@@ -24,11 +24,12 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-					
-
 					<div class="conoce">
-						<h2>Conoce como funciona y comprueba los <span>beneficios de suscribirte</span>.</h2>
-						<p>texto de copyright y <a href="#">link</a> de informacion</p>
+						<!-- <h2>Conoce como funciona y comprueba los <span>beneficios de suscribirte</span>.</h2>
+						<p>texto de copyright y <a href="#">link</a> de informacion</p> -->
+						<div class="box">
+							<h2>productos</h2>
+						</div>
 					</div>
 
 
