@@ -661,7 +661,7 @@
 			<!--Accessories -->
 			<section class="page-product-box accesorios">
 				<div class="relacionados">
-					<h3>{l s='Accessories'}</h3>
+					<h3>Productos Relacionados</h3>
 
 				</div>
 				<div class="block_content">
