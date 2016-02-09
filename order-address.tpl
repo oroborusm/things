@@ -96,7 +96,7 @@
 			</div> <!-- end row -->
 		</div> <!-- end row -->
 		<div class="quieresAgregaComentario">
-			<p class="sumaComentario">Todos los regalos incluyen tarjeta de saludos <i class="icon-arrow-down"></i></p>
+			<p class="sumaComentario">Todos los regalos incluyen tarjeta de saludos <i class="icon-file-text2"></i></p>
 			{if !$opc}
 				<div id="ordermsg" class="agregaComentario">
 					<label>Escribe aquí el mensaje que llevara la tarjeta de saludos Things</label>

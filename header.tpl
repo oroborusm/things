@@ -130,7 +130,7 @@
 										<h2>en este día de los enamorados</span></h2>
 										<h2 class="destacadoTxt">reserva tu ramo</h2>
 
-										<a href="#"><span>ver más</span></a>
+										<a href="http://www.things.cl/index.php?id_category=12&controller=category"><span>ver más</span></a>
 									</div>
 								</div>
 							</section>
