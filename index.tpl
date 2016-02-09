@@ -101,7 +101,7 @@
 						</ul>
 						<ul class="abajo">
 							<li>
-								<a href="http://www.things.cl/index.php?id_product=9&controller=product">
+								<a href="http://www.things.cl/index.php?id_product=8&controller=product">
 									<div class="plan">
 										<i class="icon-star-full"></i>	
 									</div>
@@ -117,7 +117,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="http://www.things.cl/index.php?id_product=8&controller=product">
+								<a href="http://www.things.cl/index.php?id_product=11&controller=product">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
