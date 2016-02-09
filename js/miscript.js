@@ -19,9 +19,9 @@ $(function(){
 	});*/
 
 
-	$('.sumaComentario').on('click', function(){
+	/*$('.sumaComentario').on('click', function(){
 		$('.agregaComentario').toggleClass('activo')
-	});
+	});*/
 
 
     $(".ancla").click(function(){

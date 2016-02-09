@@ -96,10 +96,10 @@
 			</div> <!-- end row -->
 		</div> <!-- end row -->
 		<div class="quieresAgregaComentario">
-			<p class="sumaComentario">Quieres Agregar un comentario</p>
+			<p class="sumaComentario">Todos los regalos incluyen tarjeta de saludos</p>
 			{if !$opc}
 				<div id="ordermsg" class="agregaComentario">
-					<label>{l s='If you would like to add a comment about your order, please write it in the field below.'}</label>
+					<label>Escribe aquí el mensaje que llevara la tarjeta de saludos Things</label>
 					<textarea class="form-control" cols="60" rows="6" name="message">{if isset($oldMessage)}{$oldMessage}{/if}</textarea>
 				</div>
 			{/if}
