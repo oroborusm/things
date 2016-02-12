@@ -42,7 +42,7 @@
 						<div class="finFooter">
 							<div class="row">
 								<figure>
-									<img src="https://www.toolmania.cl/public_img/nodriza.png">
+									<img src="{$img_dir}nodriza.png">
 								</figure>
 
 

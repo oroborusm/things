@@ -52,5 +52,5 @@
 <!-- /MODULE Block contact infos -->
 <div class="mediosPago">
     <h4 class="tituloPagos">Medios de Pago</h4>
-    <img class="transbankImg" src="http://dev.nodriza.cl/downloads/transbank.png" alt="webpay"> 
+    <img class="transbankImg" src="{$img_dir}transbank.png" alt="webpay"> 
 </div>
