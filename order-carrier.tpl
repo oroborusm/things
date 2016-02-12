@@ -332,9 +332,11 @@
 				{/if}
 				{if $conditions AND $cms_id}
 					<p class="carrier_title">{l s='Terms of service'}</p>
-					<p class="checkbox">
-						<input type="checkbox" name="cgv" id="cgv" value="1" {if $checkedTOS}checked="checked"{/if} />
-						<label for="cgv">{l s='I agree to the terms of service and will adhere to them unconditionally.'}</label>
+					<p class="checkbox condiciones">
+						<span class="condicionesCheck">
+							<input type="checkbox" name="cgv" id="cgv" value="1" {if $checkedTOS}checked="checked"{/if} />
+							<label for="cgv">{l s='I agree to the terms of service and will adhere to them unconditionally.'}</label>
+						</span>
 						<a href="{$link_conditions|escape:'html':'UTF-8'}" class="iframe" rel="nofollow">{l s='(Read the Terms of Service)'}</a>
 					</p>
 				{/if}
