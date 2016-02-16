@@ -123,15 +123,15 @@
 						<div class="presentacion">
 							<section class="contenedorPresentacion">
 								<div class="contFoto">
-									<!-- <figure class="fotoPresentacion" id="topOpacidad">
-																			<img src="{$img_dir}cabecera/pets.png" alt="">
-																		</figure> -->									
-									<div class="contTxt">
+									<figure class="fotoPresentacion" id="topOpacidad">
+										<img src="{$img_dir}cabecera/regala.png" alt="">
+									</figure>									
+									<!-- <div class="contTxt">
 										<h2>en este día de los enamorados</span></h2>
 										<h2 class="destacadoTxt">reserva tu ramo</h2>
-
+									
 										<a href="http://www.things.cl/index.php?id_category=12&controller=category"><span>ver más</span></a>
-									</div>
+									</div> -->
 								</div>
 							</section>
 							<!-- <div class="contenedorDivisor">
