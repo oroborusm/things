@@ -429,14 +429,16 @@ body
 			//background white
 			//background #ecedef
 			//border-bottom 1px solid clarito
-			height 85px
+			//height 85px
 			margin 0 auto
 			position relative
 			.headerCOnt
+				//background-color white
 				//background url('../img/montanas.png') no-repeat bottom 
 				background-size 100%
-				height 85px
+				//height 85px
 				margin 0 auto
+				padding 5px 0
 				position relative
 				max-width 1050px
 				.buscador
@@ -454,7 +456,7 @@ body
 					overflow hidden
 					//padding 20px
 					position absolute
-					top 28px
+					top 7px
 					//right 65px
 					right 0
 					width 200px
@@ -462,7 +464,7 @@ body
 					.buscadorForm
 						background white
 						//border-radius 2px
-						height 30px
+						height 25px
 						//left 30px
 						margin 0
 						position relative
@@ -470,7 +472,7 @@ body
 						//width 100%
 						form
 							//box-sizing border-box
-							height 30px
+							height 25px
 							//position relative
 							//text-align center 
 							z-index -1
@@ -482,7 +484,7 @@ body
 								//border-radius 50%
 								bottom 0
 								cursor pointer
-								height 30px
+								height 25px
 								margin 0
 								padding 0
 								position absolute
@@ -490,7 +492,7 @@ body
 								width 50px
 								//z-index -1
 								span
-									line-height 30px
+									line-height 25px
 									&:before
 										//color #00c7d1
 										//color white
@@ -498,14 +500,14 @@ body
 										content '\e67f'
 										font-family 'icos'
 										font-size 1em
-										line-height 30px
+										line-height 25px
 							input[type=text]
 								background white
 								border none
 								//border-bottom 2px solid #ddd
 								//border-radius .5em
 								//font-size 15px
-								height 32px
+								height 25px
 								//margin-top 35px
 								padding 0 0 0 8%
 								position absolute
@@ -532,7 +534,7 @@ body
 			padding 0
 			position absolute
 			top -1px
-			width 140px
+			width 115px
 			z-index 3
 			
 			a
@@ -2812,7 +2814,7 @@ h1
 		display block
 
 .head-fixed
-	background-color white
+	//background-color transparent
 	//border-bottom 2px solid white
 	//height 50px
 	position fixed !important
@@ -2820,9 +2822,9 @@ h1
 	width 100%
 	z-index 4
 	.header
-		height 50px
+		//height 50px
 		.headerCOnt 
-			height 50px
+			//height 50px
 			a
 				img
 					margin 4px 0 0 0
@@ -2830,25 +2832,35 @@ h1
 			.buscador
 				//margin-right 25px
 				padding 0
-				top 7px
+				//top 7px
 			.contenedorMenu
+				margin-top 40px
 				.menuManias
 					.menuTop
 						li
 							ul
 								top 45px
 			.carrito 
-				top 55px
+				//top 55px
+				right 210px
+				top 4px
 				& > .ajax_cart_quantity
 				& > .ajax_cart_no_product
 					left -10px
 					top -15px
+			.infoAdicionalHeader
+				height 0
+				opacity 0
+				visibility hidden
+				transition .3s
 			.loginUsuario
-				top 55px
+				//top 55px
+				right 260px 
+				top 4px
 	/*.infoAdicionalHeader
 		display none*/
-	.menuTop > li > a
-		line-height 50px
+	/*.menuTop > li > a
+		line-height 50px*/
 
 // header
 // 	//position absolute
@@ -3378,6 +3390,7 @@ td
 	//width 80px
 	z-index 1
 	a
+		background-color #E9446D
 		//display block
 		//height 50px
 		position relative
@@ -4103,7 +4116,7 @@ td
 	right 0
 	text-align center
 	text-decoration none
-	top 75px
+	top 45px
 	transition .3s
 	//width 35px
 	z-index 1
@@ -4395,12 +4408,12 @@ td
 	border-radius 50%
 	color white
 	font-size 11px
-	left -12px
+	left -20px
 	line-height 19px
 	height 25px
 	position absolute
 	text-align center
-	top -12px
+	top 0
 	width 25px
 .carrito > .ajax_cart_no_product
 	display none !important
@@ -6193,7 +6206,7 @@ td
 
 .infoAdicionalHeader
 	//background #f8f8f8
-	border-bottom 2px solid clarito
+	//border-bottom 2px solid clarito
 	//height 60px
 	margin 0 auto
 	//position absolute
@@ -6204,11 +6217,12 @@ td
 		position relative
 		text-align center
 		max-width 1050px
-		padding-bottom 16px
+		padding-bottom 35px
+		padding-top 20px
 		.shop-email
 		.shop-phone
 			font-family 'Times New Roman'
-			font-size 24px
+			font-size 15px
 			//line-height 58px
 			margin 0
 			span
@@ -6725,7 +6739,8 @@ td
 	position absolute
 	right 70px
 	text-align center
-	top 75px
+	top 45px
+	transition .3s
 	//width 90px
 	z-index 1
 	.contenedorLogin
@@ -6769,7 +6784,7 @@ td
 			position absolute
 			right calc(50% - 75px)
 			text-align left
-			top 35px
+			top 27px
 			width 150px
 			z-index 3
 			&:before
@@ -6822,7 +6837,7 @@ td
 					color oscuro
 					display block
 					font-size 13px
-					line-height 25px
+					line-height 35px
 					text-decoration none
 					width 100%
 		.login
@@ -6834,7 +6849,7 @@ td
 			font-size 13px
 			font-weight 800
 			letter-spacing 4px
-			line-height 37px
+			line-height 35px
 			//padding 0 20px
 			padding 0 10px
 			position relative
@@ -6855,7 +6870,7 @@ td
 				color white
 				display block
 				font-size 11px
-				line-height 37px
+				line-height 35px
 				//line-height 22px
 				
 
@@ -6936,12 +6951,13 @@ td
 		visibility hidden
 		
 .menuTop
-	//border-left 1px solid grisClaro1
-	margin 0 auto
-	padding 0
+	border-bottom 2px solid black
+	border-top 2px solid black
+	margin 0 0 0 20%
+	padding 0 15px
 	position relative
 	text-align left
-	width 60%
+	width 80%
 .menuTop > li
 	//border-right 1px solid grisClaro1
 	display inline-block
@@ -6961,6 +6977,10 @@ td
 			li
 				a
 					color #5b5b5b
+	&:nth-child(even)
+		a
+			&:before
+				background #f4adad !important
 /*.menuTop > li > a:hover
 	background #f8f8f8*/
 .menuTop > li > ul
@@ -6975,7 +6995,7 @@ td
 	padding 20px
 	position absolute
 	text-align left
-	top 85px
+	top 45px
 	transition .3s
 	//visibility hidden
 	min-width 450px
@@ -7034,20 +7054,20 @@ td
 		
 .menuTop > li > a
 	//color naranjito
-	color #5b5b5b
+	color black
 	display block
-	font-family 'quicksandbold'
+	font-family 'seravekregular'
 	//font-family 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif
-	font-size 16px
+	font-size 14px
 	font-weight 600
-	letter-spacing -1px
-	line-height 85px
+	letter-spacing 1px
+	line-height 40px
 	padding 0 30px 0 0
 	position relative
 	text-decoration none
 	text-transform uppercase
 	transition .4s
-	&:after
+	/*&:after
 		background #d94f5c
 		//background clarito
 		bottom 20%
@@ -7057,23 +7077,21 @@ td
 		position absolute
 		transform scale3d(0, 1, 1)
 		transition transform 0.1s
-		width 80%
-	/*&:before
-		background transparent
-		bottom 20%
-		content ''
-		height 2px
-		left 10%
-		position absolute
-		transform scale3d(0, 1, 1)
-		transition transform 0.1s
 		width 80%*/
-	&:hover
-		&:before
+	&:before
+		background #8cecec
+		border-radius 50%
+		content ''
+		height 10px
+		position absolute
+		right 10px
+		top 15px
+		width 10px
+	/*&:hover
 		&:after
 			transform scale3d(1, 1, 1)
 			transition-timing-function cubic-bezier(0.4, 0, 0.2, 1)
-			transition-duration 0.3s
+			transition-duration 0.3s*/
 
 
 .my-placeholder

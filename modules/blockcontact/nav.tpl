@@ -36,7 +36,7 @@
 			<!-- <span class="shop-phone">
 				<i class="icon-phone"></i>{l s='Call us now:' mod='blockcontact'} <strong>{$telnumber}</strong>
 			</span> -->
-			<p class="shop-titulo">contacto</p>
+			<!-- <p class="shop-titulo">contacto</p> -->
 			<p class="shop-phone">
 				llamanos al: <span>{$telnumber}</span>
 			</p>
