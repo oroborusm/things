@@ -147,6 +147,7 @@ body
 	color oscuro
 	font-family 'Open Sans', sans-serif
 	font-size 18px
+	font-smoothing antialiased
 	margin 0 auto
 	//width 1150px
 	footer
@@ -413,7 +414,7 @@ body
 				.icon-phone
 					display none
 	header
-		background white
+		//background white
 		//background #eaeaea
 		//border-bottom 4px solid #c41925
 		border-top 35px solid black
@@ -434,7 +435,7 @@ body
 			position relative
 			.headerCOnt
 				//background-color white
-				//background url('../img/montanas.png') no-repeat bottom 
+				//background url('../img/montanas.png') no-repeat bottom
 				background-size 100%
 				//height 85px
 				margin 0 auto
@@ -444,12 +445,12 @@ body
 				.buscador
 					//background white
 					box-sizing content-box
-					border 2px solid black
-					//border-radius 25px
+					border 1px solid black
+					border-radius 35px
 					//box-shadow 0 0 10px oscuro
 					//display none
 					//float right
-					//height 57px
+					height 35px
 					//left 50%
 					margin-left -150px
 					//margin 0 10% 0 0
@@ -458,13 +459,13 @@ body
 					position absolute
 					top 7px
 					//right 65px
-					right 0
-					width 200px
+					right 250px
+					width 300px
 					z-index 2
 					.buscadorForm
 						background white
 						//border-radius 2px
-						height 25px
+						height 35px
 						//left 30px
 						margin 0
 						position relative
@@ -472,19 +473,19 @@ body
 						//width 100%
 						form
 							//box-sizing border-box
-							height 25px
+							height 35px
 							//position relative
-							//text-align center 
+							//text-align center
 							z-index -1
 							button
 								//background #ddd
 								//background-color white
-								background-color black
+								background-color white
 								border none
 								//border-radius 50%
 								bottom 0
 								cursor pointer
-								height 25px
+								height 35px
 								margin 0
 								padding 0
 								position absolute
@@ -492,22 +493,23 @@ body
 								width 50px
 								//z-index -1
 								span
-									line-height 25px
+									line-height 35px
 									&:before
 										//color #00c7d1
 										//color white
-										color #F4ADAD
+										//color #F4ADAD
+										color #e9851c
 										content '\e67f'
 										font-family 'icos'
 										font-size 1em
-										line-height 25px
+										line-height 35px
 							input[type=text]
 								background white
 								border none
 								//border-bottom 2px solid #ddd
 								//border-radius .5em
 								//font-size 15px
-								height 25px
+								height 35px
 								//margin-top 35px
 								padding 0 0 0 8%
 								position absolute
@@ -534,9 +536,10 @@ body
 			padding 0
 			position absolute
 			top -1px
+			transition .2s
 			width 115px
 			z-index 3
-			
+
 			a
 				//background blue
 				img
@@ -884,7 +887,7 @@ body
 					width 30%
 					span
 						color white
-						
+
 						font-weight 100
 						line-height 30px
 				.requerido
@@ -1119,7 +1122,7 @@ body
 					max-width 1050px
 					overflow hidden
 					position relative
-						
+
 					ul
 						margin 0
 						padding 0
@@ -1191,7 +1194,7 @@ body
 											color white
 											display block
 											//float right
-											
+
 											height 73px
 											padding .8em
 											position absolute
@@ -1211,7 +1214,7 @@ body
 											font-size 15px
 											list-style none
 											text-align right
-											
+
 				// .carrusel
 				// .comentariosHome
 				// 	display inline-block
@@ -1540,7 +1543,7 @@ body
 				text-decoration none
 				span
 					color white
-					
+
 			&:hover
 				background grisAzul
 		.volver
@@ -1597,7 +1600,7 @@ body
 			//border-radius 5px
 			color otroGris
 			display block
-			
+
 			font-size 13px
 			font-weight 100
 			line-height 25px
@@ -1634,7 +1637,7 @@ body
 							background oscuro
 							border-bottom 1px solid #999
 							color clarito
-							
+
 							font-size 18px
 							font-weight 100
 							line-height 50px
@@ -1644,7 +1647,7 @@ body
 
 						span
 							//display inline-block
-							
+
 							font-size 13px
 							text-transform uppercase
 		// aca estaba el navegador
@@ -1671,7 +1674,7 @@ body
 									text-decoration none
 									span
 										color otroGris
-										
+
 										font-size 13px
 									&:hover
 										span
@@ -1699,7 +1702,7 @@ body
 								border-radius 5px
 								color oscuro
 								display block
-								
+
 								font-size 15px
 								line-height 40px
 								//margin 0 auto 10px
@@ -1726,13 +1729,13 @@ body
 										text-decoration none
 										span
 											color otroGris
-											
+
 											font-size 13px
 										&:hover
 											span
 												color rojoAsiste
 									label
-										
+
 										font-size 15px
 					.listaDireccion
 						display block
@@ -1822,7 +1825,7 @@ body
 		h1
 			text-align center
 		.info-account
-			
+
 			font-size 13px
 			//font-style italic
 			font-weight 100
@@ -2086,7 +2089,7 @@ body
 					a
 						color white
 						display block
-						
+
 						font-size 22px
 						//font-weight 600
 						line-height 40px
@@ -2098,7 +2101,7 @@ body
 						//border 1px dashed white
 						color oscuro
 						display block
-						
+
 						font-size 20px
 						//font-weight 600
 						//left 50%
@@ -2418,7 +2421,7 @@ body
 												//text-align center
 												top 2px
 												width 100%*/
-								
+
 						.pay
 							bottom -122px
 							left 5px
@@ -2466,7 +2469,7 @@ body
 									padding 0 3px
 									text-decoration none
 									text-transform uppercase
-							
+
 						.referencias
 							display inline-block
 							vertical-align top
@@ -2487,7 +2490,7 @@ body
 									vertical-align middle
 								.star_content
 									margin-top 4px
-							.commentsValorizacion							
+							.commentsValorizacion
 							.referencia
 								display inline-block
 								vertical-align top
@@ -2500,7 +2503,7 @@ body
 									line-height 28px
 									letter-spacing 2px
 									text-transform uppercase
-									
+
 					.linkComentario
 						bottom 40px
 						display block
@@ -2518,7 +2521,7 @@ body
 								list-style none
 								a
 									color oscuro
-					
+
 					.referencia
 						margin-top 3px
 					.socialsharing_product
@@ -2550,7 +2553,7 @@ body
 						color oscuro
 						//display block
 						//float left
-						
+
 						font-size 10px
 						margin-left 15px
 						padding 2px
@@ -2562,7 +2565,7 @@ body
 						.rodeaTexto
 							p
 								color oscuro
-								
+
 								font-size 15px
 				.contenedorImagenes
 				.descripcion
@@ -2823,8 +2826,10 @@ h1
 	z-index 4
 	.header
 		//height 50px
-		.headerCOnt 
-			//height 50px
+		.headerCOnt
+			background white
+			box-shadow 2px 0 5px rgba(black, .2)
+			height 50px
 			a
 				img
 					margin 4px 0 0 0
@@ -2833,30 +2838,28 @@ h1
 				//margin-right 25px
 				padding 0
 				//top 7px
-			.contenedorMenu
-				margin-top 40px
-				.menuManias
-					.menuTop
-						li
-							ul
-								top 45px
-			.carrito 
-				//top 55px
-				right 210px
-				top 4px
-				& > .ajax_cart_quantity
-				& > .ajax_cart_no_product
-					left -10px
-					top -15px
+			.carrito
+			// 	//top 55px
+				right 50px
+			// 	top 4px
+			// 	& > .ajax_cart_quantity
+			// 	& > .ajax_cart_no_product
+			// 		left -10px
+			// 		top -15px
 			.infoAdicionalHeader
 				height 0
 				opacity 0
 				visibility hidden
 				transition .3s
 			.loginUsuario
-				//top 55px
-				right 260px 
-				top 4px
+				right 80px
+			.marca
+				width 80px
+			.menudespliega
+				color #c41925
+				display block
+				position absolute
+				right 0
 	/*.infoAdicionalHeader
 		display none*/
 	/*.menuTop > li > a
@@ -2876,10 +2879,10 @@ h1
 
 // header.lateral-menu-is-open
 // 	transform translateX(-260px)
-	
+
 // header.is-fixed
 // 	position fixed
-	
+
 // .menu-fixed
 // 	background-color white !important
 // 	border-bottom 2px solid verdeClaroPet
@@ -2901,7 +2904,7 @@ h1
 // 				font-size 16px
 // 				line-height 25px !important
 // 				text-transform capitalize !important
-	
+
 hr
 	display none
 
@@ -2911,7 +2914,7 @@ table
 	thead
 		background black
 		border-bottom 1px solid rojoAsiste
-		
+
 		font-size 13px
 		tr
 			border-radius 2px
@@ -2983,7 +2986,7 @@ table
 						color oscuro
 						text-decoration none
 				.product-name
-					
+
 					font-size 16px
 					font-weight 100
 					max-width 350px
@@ -2992,16 +2995,16 @@ table
 				width 100px
 			.cart_total
 				span
-					
+
 					font-weight 600
 			.cart_quantity
-				
+
 				font-weight 100
 				input
 					box-sizing border-box
 					padding 3px 5px
 			.cart_unit
-				
+
 				.price
 					.special-price
 						display none
@@ -3052,23 +3055,23 @@ table
 			.textTotal
 			.textoTotal
 			.transporte
-				
+
 				font-size 13px
 			.precioTotal
 				border-bottom 2px solid #c41925
 				span
 					color #c41925
-					
+
 					font-size 30px
 					font-weight 600
 					text-transform uppercase
 			.price
-				
+
 				//font-weight 600
 		.cart_total_delivery
 			.text-right
-				
-				font-size 13px	
+
+				font-size 13px
 		.cart_total_price
 			.priceFinal
 				border-bottom 2px solid #c41925
@@ -3152,7 +3155,7 @@ td
 			font-size 11px
 			margin 0 0 0 5%
 			width 95%
-	
+
 .ac_results
 	background white
 	border 1px solid clarito
@@ -3188,7 +3191,7 @@ td
 		text-align right
 		top 0
 		width 90%
-		.icon-cross 
+		.icon-cross
 			font-size 10px
 	form
 		padding-top 15px
@@ -3281,7 +3284,10 @@ td
 	opacity 1 !important
 	transition .3s !important
 	//transform translateX(0) !important
-	visibility visible !important 			
+	visibility visible !important
+	.menuManias
+		.menuTop
+			border none
 .active
 	display block
 
@@ -3310,7 +3316,7 @@ td
 
 .alertClica
 	color #999
-	
+
 	font-size 15px
 	margin 20px 0
 	text-align center
@@ -3368,7 +3374,7 @@ td
 		li
 			font-size 15px
 			list-style none
-			
+
 .añadeCarrituHome
 	//background linear-gradient(to bottom right, white 50%, naranjoPet 50%)
 	//border-radius 50%
@@ -3434,7 +3440,7 @@ td
 			font-family 'seravekregular'
 			font-size 13px
 			//font-weight 600
-			text-transform uppercase	
+			text-transform uppercase
 	.carritoVacio
 		/*&:before
 			color white
@@ -3481,7 +3487,7 @@ td
 			text-align left
 			transition .2s
 			&:hover
-				color naranjoPet 
+				color naranjoPet
 	h3
 	p
 		font-size 15px
@@ -3519,12 +3525,12 @@ td
 					text-decoration underline
 
 .bodyWishlist
-	
+
 	font-size 100
 
 .boton
 	background clarito
-	
+
 .boton-search
 	background #003366
 	border-radius 3px
@@ -3574,7 +3580,7 @@ td
 
 .box-security
 	display none
-	
+
 .breadcrumb
 	//background clarito
 	border 1px solid clarito
@@ -3643,7 +3649,7 @@ td
 		content '\e76a'
 		font-family 'icos'
 		font-size 18px
-		
+
 .btn-google-plus
 	position relative
 	&:after
@@ -3651,10 +3657,10 @@ td
 		content '\e766'
 		font-family 'icos'
 		font-size 18px
-		
+
 .btn-pinterest
 	display none
-	
+
 .btn-twitter
 	position relative
 	&:after
@@ -3713,11 +3719,11 @@ td
 			color white
 			content "\ea65"
 			display block
-			font-family 'iconos' 
+			font-family 'iconos'
 			font-size 50px
 			text-shadow 0 2px 5px rgba(black, .6)
 			width 100%
-			
+
 	.bx-prev
 		left 0
 		text-align left
@@ -3726,7 +3732,7 @@ td
 			color white
 			content "\e9f4"
 			display block
-			font-family 'iconos' 
+			font-family 'iconos'
 			font-size 50px
 			text-shadow 0 2px 5px rgba(black, .6)
 			width 100%
@@ -3870,7 +3876,7 @@ td
 									margin 0
 									text-align center
 									text-transform uppercase
-									width 100%				
+									width 100%
 				&:nth-child(3)
 					//border-top 5px solid #BA007C
 					/*left 66.6%
@@ -4021,7 +4027,7 @@ td
 						figcaption
 							transition .3s
 							h3
-								
+
 								position absolute
 								left 0
 								width 100%
@@ -4042,7 +4048,7 @@ td
 							margin 0
 							padding 0
 							width 100%
-						
+
 					.item-html
 						bottom 0
 						padding 5px 15px
@@ -4103,7 +4109,7 @@ td
 		width 200px
 		img
 			width 100%
-					
+
 .carrito
 	//background #f8b302
 	//background #003F3F
@@ -4116,12 +4122,12 @@ td
 	right 0
 	text-align center
 	text-decoration none
-	top 45px
+	top 7px
 	transition .3s
 	//width 35px
 	z-index 1
 	.carritoIcon
-		background-color black
+		background-color #f4adad
 		border-radius 50%
 		display inline-block
 		height 35px
@@ -4251,7 +4257,7 @@ td
 									width 160px
 									.product-name
 										float left
-										
+
 										width 110px
 										.cantidad
 											span
@@ -4262,7 +4268,7 @@ td
 											span
 												color oscuro
 												display inline-block
-												
+
 												font-size 13px
 											.quantity
 												margin-right 5px
@@ -4577,7 +4583,7 @@ td
 		color white
 		font-size 50px
 		line-height 100px
-		
+
 .cd-img-replace
 	display inline-block
 	overflow hidden
@@ -4632,7 +4638,7 @@ td
 				width 15px
 	.checker
 		text-align right
-		
+
 .checkboxIncribase
 	display inline-block
 	margin-top 15px
@@ -4730,17 +4736,17 @@ td
 			top -1px
 			width 13px
 	.ProdNuevo
-		
+
 		&:before
 			background-color verdeClarito
 			content 'N'
 	.ProdReparado
-		
+
 		&:before
 			background-color verdeAsiste
 			content 'R'
 	.ProdUsado
-		
+
 		&:before
 			background-color rojoAsiste
 			content 'U'
@@ -4773,14 +4779,15 @@ td
 	margin 10px auto
 	max-width 1050px
 	.box
-		border-bottom 2px solid black
+		border-bottom 1px solid black
 		height 15.5px
-		margin-left 17%
+		//margin-left 17%
 		text-align center !important
-		width 83%
+		//width 83%
 		h2
-			background-color black
-			color white
+			background-color white
+			border 1px solid black
+			color black
 			display initial
 			font-family 'seravekregular'
 			font-size 18px
@@ -4791,23 +4798,23 @@ td
 			position relative
 			text-align center
 			text-transform uppercase
-			&:after
-			&:before
-				content ''
-			&:after
-				border-bottom 19px solid transparent
-				border-top 19px solid transparent
-				border-right 10px solid #000
-				left -10px
-				position absolute
-				top 0
-			&:before
-				border-bottom 19px solid transparent
-				border-top 19px solid transparent
-				border-left 10px solid #000
-				position absolute
-				right -10px
-				top 0
+			// &:after
+			// &:before
+			// 	content ''
+			// &:after
+			// 	border-bottom 19px solid transparent
+			// 	border-top 19px solid transparent
+			// 	border-right 10px solid #000
+			// 	left -10px
+			// 	position absolute
+			// 	top 0
+			// &:before
+			// 	border-bottom 19px solid transparent
+			// 	border-top 19px solid transparent
+			// 	border-left 10px solid #000
+			// 	position absolute
+			// 	right -10px
+			// 	top 0
 				/*h2
 	p
 		display block
@@ -4821,7 +4828,7 @@ td
 			transition .3s
 			&:hover
 				color naranjoPet*/
-		
+
 
 .contacto
 	margin-top 10px
@@ -4838,7 +4845,7 @@ td
 				margin-top 10px
 				text-align left
 				label
-					
+
 					font-weight 100
 					display block
 					width 100%
@@ -4856,7 +4863,7 @@ td
 					margin 5px 0
 					width 90%
 					label
-						
+
 						font-weight 100
 					input
 						width 100%
@@ -4883,7 +4890,7 @@ td
 					margin 5px auto 0
 					label
 						display block
-						
+
 						font-weight 100
 						margin 2px 0
 						text-align left
@@ -4899,7 +4906,7 @@ td
 				padding 5px 25px
 				text-align center
 				span
-					
+
 				&:hover
 					background rojoAsiste
 					span
@@ -4961,7 +4968,7 @@ td
 				margin 0
 				padding 0 5px
 				label
-					
+
 					font-size 15px
 					font-weight 100
 					margin 5px 0
@@ -4973,7 +4980,7 @@ td
 			text-align left
 			width 69%
 			label
-			textarea	
+			textarea
 				font-size 15px
 				font-weight 100
 				margin 5px 0
@@ -5017,18 +5024,18 @@ td
 	left 0
 	top 0
 	width 100%
-	
+
 .contenedorPartners
 	border-top 2px solid #f5f5f5
 	margin 30px auto
 	overflow hidden
 	position relative
 	width 950px
-	
+
 .presentacion
 	position relative
 	.contenedorPresentacion
-		background-color #E9446D
+		background-color #FCF8E3
 		//background-color #83D8D2
 		//background url('../img/cabecera/flores.jpg') fixed
 		background-size cover
@@ -5091,14 +5098,14 @@ td
 					text-shadow 2px 2px 8px rgba(black, .9)
 					font-size 75px
 					line-height 50px
-					
-				
-			
-					
+
+
+
+
 .contenedorDivisor
 .contenedorDivisor2
 	//box-shadow 0 0 10px oscuro
-	
+
 	display block
 	//height 190px
 	overflow hidden
@@ -5182,10 +5189,10 @@ td
 	color #d7d7d7
 	line-height 19px
 	margin 0 0 26px 0
-	a 
-		color white 
-		&:hover 
-			text-decoration underline 
+	a
+		color white
+		&:hover
+			text-decoration underline
 	p
 		color white
 		margin-bottom 0
@@ -5193,13 +5200,13 @@ td
 		color white
 		font 600 42px/51px "oswaldregular"
 		margin-bottom 12px
-	.content_scene 
-		color #777777 
-		.cat_desc 
-			padding-top 20px 
-			a 
+	.content_scene
+		color #777777
+		.cat_desc
+			padding-top 20px
+			a
 				color #777777
-				&:hover 
+				&:hover
 					color #515151
 	.content_scene_cat_bg
 		background-color #009999 !important
@@ -5248,7 +5255,7 @@ td
 				width 100%
 				span
 					color oscuro
-					
+
 				&:hover
 					background calipso
 					span
@@ -5379,7 +5386,7 @@ td
 					font-size 13px
 					//width 100% !important
 	.top-pagination-content
-		display none		
+		display none
 .corte
 	background linear-gradient(to bottom, #ecedef 10%, #ddd 50%)
 	height 50px
@@ -5440,7 +5447,7 @@ td
 			text-transform uppercase
 		.form-group
 			label
-				
+
 				font-weight 100
 				text-transform capitalize
 			textarea
@@ -5455,7 +5462,7 @@ td
 			border none
 			span
 				color oscuro
-				
+
 			&:hover
 				background colorao
 				span
@@ -5470,7 +5477,7 @@ td
 				.cuadroNodriza
 					display inline-block
 					margin-bottom 3px
-					text-align center 
+					text-align center
 					vertical-align top
 					width 135px
 					&:hover
@@ -5498,11 +5505,11 @@ td
 						.checker
 							background-color #ECEDEF
 							border-radius 35px
-							height 70px 
+							height 70px
 							position relative
 							top 0
 							transition .4s
-							width 100% 
+							width 100%
 							span
 								background-color transparent
 								border 0
@@ -5525,7 +5532,7 @@ td
 									font-size 19px
 									position absolute
 									right -3px
-									text-shadow 1px 1px 2px rgba(black, .3) 
+									text-shadow 1px 1px 2px rgba(black, .3)
 									top -3px
 								/*&:nth-child(1)
 									box-shadow inset 0 0 0 8px rgba(0,198,208,1)
@@ -5544,8 +5551,8 @@ td
 								.radioButton
 									color transparent
 									background transparent
-									
-										
+
+
 						.selectTxt
 							left 0
 							margin 0
@@ -5607,9 +5614,9 @@ td
 							.selectTxt
 								span
 									color #FFCB00
-					
-								
-						
+
+
+
 
 .detail_step_by_step
 	tbody
@@ -5669,7 +5676,7 @@ td
 		font-weight 400
 		margin 0
 		padding 0 0 2em
-		
+
 .dialog.dialog--open .dialog__content,
 .dialog.dialog--close .dialog__content
 	animation-duration 0.3s
@@ -5961,11 +5968,11 @@ td
 									top -3px
 									right -3px
 									width 25px
-							
-						
+
+
 					label
 						position relative
-						padding 0 
+						padding 0
 						span
 							font-size 20px
 					label
@@ -6077,12 +6084,12 @@ td
 							.checker
 								span
 									background-color #FFCB00
-					
-			.dynamized	
+
+			.dynamized
 				text-align left
 				li
 					display inline-block
-					margin 0 5px 0 0 
+					margin 0 5px 0 0
 					vertical-align top
 					width inherit
 					a
@@ -6180,7 +6187,7 @@ td
 	&:hover
 		.sub-menuDesktop
 			display block !important
-			
+
 .hoverMenuUl:hover ~ .hoverMenu
 		background red
 
@@ -6217,8 +6224,8 @@ td
 		position relative
 		text-align center
 		max-width 1050px
-		padding-bottom 35px
-		padding-top 20px
+		padding-bottom 20px
+		padding-top 4px
 		.shop-email
 		.shop-phone
 			font-family 'Times New Roman'
@@ -6241,15 +6248,15 @@ td
 		.shop-titulo
 			display block
 			//font-family 'seravekmedium'
-			margin-left 20%
+			margin-left 15%
 			text-align left
 			text-transform uppercase
-			width 60%
+			width 85%
 			span
 				text-transform lowercase
 
 .info-title
-	
+
 	font-size 13px
 	font-weight 100
 	margin 0
@@ -6261,11 +6268,11 @@ td
 
 .items
 	position absolute
-	
+
 .layered_color
 	padding 0 0 0 10px !important
 	vertical-align middle
-	
+
 .layered_filter
 .layered_price
 	display block
@@ -6318,7 +6325,7 @@ td
 		font-size 13px
 		font-weight 100
 		text-transform uppercase
-		
+
 
 .layered_slider_container
 	margin 1em auto
@@ -6350,7 +6357,7 @@ td
 	max-width 1150px
 	li
 		display inline-block
-		
+
 		font-weight 100
 		//height 30px
 		list-style none
@@ -6428,7 +6435,7 @@ td
 					background oscuro
 					border-bottom 1px solid #999
 					color clarito
-					
+
 					font-size 18px
 					font-weight 100
 					line-height 50px
@@ -6438,10 +6445,10 @@ td
 
 				span
 					//display inline-block
-					
+
 					font-size 13px
 					text-transform uppercase
-		
+
 .listaProducto
 	background none
 	font-size 0
@@ -6492,7 +6499,7 @@ td
 					.añadeCarrituHome
 						a
 							background black
- 
+
 					.wishlist
 						opacity 1
 		.contenedorPopular
@@ -6598,7 +6605,7 @@ td
 				.disponibilidad
 					color #babbbb
 					display block
-					
+
 					font-size 11px
 					text-align left
 					text-transform uppercase
@@ -6739,13 +6746,14 @@ td
 	position absolute
 	right 70px
 	text-align center
-	top 45px
+	top 7px
 	transition .3s
 	//width 90px
 	z-index 1
 	.contenedorLogin
-		background-color black
-		//border-radius 12px
+		//background-color black
+		border 1px solid transparent
+		//border-radius 35px
 		cursor pointer
 		display block
 		height 35px
@@ -6754,23 +6762,23 @@ td
 		position relative
 		//width 90px
 		//z-index 100
-		&:before
-			border-bottom 17.5px solid transparent
-			border-top 17.5px solid transparent
-			border-right 10px solid black
-			//color white
-			content ''
-			//font-family 'iconos'
-			//font-size 16px
-			left -10px
-			position absolute
-			//top 3px
-			//transform rotate(-180deg)*/
+		// &:before
+		// 	border-bottom 17.5px solid transparent
+		// 	border-top 17.5px solid transparent
+		// 	border-right 10px solid black
+		// 	//color white
+		// 	content ''
+		// 	//font-family 'iconos'
+		// 	//font-size 16px
+		// 	left -10px
+		// 	position absolute
+		// 	//top 3px
+		// 	//transform rotate(-180deg)*/
 		&:hover
 			&:before
-				color white
+				color #E9851C
 			.login
-				color white
+				color #E9851C
 		.despliega
 			background white
 			//border 1px solid #ddd
@@ -6800,7 +6808,7 @@ td
 				top -20px
 			.account
 				//background calipso
-				color clarito
+				color #E9851C
 				display block
 				//height 25px
 				text-align center
@@ -6821,10 +6829,10 @@ td
 				&:hover
 					background-color rgba(naranjoPet , .8)
 					span
-						color white
+						color #E9851C
 			.logout
 				//background #005959
-				color clarito
+				color #E9851C
 				display block
 				//font-size 11px
 				//height 25px
@@ -6834,10 +6842,10 @@ td
 				text-transform uppercase
 				.texto
 					border-bottom 1px solid #ddd
-					color oscuro
+					color #E9851C
 					display block
 					font-size 13px
-					line-height 35px
+					line-height 31px
 					text-decoration none
 					width 100%
 		.login
@@ -6849,7 +6857,7 @@ td
 			font-size 13px
 			font-weight 800
 			letter-spacing 4px
-			line-height 35px
+			line-height 31px
 			//padding 0 20px
 			padding 0 10px
 			position relative
@@ -6857,7 +6865,7 @@ td
 			//width 100%
 			z-index 1
 		.nombre
-			color white
+			color #E9851C
 			//font-family 'quicksandregular'
 			//height 40px
 			//left 0
@@ -6867,12 +6875,12 @@ td
 			//top 0
 			//width 100%
 			span
-				color white
+				color #E9851C
 				display block
 				font-size 11px
-				line-height 35px
+				line-height 31px
 				//line-height 22px
-				
+
 
 // .maniaBackground1 >	ul
 // 	background #fff url('../img/asiste-01.jpg')
@@ -6925,7 +6933,7 @@ td
 // 	background-size 100%
 // 	border-left 1px solid clarito
 // 	border-right 1px solid clarito
-	
+
 .marginHeader
 	margin 0 auto !important
 
@@ -6936,7 +6944,7 @@ td
 .menudespliega
 	display none
 	position absolute
-		
+
 
 .menuManias
 	display block
@@ -6949,15 +6957,34 @@ td
 		opacity 0
 		position absolute
 		visibility hidden
-		
+.menuScroll
+	background-color white
+	height 100%
+	//margin-top 40px
+	opacity 0
+	position fixed
+	visibility hidden
+	width 50%
+	z-index 4
+	.menuManias
+		margin 0
+		padding 0 10px
+		.menuTop
+			margin 0
+			padding 0 10px
+			li
+				display block
+				width 100%
+				ul
+					top 45px
 .menuTop
-	border-bottom 2px solid black
-	border-top 2px solid black
-	margin 0 0 0 20%
+	border-bottom 1px solid black
+	border-top 1px solid black
+	margin 0 0 0 15%
 	padding 0 15px
 	position relative
 	text-align left
-	width 80%
+	width 85%
 .menuTop > li
 	//border-right 1px solid grisClaro1
 	display inline-block
@@ -7015,7 +7042,7 @@ td
 		padding 0 10px
 		position relative
 		//vertical-align top
-		max-width 200px	
+		max-width 200px
 
 		& > a
 			border-bottom 1px solid clarito
@@ -7035,7 +7062,7 @@ td
 					font-family 'iconos'
 					position absolute
 					top 3px
-				
+
 		ul
 			margin 10px 0 0 0
 			padding 0
@@ -7051,7 +7078,7 @@ td
 				text-transform uppercase
 				&:hover
 					color naranjoPet
-		
+
 .menuTop > li > a
 	//color naranjito
 	color black
@@ -7106,7 +7133,7 @@ td
 			.form-group
 				text-align center
 				label
-					
+
 					font-weight 100
 				input
 				label
@@ -7124,7 +7151,7 @@ td
 						span
 							color white
 							//line-height 40px
-							
+
 							font-weight 100
 						&:hover
 							background oscuro
@@ -7145,7 +7172,7 @@ td
 			span
 				color oscuro
 				//display block
-				
+
 				font-weight 100
 				line-height 40px
 				//width 100%
@@ -7266,7 +7293,7 @@ td
 		a
 			background white
 			border 1px solid clarito
-			
+
 			font-size 16px
 			font-weight 100
 			margin 0 0 0 15%
@@ -7283,7 +7310,7 @@ td
 			width 50%
 	.delivery_options_address
 		.carrier_title
-			
+
 			font-size 15px
 			text-align left
 		.delivery_options
@@ -7306,7 +7333,7 @@ td
 								width 240px
 								span
 									display block
-									
+
 									margin 0 5%
 									text-align left
 									width 90%
@@ -7582,7 +7609,7 @@ td
 	line-height normal
 	margin-top 35px
 	text-align center
-	
+
 .remove
 	a
 		text-decoration none
@@ -7667,7 +7694,7 @@ td
 			font-size 16px !important
 			position absolute
 			width 100%
-			
+
 .search_query:focus ~ .buscador
 	width 300px !important
 
@@ -7682,7 +7709,7 @@ td
 		list-style-type none
 		margin 0 0 10px auto
 		padding 0
-		width 83%
+		//width 83%
 		& > li
 			// background linear-gradient(to bottom , clarito 50%, #ddd 50%)
 			//border-radius 68px
@@ -7781,7 +7808,7 @@ td
 							background-color transparent
 							img
 								opacity 1
-			
+
 			/*.plan
 				background-color black
 				//border-radius 50%
@@ -7826,7 +7853,7 @@ td
 						font-size 13px
 						line-height 55px
 						width 100%*/
-			
+
 	.abajo
 		//height 630px
 		//margin-left 1%
@@ -7856,19 +7883,19 @@ td
 				border 1px solid #ccc
 				margin-right 1%
 				width 20%
-				
+
 				/*.plan
 					background #00C7D1*/
 			&:nth-child(2)
 				border 1px solid #ccc
 				margin-right 1%
 				width 56.5%
-				
+
 				/*.plan
 					background #73D000*/
 			&:nth-child(3)
 				width 21.5%
-				
+
 				/*.plan
 					background #FFCC00*/
 
@@ -7925,9 +7952,9 @@ td
 			span
 				color white
 				font-size 15px
-		
-			
-		
+
+
+
 
 .sf-sub-indicator
 	display none
@@ -8025,11 +8052,11 @@ td
 .subcategories
 	border-top 1px solid #d6d4d4
 	overflow hidden
-	padding 15px 0 0px 0 
+	padding 15px 0 0px 0
 	p.subcategory-heading
 		color #333333
 		font-family 'quicksandbold'
-		margin 0 0 15px 0 
+		margin 0 0 15px 0
 		text-align center
 	ul
 		margin 0
@@ -8037,18 +8064,18 @@ td
 		text-align center
 		li
 			display inline-block
-			height 202px 
+			height 202px
 			list-style none
 			margin 0 10px 13px 0
 			text-align center
 			width 145px
 			h5
 				margin 0
-      
+
 			.subcategory-image
 				padding 0
 				a
-					border 15px solid clarito 
+					border 15px solid clarito
 					border-radius 50%
 					display block
 					height 145px
@@ -8057,19 +8084,19 @@ td
 					transition .3s
 					width 145px
 					img
-						vertical-align top 
+						vertical-align top
 						width 100%
 			.subcategory-name
 				color #555454
-				
-				text-transform uppercase 
+
+				text-transform uppercase
 				&:hover
-					color #515151 
+					color #515151
 			.cat_desc
-				display none 
+				display none
 			&:hover .subcategory-image a
 				border 15px solid verdeClaroPet
-				//padding 5px 
+				//padding 5px
 
 .subcategory-name
 	font-size 15px !important
@@ -8148,7 +8175,7 @@ td
 						width 100%
 						a
 							display inline
-							
+
 .tabsInfoCms
 .tabsInfo
 	display inline-block
@@ -8195,7 +8222,7 @@ td
 						color oscuro
 						h3
 							padding 5px 10px 0 10px
-							
+
 		.content-wrap
 			table
 				width 100% !important
@@ -8243,7 +8270,7 @@ td
 							.teSirvio
 								display none
 						.align_center
-							
+
 							font-size 15px
 							margin-top 15px
 							text-align right
@@ -8262,7 +8289,7 @@ td
 				padding 25px
 				width 100%
 				table
-					
+
 					font-weight 100
 					tbody
 						.even
@@ -8304,7 +8331,7 @@ td
 			//border-radius 10px
 			color oscuro
 			display block
-			
+
 			//font-size 14px
 			line-height 79px
 			margin 0 1px
@@ -8349,7 +8376,7 @@ td
 				bottom 0
 				color colorao
 				content 'Ir a Pagar'
-				
+
 				font-size 15px
 				font-weight 600
 				height 30px
@@ -8475,7 +8502,7 @@ td
 			text-decoration none
 			span
 				color oscuro
-				
+
 				font-weight 100
 			&:hover
 				background rojoAsiste
@@ -8557,7 +8584,7 @@ td
 // 		transform translateX(0)
 // 		transition transform .4s 0s, visibility 0s 0s
 // 		visibility visible
-	
+
 // 	.item-has-children > a
 // 		position relative
 // 		text-transform uppercase
@@ -8585,7 +8612,7 @@ td
 // 	margin 12px 0 0 20px
 // 	img
 // 		display block
-		
+
 // #cd-menu-trigger
 // 	background-color #ECEDEF
 // 	border 1px solid #879193
@@ -8603,7 +8630,7 @@ td
 // 		height 100%
 // 		text-transform uppercase
 // 	.cd-menu-icon
-// 		background-color #434142 
+// 		background-color #434142
 // 		bottom auto
 // 		display inline-block
 // 		height 2px
@@ -8625,7 +8652,7 @@ td
 // 			width 100%
 // 		&:before
 // 			bottom: 5px
-			
+
 // 	&.is-clicked .cd-menu-icon
 // 		background-color: rgba(255, 255, 255, 0)
 // 		&:after
@@ -8638,31 +8665,31 @@ td
 // 			bottom 0
 // 			transform rotate(45deg)
 
-// #cd-top-nav 
+// #cd-top-nav
 // 	display none
 // 	height 100%
 // 	position absolute
 // 	right 120px
 // 	top 0
-// 	ul 
+// 	ul
 // 		height 100%
 // 		padding-top 18px
-// 		li 
+// 		li
 // 			display inline-block
 // 			margin-right 1em
-// 	a 
+// 	a
 // 		color #FFF
 // 		display inline-block
 // 		font-weight 600
 // 		padding .5em
 // 		text-transform uppercase
-// 		.current 
+// 		.current
 // 			background-color #242e30
 
 
 #block_various_links_footer
 	display none
-	
+
 #productosHome
 	#left_column
 		display none
@@ -8675,7 +8702,7 @@ td
 		padding 0 !important
 		img
 			height 40px !important
-			
+
 #videoholder
 	padding 0 !important
 
@@ -8683,7 +8710,7 @@ td
 
 #oosHook
 	display none
-	
+
 // import de styl externos
 
 @import "normalize"
@@ -8767,7 +8794,7 @@ td
 
 #cmsinfo_block
 	display none
-	
+
 
 
 /* Menu icon styles */
@@ -8801,9 +8828,9 @@ td
 }
 
 .menu-icon-wrapper svg path {
-	stroke: transparent;
+	stroke: #e9851c;
 	/*stroke: #f4adad;*/
-	stroke-width: 60px;
+	stroke-width: 20px;
 	stroke-linecap: round;
     stroke-linejoin: round;
 	fill: transparent;

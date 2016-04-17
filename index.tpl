@@ -42,8 +42,8 @@
 									</div>
 									<div class="ifoPlan">
 										<h2>Diseño Valentina</h2>
-										<!-- <p>Ajuste perfecto 
-										Soluciones inteligentes 
+										<!-- <p>Ajuste perfecto
+										Soluciones inteligentes
 										Materiales de calidad</p> -->
 									</div>
 									<figure>
@@ -58,8 +58,8 @@
 									</div>
 									<div class="ifoPlan">
 										<h2>Diseño Josefa</h2>
-										<!-- <p>Ajuste perfecto 
-										Soluciones inteligentes 
+										<!-- <p>Ajuste perfecto
+										Soluciones inteligentes
 										Materiales de calidad</p> -->
 									</div>
 									<figure>
@@ -87,8 +87,8 @@
 											</div>
 											<div class="ifoPlan">
 												<h2>Diseño Bianca</h2>
-												<!-- <p>Ajuste perfecto 
-												Soluciones inteligentes 
+												<!-- <p>Ajuste perfecto
+												Soluciones inteligentes
 												Materiales de calidad</p> -->
 											</div>
 											<figure>
@@ -103,12 +103,12 @@
 							<li>
 								<a href="http://www.things.cl/index.php?id_product=9&controller=product">
 									<div class="plan">
-										<i class="icon-star-full"></i>	
+										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
 										<h2>Diseño Magdalena</h2>
-										<!-- <p>Ajuste perfecto 
-										Soluciones inteligentes 
+										<!-- <p>Ajuste perfecto
+										Soluciones inteligentes
 										Materiales de calidad</p> -->
 									</div>
 									<figure>
@@ -123,8 +123,8 @@
 									</div>
 									<div class="ifoPlan">
 										<h2>Diseño Paulina</h2>
-										<!-- <p>Ajuste perfecto 
-										Soluciones inteligentes 
+										<!-- <p>Ajuste perfecto
+										Soluciones inteligentes
 										Materiales de calidad</p> -->
 									</div>
 									<figure>
