@@ -75,9 +75,9 @@
 	<div class="carritoIcon">
 		<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.85 23.54">
 			<title>header_díadelamamá </title>
-			<polygon points="3.92 5.73 2.54 1.31 0.55 0 0 0.84 1.69 1.95 5.5 14.01 5.5 19.13 19.19 19.13 19.19 18.13 6.5 18.13 6.5 14.44 20.31 14.44 21.84 10.04 21.84 6.88 3.92 5.73" style="fill:#fff"/>
-			<circle cx="7.43" cy="21.9" r="1.64" style="fill:#fff"/>
-			<circle cx="17.55" cy="21.9" r="1.64" style="fill:#fff"/>
+			<polygon points="3.92 5.73 2.54 1.31 0.55 0 0 0.84 1.69 1.95 5.5 14.01 5.5 19.13 19.19 19.13 19.19 18.13 6.5 18.13 6.5 14.44 20.31 14.44 21.84 10.04 21.84 6.88 3.92 5.73" style="fill:#f4adad"/>
+			<circle cx="7.43" cy="21.9" r="1.64" style="fill:#f4adad"/>
+			<circle cx="17.55" cy="21.9" r="1.64" style="fill:#f4adad"/>
 		</svg>
 	</div>
 	<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
