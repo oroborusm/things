@@ -89,7 +89,7 @@ $(function(){
 				"height": ($(".arriba, .abajo").width() * 0.4)+"px"
 			});
 		});
-		if($(window).width() < 940) {
+		if($(window).width() < 1050) {
 			menuScroll.addClass('menuScroll');
 		}else {
 			menuScroll.removeClass('menuScroll');

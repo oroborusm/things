@@ -24,6 +24,79 @@
   }
 }
 
+@media all and (max-width: 1050px)
+	body
+		header
+			.header
+				.headerCOnt
+					.buscador
+						right 100px
+					.carrito
+						right 50px
+					.loginUsuario
+						right 150px
+					.menudespliega
+						color #C41925
+						//bottom 18px
+						display block
+						position absolute
+						right 0
+						//text-align center
+						//width 100%
+					.menuManias
+						padding 0
+						.closeMenu
+							opacity 1
+							visibility visible
+						// .menuTop
+						// 	margin 0
+						// 	padding 0
+						// 	li
+						// 		padding 0 10px
+					.head-fixed
+						.menudespliega
+							bottom 3px
+	.menuManias
+		//height 100%
+		left 0
+		//opacity 0
+		position relative
+		top 0
+		//visibility hidden
+		width 100%
+		z-index 100
+		.menuTop
+			background-color white
+			border 0
+			//box-shadow 3px 0 5px rgba(black, .2)
+			height 100%
+			left 0
+			padding 0 10px
+			//position fixed
+			//visibility hidden
+			width 100%
+			z-index 10
+		.menuTop > li
+			//background #434142
+			border 0
+			display block
+			padding 0
+			text-align left
+			width 100%
+			a
+				&:before
+					height 0
+					width 0
+			ul
+				display none
+		.menuTop > li > a
+			color #879193
+			&:after
+				left 0
+				width 100%
+			&:hover
+				color #790b19
+
 @media all and (max-width: 1000px)
 	body
 		header
@@ -109,48 +182,9 @@
 				.headerCOnt
 					background none
 					width 100%
-					/*.buscador
-						right 35%*/
-					.carrito
-						right 50px
-					// .contenedorMenu
-					// 	background #ECEDEF
-					// 	//border-top 1px solid #ddd
-					// 	box-shadow 3px 3px 10px #ddd
-					// 	height 100%
-					// 	min-height 560px
-					// 	left 0
-					// 	opacity 0
-					// 	position fixed
-					// 	//top 85px
-					// 	//transform translateX(-100%)
-					// 	visibility hidden
-					// 	width 60%
-					// 	z-index 100
 					.infoAdicionalHeader
 						display none
-					.loginUsuario
-						right 80px
-					.menudespliega
-						color #C41925
-						//bottom 18px
-						display block
-						position absolute
-						right 0
-						//text-align center
-						//width 100%
-					.menuManias
-						.closeMenu
-							opacity 1
-							visibility visible
-						// .menuTop
-						// 	margin 0
-						// 	padding 0
-						// 	li
-						// 		padding 0 10px
-					.head-fixed
-						.menudespliega
-							bottom 3px
+					
 	.contenedorDivisor
 	.contenedorDivisor2
 		bottom -40px
@@ -162,41 +196,7 @@
 			height 40px
 			h2
 				line-height 40px
-	.menuManias
-		//height 100%
-		left 0
-		//opacity 0
-		position relative
-		top 0
-		//visibility hidden
-		width 100%
-		z-index 100
-		.menuTop
-			background-color clarito
-			border 0
-			//box-shadow 3px 0 5px rgba(black, .2)
-			height 100%
-			left 0
-			padding 0 10px
-			//position fixed
-			//visibility hidden
-			width 100%
-			z-index 10
-		.menuTop > li
-			//background #434142
-			border 0
-			display block
-			text-align left
-			width 100%
-			ul
-				display none
-		.menuTop > li > a
-			color #879193
-			&:after
-				left 0
-				width 100%
-			&:hover
-				color #790b19
+	
 	/*.selectCategory
 		.arriba
 			li:nth-child(2)
@@ -326,11 +326,11 @@
 					img
 						width 200px !important
 
-		header
+		/*header
 			.header
 				.headerCOnt
 					.buscador
-						right 220px
+						right 220px*/
 		.accedeCuentaChica
 			box-sizing border-box
 			margin 0
@@ -1075,6 +1075,15 @@
 
 @media screen and (max-width:500px)
 	body
+		header
+			.header
+				.headerCOnt
+					.loginUsuario
+						right 110px
+						.contenedorLogin
+							.nombre
+								span
+									font-size 10px
 		.carruselInfografia
 			.infografia
 				.cirGrilla
