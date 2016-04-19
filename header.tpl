@@ -143,7 +143,7 @@
 							<section class="contenedorPresentacion">
 								<div class="contFoto">
 									<figure class="fotoPresentacion" id="topOpacidad">
-										<img src="{$img_dir}cabecera/feliz-dia-mama.png" alt="">
+										<img src="{$img_dir}cabecera/pre-feliz-dia-mama.png" alt="">
 									</figure>
 									<!-- <div class="contTxt">
 										<h2>en este día de los enamorados</span></h2>
