@@ -109,7 +109,7 @@ $(function(){
 			head.removeClass('head-fixed');
 			contenido.removeClass('margin-top');
 		}
-		if ($(this).scrollTop() === 0 && $(window).width() >= 940) {
+		if ($(this).scrollTop() === 0 && $(window).width() >= 1050) {
 			menuScroll.removeClass('menuScroll');
 		}
 	});
