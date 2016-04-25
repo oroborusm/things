@@ -34,7 +34,7 @@
 					.carrito
 						right 50px
 					.loginUsuario
-						right 260px
+						//right 260px
 					.menudespliega
 						color #C41925
 						//bottom 18px
@@ -399,7 +399,7 @@
 				.listaDirecciones
 					width 100%
 		.loginUsuario
-			//top 28px
+			left 20%
 			.contenedorLogin
 				&:before
 					border-right 10px solid transparent
@@ -576,7 +576,6 @@
 				font-size 80%
 			.shop-email
 			.shop-phone
-				font-size 90% !important
 				font-weight 600
 	.listaProducto
 		.listaProductoLi
@@ -882,7 +881,7 @@
 			.shop-titulo
 				line-height initial
 				margin-left 25%
-				width 75%
+				//width 75%
 	/*.loginUsuario
 		margin auto 0 auto auto
 		position relative
@@ -1048,9 +1047,9 @@
 					a
 						img
 							width 180px
-				.headerCOnt
-					.buscador
-						display none
+				// .headerCOnt
+				// 	.buscador
+				// 		display none
 	.head-fixed
 		.header
 			.headerCOnt
@@ -1062,7 +1061,7 @@
 			.shop-phone
 			.shop-titulo
 				margin-left 0
-				width 100%
+				//width 100%
 			.shop-titulo
 				color transparent
 	.loginUsuario
@@ -1093,7 +1092,7 @@
 			.header
 				.headerCOnt
 					.loginUsuario
-						right 110px
+						//right 110px
 						.contenedorLogin
 							.nombre
 								span
@@ -1144,12 +1143,12 @@
 			margin 0*/
 
 @media screen and (max-width:470px)
-	body
-		header
-			.header
-				.headerCOnt
-					.buscador
-						width 50%
+	// body
+	// 	header
+	// 		.header
+	// 			.headerCOnt
+	// 				.buscador
+	// 					width 50%
 	.añadeCarrituHome
 		a
 		.carritoVacio
@@ -1167,6 +1166,7 @@
 	.infoAdicionalHeader
 		.row
 			.shop-phone
+			.shop-email
 				font-size 10px
 
 @media all and (max-width: 460px)
@@ -1208,11 +1208,6 @@
 		.fechaNacimiento
 			.contenedorFecha
 				width 100%
-		.infoAdicionalHeader
-			.row
-				.shop-email
-				.shop-phone
-					font-size 75% !important
 		.micuenta
 			.rodeaListaDirecciones
 				.listaDirecciones
@@ -1265,7 +1260,10 @@
 				.fotoPresentacion
 					bottom 0
 					top initial
-
+@media screen and (max-width:380px)
+	.infoAdicionalHeader
+		.row
+			display none
 @media screen and (max-width:370px)
 	body
 		header
@@ -1278,9 +1276,6 @@
 		.carritoVacio
 			span
 				font-size 11px
-	.infoAdicionalHeader
-		.row
-			padding 0 5px
 	.presentacion
 		.contenedorPresentacion
 			.contFoto

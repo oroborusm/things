@@ -83,9 +83,9 @@
 		{/if}
 		<header>
 
+			{hook h="displayNav"}
 			<div class="header" id="head">
 				<div class="headerCOnt">
-					{hook h="displayNav"}
 					<figure class="marca">
 						<a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
 							<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 264.71">
