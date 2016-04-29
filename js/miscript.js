@@ -51,13 +51,6 @@ $(function(){
 		$('.despliega').addClass('activo')
 		removeClass = false
 	});
-
-	$('.menudespliega').on('click', function(){
-		$('.contenedorMenu').toggleClass('activaMenu')
-		$('.menudespliega i').toggleClass('icon-cross')
-		$('.menudespliega i').toggleClass('icon-menu')
-	});
-
 	$('#cierraDespliega').on('click', function(){
 		$('.carritoHover').removeClass('activo')
 		$('.despliega').removeClass('activo')
@@ -174,17 +167,17 @@ $(function(){
 		}
 	})
 
-	$('input, textarea').placeholder();
-
-	$('.dropdown-button').dropdown({
-		inDuration: 300,
-		outDuration: 225,
-		constrain_width: false, // Does not change width of dropdown to that of the activator
-		hover: true, // Activate on hover
-		gutter: 0, // Spacing from edge
-		belowOrigin: false // Displays dropdown below the button
-		}
-	);
+	// $('input, textarea').placeholder();
+	//
+	// $('.dropdown-button').dropdown({
+	// 	inDuration: 300,
+	// 	outDuration: 225,
+	// 	constrain_width: false, // Does not change width of dropdown to that of the activator
+	// 	hover: true, // Activate on hover
+	// 	gutter: 0, // Spacing from edge
+	// 	belowOrigin: false // Displays dropdown below the button
+	// 	}
+	// );
 
 	/*$('section[data-type="parallax_section"]').each(function(){
 		var $bgobj = $(this); // Variable para asignacion de objeto
@@ -197,8 +190,6 @@ $(function(){
 			$bgobj.css({ backgroundPosition: coords });
 		});
 	});*/
-
-	//svg animado
 
 	var beginAC = 80,
 	    endAC = 320,
@@ -287,7 +278,7 @@ $(function(){
 			inB(segmentB);
 			inAC(segmentC);
 
-			dummy.className = 'menuTop activo';
+			dummy.className = 'menuTop activaMenu';
 		} else {
 			outAC(segmentA);
 			outB(segmentB);
@@ -298,50 +289,11 @@ $(function(){
 		toCloseIcon = !toCloseIcon;
 	};
 
-	/* Scale functions */
 
-	function addScale(m) {
-		m.className = 'menu-icon-wrapper scaled';
-	}
-
-	function removeScale(m) {
-		m.className = 'menu-icon-wrapper';
-	}
-
-	/* Awesome burger scaled */
-
-	/*var pathD = document.getElementById('pathD'),
-		pathE = document.getElementById('pathE'),
-		pathF = document.getElementById('pathF'),
-		segmentD = new Segment(pathD, beginAC, endAC),
-		segmentE = new Segment(pathE, beginB, endB),
-		segmentF = new Segment(pathF, beginAC, endAC),
-		wrapper2 = document.getElementById('menu-icon-wrapper2'),
-		trigger2 = document.getElementById('menu-icon-trigger2'),
-		toCloseIcon2 = true,
-		dummy2 = document.getElementById('dummy2');
-
-	wrapper2.style.visibility = 'visible';
-
-	trigger2.onclick = function() {
-		addScale(wrapper2);
-		if (toCloseIcon2) {
-			inAC(segmentD);
-			inB(segmentE);
-			inAC(segmentF);
-
-			dummy2.className = 'dummy dummy--active';
-		} else {
-			outAC(segmentD);
-			outB(segmentE);
-			outAC(segmentF);
-
-			dummy2.className = 'dummy';
-		}
-		toCloseIcon2 = !toCloseIcon2;
-		setTimeout(function() {
-			removeScale(wrapper2)
-		}, 450);
-	};*/
+	$('.menudespliega').on('click', function(){
+		$('.contenedorMenu').toggleClass('activaMenu')
+		$('.menudespliega i').toggleClass('icon-cross')
+		$('.menudespliega i').toggleClass('icon-menu')
+	});
 
 });

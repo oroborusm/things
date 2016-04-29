@@ -29,8 +29,8 @@
 		header
 			.header
 				.headerCOnt
-					.buscador
-						right 100px
+					// .buscador
+					// 	right 100px
 					.carrito
 						right 50px
 					.loginUsuario
@@ -40,7 +40,7 @@
 						//bottom 18px
 						display block
 						position absolute
-						right 0
+						right 100px
 						//text-align center
 						top 10px
 						//width 100%
@@ -668,6 +668,7 @@
 			.buscador
 				background-color white
 				border 1px solid black
+				margin-right -100px
 				width 170px
 				.buscadorForm form input[type=text]
 					opacity 1
@@ -874,13 +875,13 @@
 
 	.infoAdicionalHeader
 		.row
-			padding 0 10px
+			padding 0
 			text-align right
 			.shop-email
 			.shop-phone
 			.shop-titulo
 				line-height initial
-				margin-left 25%
+				//margin-left 25%
 				//width 75%
 	/*.loginUsuario
 		margin auto 0 auto auto
@@ -965,11 +966,11 @@
 
 @media screen and (max-width: 600px)
 	body
-		header
-			.header
-				.headerCOnt
-					.buscador
-						width 30%
+		// header
+		// 	.header
+		// 		.headerCOnt
+		// 			.buscador
+		// 				width 30%
 		.productoPag
 			.productoFoto
 				.contenedorProductoFoto
@@ -1047,9 +1048,12 @@
 					a
 						img
 							width 180px
-				// .headerCOnt
-				// 	.buscador
-				// 		display none
+				.headerCOnt
+					.buscador
+						margin 0
+						right 0
+						top 60px
+						width 60%
 	.head-fixed
 		.header
 			.headerCOnt
@@ -1141,7 +1145,23 @@
 						width 130px
 		.doggy
 			margin 0*/
-
+@media screen and (max-width:500px)
+	.infoAdicionalHeader
+		.row
+			.shop-phone
+			.shop-email
+				font-size 10px
+	.trigger__cart
+	.trigger__user__info
+		height 45px
+		top 0
+		.cont__trigger
+		.carritoIcon
+			margin-top 10px
+	.trigger__cart
+		.ajax_cart_no_product
+		.ajax_cart_quantity
+			top 5px
 @media screen and (max-width:470px)
 	// body
 	// 	header
@@ -1163,11 +1183,7 @@
 					a
 						img
 							width 180px
-	.infoAdicionalHeader
-		.row
-			.shop-phone
-			.shop-email
-				font-size 10px
+
 
 @media all and (max-width: 460px)
 	.skew.l
@@ -1240,8 +1256,17 @@
 				.select
 					.selector
 						margin-left 0
+	.infoAdicionalHeader
+		height auto
 
 @media screen and (max-width: 430px)
+	// body
+	// 	header
+	// 		.header
+	// 			.headerCOnt
+	// 				.buscador
+	// 					margin-right -60px
+	// 					width 130px
 	.navegador
 		.checkout
 		.volverCompra
