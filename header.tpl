@@ -112,31 +112,6 @@
 							<button id="menu-icon-trigger" class="menu-icon-trigger"></button>
 						</div>
 					</div>
-					<div class="trigger__user__info">
-						<a href="{$link->getPageLink('authentication', true)|escape:'html':'UTF-8'}">
-							<div class="cont__trigger">
-								<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.91 20.03">
-									<path d="M1275.19,142.43H1260v-0.75c0-4.4.37-9.06,4.38-10.49a5,5,0,0,1-1.68-3.7,5.26,5.26,0,0,1,10.52,0,5,5,0,0,1-1.68,3.7c4,1.43,4.38,6.08,4.38,10.45v0.75Zm-13.66-1.5h12.9c-0.07-5.37-1-8.32-5-8.65l-1.49-.13-1.49.13C1262.49,132.61,1261.6,135.58,1261.53,140.93Zm6.45-17a3.68,3.68,0,0,0-3.76,3.58,3.6,3.6,0,0,0,2.45,3.34l1.31,0.46,1.31-.46a3.6,3.6,0,0,0,2.45-3.34A3.68,3.68,0,0,0,1268,123.9Z" transform="translate(-1260.03 -122.4)" style="fill: #8cecec"/>
-								</svg>
-							</div>
-						</a>
-					</div>
-
-					<div class="trigger__cart">
-						<a href="{$link->getPageLink('cart', true)|escape:'html':'UTF-8'}">
-							<div class="carritoIcon">
-								<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.85 23.54">
-									<title>header_díadelamamá </title>
-									<polygon points="3.92 5.73 2.54 1.31 0.55 0 0 0.84 1.69 1.95 5.5 14.01 5.5 19.13 19.19 19.13 19.19 18.13 6.5 18.13 6.5 14.44 20.31 14.44 21.84 10.04 21.84 6.88 3.92 5.73" style="fill:#f4adad"/>
-									<circle cx="7.43" cy="21.9" r="1.64" style="fill:#f4adad"/>
-									<circle cx="17.55" cy="21.9" r="1.64" style="fill:#f4adad"/>
-								</svg>
-								<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
-								<span class="ajax_cart_no_product{if $cart_qties > 0} unvisible{/if}">0</span>
-							</div>
-						</a>
-					</div>
-
 					<!-- Block user information module NAV  -->
 
 					<!-- boton menu -->
@@ -150,6 +125,8 @@
 							<button id="menu-icon-trigger" class="menu-icon-trigger"></button>
 						</div>
 					</div>
+
+					{include file="$tpl_dir./modules/blockuserinfo/nav.tpl"}
 
 					<!-- /Block usmodule NAV -->
 					{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
@@ -169,22 +146,8 @@
 									<figure class="fotoPresentacion" id="topOpacidad">
 										<img src="{$img_dir}cabecera/pre-feliz-dia-mama.png" alt="">
 									</figure>
-									<!-- <div class="contTxt">
-										<h2>en este día de los enamorados</span></h2>
-										<h2 class="destacadoTxt">reserva tu ramo</h2>
-
-										<a href="http://www.things.cl/index.php?id_category=12&controller=category"><span>ver más</span></a>
-									</div> -->
 								</div>
 							</section>
-							<!-- <div class="contenedorDivisor">
-								<div class="topDivisor"></div>
-								<div class="contenedorTexto">
-									<h2>En simples pasos</h2>
-
-								</div>
-								<div class="bottomDivisor"></div>
-							</div> -->
 						</div>
 					{/if}
 					{if $page_name !='index' && $page_name !='pagenotfound'}

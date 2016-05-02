@@ -36,99 +36,76 @@
 					<div class="selectCategory">
 						<ul class="arriba">
 							<li>
-								<a href="http://www.things.cl/index.php?id_product=10&controller=product">
+								<a href="https://www.things.cl/index.php?id_category=22&controller=category&id_lang=1">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>Diseño Valentina</h2>
-										<!-- <p>Ajuste perfecto
-										Soluciones inteligentes
-										Materiales de calidad</p> -->
+										<h2>Flores</h2>
+										<p>preservadas</p>
 									</div>
 									<figure>
-										<img src="{$img_dir}/categorias/1.jpg" alt="">
+										<img src="{$img_dir}categorias/preservadas.jpg" alt="">
 									</figure>
 								</a>
 							</li>
 							<li>
-								<a href="http://www.things.cl/index.php?id_product=16&controller=product">
+								<a href="https://www.things.cl/index.php?id_category=20&controller=category&id_lang=1">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>Diseño Josefa</h2>
-										<!-- <p>Ajuste perfecto
-										Soluciones inteligentes
-										Materiales de calidad</p> -->
+										<h2>Conjuntos</h2>
+										<p>aro y collar</p>
 									</div>
 									<figure>
-										<img src="{$img_dir}/categorias/2.jpg" alt="">
+										<img src="{$img_dir}categorias/conjuntos.jpg" alt="">
 									</figure>
 								</a>
 							</li>
 							<li>
-								<ul class="chicas">
-									<li class="top">
-										<a href="http://www.things.cl/index.php?id_category=12&controller=category">
-											<!-- <div class="plan">
-												<span class="girado">plan</span>
-												<h2 class="numero">3</h2>
-											</div> -->
-											<figure>
-												<img src="{$img_dir}/categorias/3.png" alt="">
-											</figure>
-										</a>
-									</li>
-									<li class="bottom">
-										<a href="http://www.things.cl/index.php?id_product=15&controller=product">
-											<div class="plan">
-												<i class="icon-star-full"></i>
-											</div>
-											<div class="ifoPlan">
-												<h2>Diseño Bianca</h2>
-												<!-- <p>Ajuste perfecto
-												Soluciones inteligentes
-												Materiales de calidad</p> -->
-											</div>
-											<figure>
-												<img src="{$img_dir}/categorias/4.jpg" alt="">
-											</figure>
-										</a>
-									</li>
-								</ul>
+								<a href="https://www.things.cl/index.php?id_category=18&controller=category&id_lang=1">
+										<!-- <div class="plan">
+										<span class="girado">plan</span>
+										<h2 class="numero">3</h2>
+									</div> -->
+									<div class="ifoPlan">
+										<h2>aros</h2>
+										<p>cristales swarovski</p>
+									</div>
+									<figure>
+										<img src="{$img_dir}/categorias/aros.jpg" alt="">
+									</figure>
+								</a>
 							</li>
 						</ul>
 						<ul class="abajo">
 							<li>
-								<a href="http://www.things.cl/index.php?id_product=9&controller=product">
+								<a href="https://www.things.cl/index.php?id_category=23&controller=category&id_lang=1">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>Diseño Magdalena</h2>
-										<!-- <p>Ajuste perfecto
-										Soluciones inteligentes
-										Materiales de calidad</p> -->
+										<h2>Terrarios</h2>
+										<p>de escritorio y colgantes</p>
 									</div>
 									<figure>
-										<img src="{$img_dir}/categorias/5.jpg" alt="">
+										<img src="{$img_dir}categorias/terrarios.jpg" alt="">
 									</figure>
 								</a>
 							</li>
+
 							<li>
-								<a href="http://www.things.cl/index.php?id_product=8&controller=product">
+								<a href="https://www.things.cl/index.php?id_category=21&controller=category&id_lang=1">
 									<div class="plan">
 										<i class="icon-star-full"></i>
 									</div>
 									<div class="ifoPlan">
-										<h2>Diseño Paulina</h2>
-										<!-- <p>Ajuste perfecto
-										Soluciones inteligentes
-										Materiales de calidad</p> -->
+										<h2>Ramos de flores</h2>
+										<p>vivas</p>
 									</div>
 									<figure>
-										<img src="{$img_dir}/categorias/6.jpg" alt="">
+										<img src="{$img_dir}categorias/ramos.jpg" alt="">
 									</figure>
 								</a>
 							</li>

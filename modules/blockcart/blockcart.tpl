@@ -56,25 +56,16 @@
 
 {if isset($blockcart_top) && $blockcart_top}
 <div class="carrito clearfix{if $PS_CATALOG_MODE} header_user_catalog{/if}">
-	<!-- <div class="valorCarrito">
-		<p>carrito</p>
-		<span class="ajax_cart_total">
-			{if $cart_qties == 0}
-				$0
-			{elseif $cart_qties > 0}
-				{if $priceDisplay == 1}
-					{assign var='blockcart_cart_flag' value='Cart::BOTH_WITHOUT_SHIPPING'|constant}
-					{convertPrice price=$cart->getOrderTotal(false, $blockcart_cart_flag)}
-				{else}
-					{assign var='blockcart_cart_flag' value='Cart::BOTH_WITHOUT_SHIPPING'|constant}
-					{convertPrice price=$cart->getOrderTotal(true, $blockcart_cart_flag)}
-				{/if}
-			{/if}
-		</span>
-	</div> -->
-	
-	<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
-	<span class="ajax_cart_no_product{if $cart_qties > 0} unvisible{/if}">0</span>
+	<div class="carritoIcon">
+		<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.85 23.54">
+			<title>header_díadelamamá </title>
+			<polygon points="3.92 5.73 2.54 1.31 0.55 0 0 0.84 1.69 1.95 5.5 14.01 5.5 19.13 19.19 19.13 19.19 18.13 6.5 18.13 6.5 14.44 20.31 14.44 21.84 10.04 21.84 6.88 3.92 5.73" style="fill:#f4adad"/>
+			<circle cx="7.43" cy="21.9" r="1.64" style="fill:#f4adad"/>
+			<circle cx="17.55" cy="21.9" r="1.64" style="fill:#f4adad"/>
+		</svg>
+		<span class="ajax_cart_quantity{if $cart_qties == 0} unvisible{/if}">{$cart_qties}</span>
+		<span class="ajax_cart_no_product{if $cart_qties > 0} unvisible{/if}">0</span>
+	</div>
 {/if}
 	<div class="carritoHover">
 		<button id="cierraDespliega" class="cierraDespliega">a</button>
@@ -128,21 +119,7 @@
 										{assign var='productId' value=$product.id_product}
 										{assign var='productAttributeId' value=$product.id_product_attribute}
 										<dt data-id="cart_block_product_{$product.id_product}_{if $product.id_product_attribute}{$product.id_product_attribute}{else}0{/if}_{if $product.id_address_delivery}{$product.id_address_delivery}{else}0{/if}" class="{if $smarty.foreach.myLoop.first}first_item{elseif $smarty.foreach.myLoop.last}last_item{else}item{/if}">
-
-
-
-
-
-
-
-
-
 											<a class="cart-images" href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}"><img src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'cart_default')}" alt="{$product.name|escape:'html':'UTF-8'}" /></a>
-
-
-
-
-
 											<div class="cart-info">
 												<div class="info">
 													<div class="product-name">
@@ -164,30 +141,11 @@
 													</span>
 												</div>
 											</div>
-
-
-
-
-
-
-
-
-
-
 											<span class="remove_link">
 												{if !isset($customizedDatas.$productId.$productAttributeId) && (!isset($product.is_gift) || !$product.is_gift)}
 													<a class="ajax_cart_block_remove_link" href="{$link->getPageLink('cart', true, NULL, 'delete=1&amp;id_product={$product.id_product}&amp;ipa={$product.id_product_attribute}&amp;id_address_delivery={$product.id_address_delivery}&amp;token={$static_token}', true)|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='remove this product from my cart' mod='blockcart'}">&nbsp;</a>
 												{/if}
 											</span>
-
-
-
-
-
-
-
-
-
 										</dt>
 
 										{if isset($product.attributes_small)}
@@ -337,18 +295,7 @@
 									</span>
 								</div>
 							{/if}
-							<div class="totalEnvio">
-								<strong class="dark">
-									{l s='Total shipping' mod='blockcart'}<!-- &nbsp;{if $display_tax_label}{if $priceDisplay == 1}{l s='(tax excl.)' mod='blockcart'}{else}{l s='(tax incl.)' mod='blockcart'}{/if}{/if} -->
-								</strong>
-								<span class="ajax_cart_shipping_cost">
-									{if $shipping_cost_float == 0}
-										{l s='Free shipping!' mod='blockcart'}
-									{else}
-										{$shipping_cost}
-									{/if}
-								</span>
-							</div>
+
 							{if $show_tax && isset($tax_cost)}
 								<div class="layer_cart_row">
 									<strong class="dark">{l s='Tax' mod='blockcart'}</strong>
