@@ -144,7 +144,7 @@
 							<section class="contenedorPresentacion">
 								<div class="contFoto">
 									<figure class="fotoPresentacion" id="topOpacidad">
-										<img src="{$img_dir}cabecera/pre-feliz-dia-mama.png" alt="">
+										<img src="{$img_dir}cabecera/regala.png" alt="regala">
 									</figure>
 								</div>
 							</section>
